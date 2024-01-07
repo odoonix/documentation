@@ -1,4 +1,4 @@
-# MoonSun Documentation
+# Odoo documentation
 
 ## Build the documentation locally
 

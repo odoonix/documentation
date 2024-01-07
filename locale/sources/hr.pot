@@ -1,0 +1,2236 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Odoo S.A.
+# This file is distributed under the same license as the Odoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-21 13:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../content/applications/hr.rst:5
+msgid "Human resources"
+msgstr ""
+
+#: ../../content/applications/hr/attendances.rst:8
+msgid "Attendances"
+msgstr ""
+
+#: ../../content/applications/hr/attendances.rst:10
+msgid "**Odoo Attendances** functions as a time clock. Employees check in and check out of work, while managers can see who is available at any given time."
+msgstr ""
+
+#: ../../content/applications/hr/attendances.rst:14
+msgid "`Odoo Tutorials: Attendances <https://www.odoo.com/slides/slide/attendances-684>`_"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:3
+msgid "Hardware"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:6
+msgid "Kiosk management"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:8
+msgid "A kiosk is a self-service station that allows employees to check in and check out for work shifts."
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:10
+msgid "There are two ways to set up a kiosk:"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:12
+msgid "**Laptop and desktop PC**"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:14
+msgid "Running a kiosk in a web browser is the cheapest and most flexible option. You can print employee badges with any thermal or inkjet printer compatible with your web browser."
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:17
+msgid "**Tablet and mobile phone (Android or iOS)**"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:19
+msgid "Tablets and mobile phones take up much less space, and their touchscreens are easy to use. Consider putting them in a secure stand at the front desk or mounting them securely on a wall."
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:23
+msgid "We recommend using an iPad together with the `Heckler Design WindFall Stand <https://hecklerdesign.com/products/windfall-stand-for-ipad>`_"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:27
+msgid "RFID key fob readers"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:29
+msgid "Employees can scan personal RFID key fobs with an RFID reader to manage check-ins and check-outs quickly and easily."
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:-1
+msgid "An RFID key fob is placed on an RFID reader"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:38
+msgid "We recommend using the `Neuftech USB RFID Reader <https://neuftech.net/Neuftech-USB-RFID-Reader-ID-Kartenleseger%C3%A4t-Kartenleser-Kontaktlos-Card-Reader-f%C3%BCr-EM4100>`_."
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:41
+#: ../../content/applications/hr/attendances/hardware.rst:57
+msgid "An IoT box is **not** required."
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:44
+msgid "Barcode scanners"
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:46
+msgid "Employees can scan the barcode on their employee badges to manage check-ins and check-outs quickly and easily. The kiosk mode works with most USB barcode scanners connected directly to a computer. Bluetooth barcode scanners are also supported natively."
+msgstr ""
+
+#: ../../content/applications/hr/attendances/hardware.rst:51
+msgid "We recommend using the `Honeywell product line <https://sps.honeywell.com/us/en/products/productivity/barcode-scanners>`_. If the barcode scanner is connected directly to a computer, it must be configured to use the computer's keyboard layout."
+msgstr ""
+
+#: ../../content/applications/hr/employees.rst:7
+msgid "Employees"
+msgstr ""
+
+#: ../../content/applications/hr/employees.rst:9
+msgid "Odoo *Employees* organizes a company's employee records, contracts, and departments."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:3
+msgid "Add a new employee"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:5
+msgid "When a new employee is hired, the first step is to create a new employee form. Starting in the :menuselection:`Employees` app dashboard, click the :guilabel:`Create` button to create a new employee form. Fill out the required information (underlined in bold) and any additional details, then click :guilabel:`Save`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:-1
+msgid "Create a new employee card."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:15
+msgid "The current company phone number and name is populated in the :guilabel:`Work Phone` and :guilabel:`Company` fields."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:19
+msgid "General information"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:22
+#: ../../content/applications/hr/payroll/contracts.rst:39
+#: ../../content/applications/hr/payroll/payslips.rst:51
+msgid "Required fields"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:24
+msgid ":guilabel:`Name`: Enter the employee's name."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:25
+msgid ":guilabel:`Company`: Select the company from the drop-down menu that the new employee is hired by, or create a new company by typing the name in the field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:33
+#: ../../content/applications/hr/payroll/contracts.rst:66
+#: ../../content/applications/hr/payroll/payslips.rst:91
+msgid "Optional fields"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:35
+msgid ":guilabel:`Photo`: In the top right image box of the employee card, click on the :guilabel:`✏️ (pencil)` edit icon to select a photo to upload."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:37
+msgid ":guilabel:`Job Position`: Enter the employee's job position title."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:38
+msgid "Tags: Click on a tag in the drop-down menu to add any tags applicable to the employee. Any tag can be created in this field by typing it in. Once created, the new tag is available for all employee cards. There is no limit to the amount of tags that can be added."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:41
+msgid "Work Contact Information: Enter the employees :guilabel:`Work Mobile`, :guilabel:`Work Phone`, :guilabel:`Work Email`, and/or :guilabel:`Company` name."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:43
+msgid ":guilabel:`Department`: Select the employee's department from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:44
+msgid ":guilabel:`Manager`: Select the employee's manager from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:45
+msgid ":guilabel:`Coach`: Select the employee's coach from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:48
+msgid "After a :guilabel:`Manager` is selected, if the :guilabel:`Coach` field is blank, the selected manager automatically populates the :guilabel:`Coach` field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:52
+msgid "To make edits to the selected :guilabel:`Department`, :guilabel:`Manager`, :guilabel:`Coach`, or :guilabel:`Company`, click the :guilabel:`External Link` button next to the respective selection. The :guilabel:`External Link` button opens the selected form, allowing for modifications. Click :guilabel:`Save` after any edits are made."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:58
+msgid "Additional information tabs"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:61
+msgid "Resumé tab"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:64
+msgid "Resumé"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:66
+msgid "Next, enter the employee's work history in the :guilabel:`Resumé` tab. Each resumé line must be entered individually. Click :guilabel:`Create a New Entry`, and the :guilabel:`Create Resumé lines` form appears. Enter the following information for each entry."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:-1
+msgid "Add information for the previous work experience in this form."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:74
+msgid ":guilabel:`Title`: Type in the title of the previous work experience."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:75
+msgid ":guilabel:`Type`: From the drop-down menu, select either :guilabel:`Experience`, :guilabel:`Education`, :guilabel:`Internal Certification`, :guilabel:`Internal Training`, or type in a new entry."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:78
+msgid ":guilabel:`Display Type`: Select either :guilabel:`Classic`, :guilabel:`Certification`, or :guilabel:`Course` from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:80
+msgid ":guilabel:`Date Start` and :guilabel:`Date End`: Enter the start and end dates for the work experience. To select a date, use the :guilabel:`< (left)` and :guilabel:`> (right)` arrow icons to scroll to the desired month, then click on the day to select it."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:83
+msgid ":guilabel:`Description`: Enter any relevant details in the field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:85
+msgid "Once all the information is entered, click the :guilabel:`Save & Close` button if there is only one entry to add, or click the :guilabel:`Save & New` button to save the current entry and create another resumé line."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:90
+msgid "After the new employee form is saved, the current position and company is automatically added to the :guilabel:`Resumé` tab as :guilabel:`Experience`, with the end date listed as :guilabel:`Current`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:95
+msgid "Skills"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:97
+msgid "An employee's skills can be entered in the :guilabel:`Resumé` tab in the same manner a resumé line is created. Click the :guilabel:`Create a New Entry` button under :guilabel:`Skills` and a :guilabel:`Create Skills` form appears. Fill in the information on the form."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:-1
+msgid "Create a new skill for the employee."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:105
+msgid ":guilabel:`Skill Type`: Select a :ref:`skill type <employees/skill-types>` by clicking the radio button next to the skill type."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:107
+msgid ":guilabel:`Skill`: The corresponding skills associated with the selected :guilabel:`Skill Type` appear in a drop-down menu. For example, selecting :guilabel:`Language` as the :guilabel:`Skill Type` presents a variety of languages to select from under the :guilabel:`Skills` field. Select the appropriate pre-configured skill, or type in a new one."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:111
+msgid ":guilabel:`Skill Level`: Pre-defined skill levels associated with the selected :guilabel:`Skill Type` appear in a drop-down menu. Select a skill level, then the progress bar automatically displays the pre-defined progress for that skill level. Skill levels and progress can be modified in the :guilabel:`Skill Level` pop-up form, which is accessed via the :guilabel:`External Link` button next to :guilabel:`Skill Level` field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:117
+msgid "Once all the information is entered, click the :guilabel:`Save & Close` button if there is only one entry to add, or click the :guilabel:`Save & New` button to save the current entry and create another skill."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:121
+msgid "To delete any line from the :guilabel:`Resumé` tab, click the :guilabel:`🗑️ (trash can)` icon to delete the entry. Add a new line by clicking the :guilabel:`Add` button next to the corresponding section."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:128
+msgid "Skill types"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:130
+msgid "In order to add a skill to an employee's form, the :guilabel:`Skill Types` must be configured. Go to :menuselection:`Employees app --> Configuration --> Skill Types` to view the currently configured skill types and create new skill types. Click :guilabel:`Create` and a new :guilabel:`Skill Type` form appears. Fill out all the details and then click :guilabel:`Save`. Repeat this for all the skill types needed."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:136
+msgid ":guilabel:`Skill Type`: Enter the name of the skill type. This should be somewhat generic, since the specific skills listed will be housed under this category."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:138
+msgid ":guilabel:`Skills`: Click :guilabel:`Add a line` and enter the information for the new skill, then repeat for all other needed skills."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:140
+msgid ":guilabel:`Levels`:  Click :guilabel:`Add a line` and a :guilabel:`Create Levels` form appears. Enter the name of the level, and assign a percentage (0-100) for that level. Click :guilabel:`Save & New` to save the entry and add another level, or click :guilabel:`Save & Close` to save the level and close the form."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:146
+msgid "To add a math skill set, enter `Math` in the :guilabel:`Name` field. Next, in the :guilabel:`Skills` field, enter `Algebra`, `Calculus`, and `Trigonometry`. Last, in the :guilabel:`Levels` field enter `Beginner`, `Intermediate`, and `Expert`, with the :guilabel:`Progress` listed as `25`, `50`, and `100`, respectively. Then, either click :guilabel:`Save & Close` or :guilabel:`Save & New`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:0
+msgid "Add new math skills and levels with the skill types form."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:157
+msgid "Work information tab"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:159
+msgid "The :guilabel:`Work Information` tab is where the employee's specific job related information is housed. Their working schedule, various roles, who approves their specific requests (time off, timesheets, and expenses), and specific work location details are listed here. Enter the following information for the new employee."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:164
+msgid ":guilabel:`Location`: Select the :guilabel:`Work Address` and :guilabel:`Work Location` from the corresponding drop-down menus. The work address :guilabel:`External Link` button opens up the selected company form in a window, and allows for editing. The :guilabel:`Work Location` is the specific location details, such as a floor or building. If a new work location is needed, add the location by typing it in the field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:169
+msgid ":guilabel:`Approvers`: Using the drop-down menus, select the users responsible for approving :guilabel:`Time Off`, :guilabel:`Expenses`, and :guilabel:`Timesheets` for the employee. The :guilabel:`External Link` button opens a form with the approver's :guilabel:`Name`, :guilabel:`Email Address`, :guilabel:`Company`, :guilabel:`Phone`, and :guilabel:`Mobile` fields. These can be modified, if needed. Click :guilabel:`Save` after making any edits."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:174
+msgid ":guilabel:`Schedule`: Select the :guilabel:`Working Hours` and :guilabel:`Timezone` (both required) for the employee. The :guilabel:`External Link` button opens up a detailed view of the specific daily working hours. Working hours can be modified or deleted here. Click :guilabel:`Save` to save any changes."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:178
+msgid ":guilabel:`Planning`: The :guilabel:`Planning` section affects the *Planning* app, and will only appear if the *Planning* app is installed. Click on a planning role from the drop-down menu for both the :guilabel:`Default Planning Role` and the :guilabel:`Planning Roles` fields to add a role. There is no limit to the amount of :guilabel:`Planning Roles` that can be selected for an employee, but there can only be one :guilabel:`Default Planning Role`. The default is the *typical* role that the employee performs, where the :guilabel:`Planning Roles` are *all* the specific roles the employee is able to perform."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:0
+msgid "Add the work information to the Work Information tab."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:191
+msgid "The users that appear in the drop-down menu for the :guilabel:`Approvers` section must have *Administrator* rights set for the corresponding human resources role. To check who has these rights, go to :menuselection:`Settings app --> Users --> Manage Users`. Click on an employee, and check the :guilabel:`Human Resources` section of the :guilabel:`Access Rights` tab."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:196
+msgid "In order for the user to appear as an approver for :guilabel:`Expenses`, they must have either :guilabel:`Team Approver`, :guilabel:`All Approver`, or :guilabel:`Administrator` set for the :guilabel:`Expenses` role."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:199
+msgid "In order for the user to appear as an approver for :guilabel:`Time Off`, they must have either :guilabel:`Officer` or :guilabel:`Administrator` set for the :guilabel:`Time Off` role."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:201
+msgid "In order for the user to appear as an approver for :guilabel:`Timesheets`, they must have either :guilabel:`Manager`, :guilabel:`Officer`, or :guilabel:`Administrator` set for the :guilabel:`Payroll` role."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:206
+msgid ":guilabel:`Working Hours` are related to a company's working times, and an employee cannot have working hours that are outside of a company's working times."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:209
+msgid "Each individual working time is company-specific, so for multi-company databases, each company needs to have its own working hours set."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:212
+msgid "If an employee's working hours are not configured as a working time for the company, new working times can be added, or existing working times can be modified. To add or modify a working time, go to the :menuselection:`Payroll app --> Configuration --> Working Times`, and add a new working time or edit an existing one."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:217
+msgid "After the new working time is created, set the working hours for the employee."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:220
+msgid "Private information tab"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:222
+msgid "No information in the :guilabel:`Private Information` tab is required, however, some information in this section may be critical for the company's payroll department. In order to properly process payslips and ensure all deductions are accounted for, the employee's personal information should be entered."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:227
+msgid "Here, the employee's :guilabel:`Private Contact`, :guilabel:`Marital Status`, :guilabel:`Emergency Contact`, :guilabel:`Education`, :guilabel:`Citizenship`, :guilabel:`Dependant`, and :guilabel:`Work Permit` information is entered. Fields are entered either using a drop-down menu, clicking a check box, or typing in the information."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:232
+msgid ":guilabel:`Private Contact`: Enter the personal :guilabel:`Address` for the employee. The selection can be made with the drop-down menu. If the information is not available, type in the name for the new address. To edit the new address, click the :guilabel:`External Link` button to open the address form. On the address form, enter the necessary details, then click :guilabel:`Save`"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:238
+msgid "Some other information in the :guilabel:`Private Contact` section may auto-populate, if the address is already listed in the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:241
+msgid "Next, enter the employee's :guilabel:`Email` address and :guilabel:`Phone` number in the corresponding fields."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:244
+msgid "Select the employee's preferred :guilabel:`Language` from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:246
+msgid "Enter the employee's :guilabel:`Bank Account Number` using the drop-down menu. If the bank is not already configured (the typical situation when creating a new employee) enter the bank account number, and click :guilabel:`Create and Edit`. A :guilabel:`Create: Bank Account Number` for appears. Fill in the information, then click :guilabel:`Save`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:251
+msgid "Finally, enter the :guilabel:`Home-Work Distance` in the field. This field is only necessary if the employee is receiving any type of commuter benefits."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:254
+msgid ":guilabel:`Marital Status`: Select either :guilabel:`Single`, :guilabel:`Married`, :guilabel:`Legal Cohabitant`, :guilabel:`Widower`, or :guilabel:`Divorced` from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:257
+msgid ":guilabel:`Emergency`: Type in the name and phone number of the employee's emergency contact."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:258
+msgid ":guilabel:`Education`: Select the highest level of education completed by the employee from the :guilabel:`Certificate Level` drop-down menu. Options include :guilabel:`Graduate`, :guilabel:`Bachelor`, :guilabel:`Master`, :guilabel:`Doctor`, or :guilabel:`Other`. Type in the :guilabel:`Field of Study`, and the name of the :guilabel:`School` in the respective fields."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:262
+msgid ":guilabel:`Citizenship`: This section houses all the information relevant to the citizenship of the employee. Some selections use a drop-down menu, as does the :guilabel:`Nationality (Country)`, :guilabel:`Gender`, and :guilabel:`Country of Birth` sections. The :guilabel:`Date of Birth` uses a calendar module to select the date. First, click on the name of the month, then the year, to access the year ranges. Use the :guilabel:`< (left)` and :guilabel:`> (right)` arrow icons, navigate to the correct year range, and click on the year. Next, click on the month. Last, click on the day to select the date. Type in the information for the :guilabel:`Identification No`, :guilabel:`Passport No`, and :guilabel:`Place of Birth` fields."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:270
+msgid ":guilabel:`Dependant`: If the employee has any children, enter the :guilabel:`Number of Children` in the field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:272
+msgid ":guilabel:`Work Permit`: If the employee has a work permit, enter the information in this section. Type in the :guilabel:`Visa No` and/or :guilabel:`Work Permit No` in the corresponding fields. Using the calendar module, select the :guilabel:`Visa Expire Date` and/or the :guilabel:`Work Permit Expiration Date` to enter the expiration date(s). If available, upload a digital copy of the work permit document. Click :guilabel:`Upload Your File`, navigate to the work permit file in the file explorer, and click :guilabel:`Open`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:-1
+msgid "Add the private information to the Private Information tab."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:284
+msgid "HR settings tab"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:286
+msgid "This tab provides various fields for different information, depending on the country the company is located. Different fields are configured for different locations, however some sections appear regardless."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:290
+msgid ":guilabel:`Status`: Select an :guilabel:`Employee Type` and, if applicable, a :ref:`Related User <employees/related-user>`, with the drop-down menus."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:292
+msgid ":guilabel:`Payroll`: Select the :guilabel:`Current Contract` and :guilabel:`Job Position` from the drop-down menus. If applicable, enter the :guilabel:`Registration Number` in this section."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:294
+msgid ":guilabel:`Previous Employer`: This section appears only for Belgian companies, and will not be visible for other locations. These are days that will be paid to the new employee. Enter any :guilabel:`Simple Holiday Pay to Recover`, :guilabel:`Number of Days to recover`, and :guilabel:`Recovered Simple Holiday Pay` from a previous employer, for both N and N-1 categories."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:298
+msgid ":guilabel:`Previous Occupations`: This section appears ony for Belgian companies, and will not be visible for other locations. Click :guilabel:`Add a line` to enter information for each previous occupation. Enter the number of :guilabel:`Months`, the :guilabel:`Amount`, and the :guilabel:`Occupational Rate` in the corresponding fields. Click the :guilabel:`🗑️ (trash can)` icon to delete a line."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:303
+msgid ":guilabel:`Attendance/Point of Sale`: The employee's :guilabel:`Badge ID` and :guilabel:`PIN Code` can be entered here, if the employee needs/has one. Click :guilabel:`Generate` next to the :guilabel:`Badge ID` to create a badge ID."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:306
+msgid ":guilabel:`Application Settings`: If applicable, enter the :guilabel:`Fleet Mobility Card` number. Enter the employee's cost per hour in a $XX.XX format. This is factored in when the employee is working at a :doc:`work center <../../inventory_and_mrp/manufacturing/management/using_work_centers>`. This value affects the manufacturing costs for a product, if the value of the manufactured product is not a fixed amount."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:-1
+msgid "Enter any information prompted in the HR Settings tab for the employee."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:319
+msgid "Employees do not also need to be users. An employee does **not** count towards billing, while *Users* **do** count towards billing. If the new employee should also be a user, the user must be created."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:323
+msgid "In the :guilabel:`Related User` field, type in the name of the user to add, then click :guilabel:`Create and Edit...`. A :guilabel:`Create: Related User` form appears. Type in the :guilabel:`Name`, :guilabel:`Email Address`, and then select the :guilabel:`Company` from the drop-down menu. Click :guilabel:`Save` after the information is entered. Once the record is saved, the new user appears in the :guilabel:`Related User` field."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:330
+msgid "Documents"
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:332
+msgid "All documents associated with an employee are stored in the *Documents* app. The number of documents associated with the employee appear in the :guilabel:`Documents` smart button on the employee form. Click on the smart button, and all the documents appear. For more information on the *Documents* app, refer to the :doc:`Documents documentation </applications/finance/documents>`."
+msgstr ""
+
+#: ../../content/applications/hr/employees/new_employee.rst:-1
+msgid "All uploaded documents associated with the employee appear in the documents smart-button."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:6
+#: ../../content/applications/hr/payroll/reporting.rst:39
+msgid "Payroll"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:8
+msgid "Odoo *Payroll* is used to process work entries and create payslips for employees, including both regular pay and commission. Payroll works in conjunction with other Odoo apps, such as *Employees*, *Timesheets*, *Time Off*, and *Attendances*."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:12
+msgid "The *Payroll* app helps ensure there are no issues or conflicts when validating work entries, handles country-specific localizations to ensure that payslips follow local rules and taxes, and allows for salary assignments. Payroll configuration is critical to ensure accurate and timely processing of payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:18
+msgid "Settings"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:20
+msgid "To access the *Settings*, go to :menuselection:`Payroll --> Configuration --> Settings`. Whether or not payslips are posted in accounting, and whether SEPA payments are created, is selected here."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:23
+msgid "The :guilabel:`Settings` screen is where localization settings are configured. *Localizations* are country-specific settings pre-configured in Odoo at the creation of the database, and account for all taxes, fees, and allowances for that particular country. The :guilabel:`Localization` section of the :guilabel:`Settings` includes a detailed view of all benefits provided to employees."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "Settings available for Payroll."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:32
+msgid "Any country-specific localizations are set up in the :guilabel:`Localization` section of the :guilabel:`Settings` screen. All localization items are pre-populated when the country is specified during the creation of the database. It is not recommended to alter the localization settings unless specifically required."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:40
+#: ../../content/applications/hr/payroll/work_entries.rst:3
+msgid "Work entries"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:42
+msgid "A *work entry* is an individual record on an employee's timesheet. Work entries can be configured to account for all types of work and time off, such as :guilabel:`Attendance`, :guilabel:`Sick Time Off`, :guilabel:`Training`, or :guilabel:`Public Holiday`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:47
+msgid ":doc:`Manage work entries <payroll/work_entries>`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:50
+msgid "Work entry types"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:52
+msgid "When creating a work entry in the *Payroll* application, or when an employee enters information in the *Timesheets* application, a :guilabel:`Work Entry Type` needs to be selected. The list of :guilabel:`Work Entry Types` is automatically created based on localization settings set in the database."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:57
+msgid "To view the current work entry types available, go to :menuselection:`Payroll --> Configuration --> Work Entry Types`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:60
+msgid "Each work entry type has a code to aid in the creation of payslips, and ensure all taxes and fees are correctly entered."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "List of all work entry types currently available."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:68
+msgid "New work entry type"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:70
+msgid "To create a new work entry type, click the :guilabel:`Create` button. Enter the information on the form:"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:73
+msgid ":guilabel:`Work Entry Type Name`: The name should be short and descriptive, such as `Sick Time` or `Public Holiday`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:75
+msgid ":guilabel:`Code`: This code appears with the work entry type on timesheets and payslips. Since the code is used in conjunction with the *Accounting* application, it is advised to check with the accounting department for a code to use."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:78
+msgid ":guilabel:`Sequence`: The sequence determines the order that the work entry is computed in the payslip list."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:80
+msgid "Check boxes: If any of the items in the list applies to the work entry, check off the box by clicking it. If :guilabel:`Time Off` is checked off, a :guilabel:`Time Off Type` field appears. This field has a drop-down menu to select the specific type of time off, or a new type of time off can be entered."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "New work entry type form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:89
+msgid ":guilabel:`Rounding`: The rounding method determines how timesheet entries are displayed on the payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:92
+msgid ":guilabel:`No Rounding`: A timesheet entry is not modified."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:93
+msgid ":guilabel:`Half Day`: A timesheet entry is rounded to the closest half day amount."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:94
+msgid ":guilabel:`Day`: A timesheet entry is rounded to the closest full day amount."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:97
+msgid "If the working time is set to an 8-hour work day (40-hour work week), and an employee enters a time of 5.5 hours on a timesheet, and :guilabel:`Rounding` is set to :guilabel:`No Rounding`, the entry remains 5.5 hours. If :guilabel:`Rounding` is set to :guilabel:`Half Day`, the entry is changed to 4 hours. If it is set to :guilabel:`Day`, it is changed to 8 hours."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:103
+msgid "Working times"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:105
+msgid "To view the currently configured working times, go to :menuselection:`Payroll --> Configuration --> Working Times`. The working times that are available for an employee's contracts and work entries are found in this list."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:109
+msgid "Working times are company-specific. Each company must identify each type of working time they use. For example, an Odoo database containing multiple companies that use a standard 40-hour work week needs to have a separate working time entry for each company that uses the 40-hour standard work week."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "All working times currently set up in the database."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:119
+msgid "New working time"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:121
+msgid "To create a new working time, click the :guilabel:`Create` button. Enter the information on the form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "New working type form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:128
+msgid "The fields are auto-populated for a regular 40-hour work week but can be modified. First, change the name of the working time by modifying the text in the :guilabel:`Name` field. Next, make any adjustments to the days and times that apply to the new working time."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:132
+msgid "In the :guilabel:`Working Hours` tab, modify the :guilabel:`Day of Week`, :guilabel:`Day Period`, and :guilabel:`Work Entry Type` selections by clicking on the drop-down menus in each column and making the desired selection. The :guilabel:`Work From` and :guilabel:`Work To` columns are modified by typing in the time."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:138
+msgid "The :guilabel:`Work From` and :guilabel:`Work To` times must be in a 24-hour format. For example, `2:00 PM` would be entered as `14:00`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:141
+msgid "If the working time should be in a two-week configuration, click the :guilabel:`Switch To 2 Week Calendar` button. This creates entries for an :guilabel:`Even week` and an :guilabel:`Odd week`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:145
+msgid "Salary"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:150
+msgid "Structure types"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:152
+msgid "In Odoo, an employee's payslip is based on *structures* and *structure types*, which both affect how an employee enters timesheets. Each structure type is an individual set of rules for processing a timesheet entry, which consists of different structures nested within it. Structure types define how often an employee gets paid, the working hours, and if wages are based on a salary (fixed) or how many hours the employee worked (varied)."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:158
+msgid "For example, a structure type could be `Employee`, and that structure type could have two different structures in it: a `Regular Pay` structure which includes all the separate rules for processing regular pay, as well as a structure for an `End of Year Bonus` which includes the rules only for the end of year bonus. Both the `Regular Pay` structure and `End of Year Bonus` structure are structures within the `Employee` structure type."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:164
+msgid "The different structure types can be seen by going to :menuselection:`Payroll --> Configuration --> Structure Types`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:167
+msgid "There are two default structure types configured in Odoo: *Employee* and *Worker*. Typically, *Employee* is used for salaried employees, which is why the wage type is *Monthly Fixed Wage*, and *Worker* is typically used for employees paid by the hour, so the wage type is *Hourly Wage*."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "List of all structure types."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:175
+msgid "Click the :guilabel:`Create` button to make a new structure type. Most fields are pre-populated, but all fields can be edited. Once the fields are edited, click the :guilabel:`Save` button to save the changes, or click :guilabel:`Discard` to delete the entry."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "New structure type box."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:184
+msgid "Structures"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:186
+msgid "*Salary structures* are the different ways an employee gets paid within a specific *structure*, and are specifically defined by various rules."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:189
+msgid "The amount of structures a company needs for each structure type depends on how many different ways employees are paid, and how their pay is calculated. For example, a common structure that could be useful to add may be a `Bonus`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:193
+msgid "To view all the various structures for each structure type, go to :menuselection:`Payroll --> Configuration --> Structures`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "All available salary structures."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:200
+msgid "Each :ref:`structure type <payroll/structure-types>` lists the various structures associated with it. Each structure contains a set of rules that define it."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:203
+msgid "Click on a structure to view its :guilabel:`Salary Rules`. These rules are what calculate the payslip for the employee."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "Salary structure details for Regular Pay."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:211
+msgid "Rules"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:213
+msgid "Each structure has a set of *salary rules* to follow for accounting purposes. These rules are configured by the localization, and affect the *Accounting* application, so modifications to the default rules, or the creation of new rules, should only be done when necessary."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:217
+msgid "To view all the rules, go to :menuselection:`Payroll app --> Configuration --> Rules`. Click on a structure (such as :guilabel:`Regular Pay`) to view all the rules."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "Rules for each salary structure type."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:224
+msgid "To make a new rule, click :guilabel:`Create`. A new rule form appears. Enter the information in the fields, then click :guilabel:`Save`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "Enter the information for the new rule."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:231
+msgid "The required fields for a rule are:"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:233
+msgid ":guilabel:`Name`: Enter a name for the rule."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:234
+msgid ":guilabel:`Category`: Select a category the rule applies to from the drop-down menu, or enter a new one."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:236
+msgid ":guilabel:`Code`: Enter a code to be used for this new rule. It is recommended to coordinate with the accounting department for a code as this will affect them."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:238
+msgid ":guilabel:`Salary Structure`: Select a salary structure the rule applies to from the drop-down menu, or enter a new one."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:240
+msgid ":guilabel:`Condition Based on`: In the :guilabel:`General` tab, select from the drop-down menu whether the rule is :guilabel:`Always True` (always applies), a :guilabel:`Range` (applies to a specific range, which is entered beneath the selection), or a :guilabel:`Python Expression` (the code is entered beneath the selection)."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:244
+msgid ":guilabel:`Amount Type`: In the :guilabel:`General` tab, select from the drop-down menu whether the amount is a :guilabel:`Fixed Amount`, a :guilabel:`Percentage (%)`, or a :guilabel:`Python Code`. Depending on what is selected, the fixed amount, percentage, or Python code needs to be entered next."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:250
+msgid "Rule parameters"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:253
+msgid "Currently, the :guilabel:`Rule Parameters` feature found inside the :menuselection:`Payroll app --> Configuration` menu is still in development and only serves a specific use case for Belgian markets. The documentation will be updated when this section has matured to more markets."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:258
+msgid "Other input types"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:260
+msgid "When creating payslips, it is sometimes necessary to add other entries for specific circumstances, like expenses, reimbursements, or deductions. These other inputs can be configured by going to :menuselection:`Payroll --> Configuration --> Other Input Types`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "Other input types for payroll."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:268
+msgid "To create a new input type, click the :guilabel:`Create` button. Enter the :guilabel:`Description`, the :guilabel:`Code`, and which structure it applies to in the :guilabel:`Availability in Structure` field. Click the :guilabel:`Save` button to save the changes, or click :guilabel:`Discard` to delete the entry."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "Create a new Input Type."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:278
+msgid "Salary package configurator"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:280
+msgid "The various options under the :guilabel:`Salary Package Configurator` section of the :menuselection:`Payroll --> Configuration` menu all affect an employee's potential salary. These sections (:guilabel:`Advantages`, :guilabel:`Personal Info`, and :guilabel:`Resume`) specify what benefits can be offered to an employee in their salary package."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:285
+msgid "Depending on what information an employee enters (such as deductions, dependents, etc.), their salary is adjusted accordingly. When an applicant applies for a job on the company website, the sections under :guilabel:`Salary Package Configurator` directly affect what the applicant sees, and what is populated as the applicant enters information."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:291
+msgid "Advantages"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:293
+msgid "When offering potential employees a position, there can be certain *advantages* set in Odoo in addition to the salary to make the offer more appealing (such as extra time off, access to a company car, reimbursement for a phone or internet, etc.)."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:297
+msgid "To see the advantages, go to :menuselection:`Payroll --> Configuration --> Advantages`. Advantages are grouped by :guilabel:`Structure type`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "Settings available for payroll."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:304
+msgid "To make a new advantage, click the :guilabel:`Create` button. Enter the information in the fields, then click the :guilabel:`Save` button to save the changes, or click :guilabel:`Discard` to delete the entry."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "List of advantages employee's can have."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:312
+msgid "The required fields for an advantage are:"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:314
+msgid ":guilabel:`Name`: Enter the name for the advantage."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:315
+msgid ":guilabel:`Advantage Field`: Select from the drop-down menu what field in the payslip this advantage appears under."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:317
+msgid ":guilabel:`Advantage Type`: Select from the drop-down menu what type of advantage the benefit is. Select from :guilabel:`Monthly Benefit in Kind`, :guilabel:`Monthly Advantages in Net`, :guilabel:`Monthly Advantages in Cash`, or :guilabel:`Yearly Advantages in Cash`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:320
+msgid ":guilabel:`Salary Structure Type`: Select from the drop-down menu which salary structure type this advantage applies to."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:324
+msgid "Personal info"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:326
+msgid "Every employee in Odoo has an *employee card* that includes all of their personal information, resume, work information, and documents. To view an employee's card, go to the main :menuselection:`Payroll` app dashboard, and click on the employee's card, or go to :menuselection:`Payroll --> Employees --> Employees` and click on the employee's card. Employee cards can also be viewed by going to the :menuselection:`Employees` app."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:333
+msgid "An employee card can be thought of as an employee personnel file."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:335
+msgid "The *Personal Information* section lists all of the fields that are available to enter on the employee's card. To access this section, go to :menuselection:`Payroll --> Configuration --> Personal Info`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "Personal information that appear on employee cards to enter."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:343
+msgid "To edit an entry, select it from the list. Then, click the :guilabel:`Edit` button, and modify the entry. When done, click :guilabel:`Save` or :guilabel:`Discard` to save the information or cancel the edits."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:-1
+msgid "New personal information entry."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:351
+msgid "The two most important fields on the personal info form are :guilabel:`Is Required` and :guilabel:`Display Type`. Checking the :guilabel:`Is Required` box makes the field mandatory on the employee's card."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:355
+msgid "The :guilabel:`Display Type` drop-down menu allows for the information to be entered in a variety of ways, from a :guilabel:`Text` box, to a customizable :guilabel:`Radio` button, a :guilabel:`Checkbox`, a :guilabel:`Document`, and more."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:359
+msgid "Once the information is entered, click the :guilabel:`Save` button to save the entry."
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:362
+msgid "Resume"
+msgstr ""
+
+#: ../../content/applications/hr/payroll.rst:365
+msgid "Currently, the :guilabel:`Resume` feature found inside the :menuselection:`Payroll app --> Configuration` menu is still in development and only serves a specific use case for Belgian markets. The documentation will be updated when this section has matured to more markets."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:3
+msgid "Contracts"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:5
+msgid "Every employee in Odoo is required to have a contract in order to be paid. A contract outlines the terms of an employee's position, their compensation, their working hours, and any other details about their position."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:10
+msgid "Contract documents (PDFs) are uploaded and organized using the *Documents* application, and are signed using the *Sign* application. Ensure these applications are installed in order to send and sign contracts. Please refer to the :doc:`/applications/finance/documents` and :doc:`/applications/finance/sign` documentation."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:15
+msgid "To view the employee contracts, go to the :menuselection:`Payroll app --> Employees --> Contracts` from the top menu. All employee contracts, and their current contract status, are displayed in a default kanban view. The default view displays both running contracts and contracts that need action. Expired and canceled contracts are hidden in the default view."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:-1
+msgid "Contracts dashboard view showing running contracts and contracts with issues."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:25
+msgid "The list of contracts in the *Payroll* application matches the list of contracts in the *Employees* application. The default contracts view in the *Payroll* application displays running contracts and contracts needing attention, while the default contracts view in the *Employees* application displays all contracts in a kanban view, organized by their stage, regardless of status. All contracts can be viewed by changing the filters."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:32
+msgid "Create a new contract"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:34
+msgid "In order for an employee to be paid, an active contract is required. If a new contract is needed, click the :guilabel:`Create` button on the contracts dashboard. A contract form appears where the information can be entered. Required fields are underlined in bold."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:-1
+msgid "New contract form to be filled in when creating a new contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:45
+msgid ":guilabel:`Contact Reference`: Type in the name or title for the contract, such as `John Smith Contract`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:47
+msgid ":guilabel:`Company`: Select the company the contract applies to by clicking on the drop-down menu. A new company can be created by typing the name in the field, then clicking either :guilabel:`Create` to create the new company, or :guilabel:`Create and Edit` to create the new company and edit the company details."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:51
+msgid ":guilabel:`Salary Structure Type`: Select one of the salary structure types from the drop-down menu. The default salary structure types are :guilabel:`Employee` or :guilabel:`Worker`. A new salary structure type can be created by typing the name in the field."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:54
+msgid ":guilabel:`Start Date`: The date the contract starts. Choose a date by clicking on the drop-down menu, navigating to the correct month and year by using the :guilabel:`< > (arrow)` icons, then clicking on the :guilabel:`date`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:57
+msgid ":guilabel:`Working Schedule`: Select one of the working schedules from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:60
+msgid "The :guilabel:`Working Schedule` drop-down menu displays all the working times for the selected :guilabel:`Company`. To modify or add to this list, go to :menuselection:`Payroll --> Configuration --> Working Times` and either :guilabel:`Create` a new working time or click on an existing working time and edit it by clicking :guilabel:`Edit`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:68
+msgid ":guilabel:`Employee`: Name of the employee that the contract applies to."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:69
+msgid ":guilabel:`Department`: The department the contract applies to."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:70
+msgid ":guilabel:`Job Position`: The specific job position the contract applies to."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:71
+msgid ":guilabel:`Contract Type`: Choose from :guilabel:`CDI`, :guilabel:`CDD`, or :guilabel:`PFI` from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:74
+msgid ":guilabel:`CDI` is an open-ended contract with only a start date but no end date."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:75
+msgid ":guilabel:`CDD` is a contract with both a start date and an end date."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:76
+msgid ":guilabel:`PFI` is a Belgian-specific contract used when hiring employees that need training, and covers the training period specifically."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:79
+msgid ":guilabel:`End Date`: If the contract has a specific end date, click the drop-down menu, navigate to the correct month and year using the arrow icons, then click on the date."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:81
+msgid ":guilabel:`HR Responsible`: If there is a specific person in HR that is responsible for the contract, select the person from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:83
+msgid ":guilabel:`Analytic Account`: This field allows a link between the contract and a specific analytic account for accounting purposes."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:87
+msgid "Contract details"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:89
+msgid "The contract details section allows for the addition and editing of a contract, and the ability to send the contract to the employee for approval and signatures."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:-1
+msgid "Contract details in optional tabs for a new contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:96
+msgid ":guilabel:`Contract Template`: Select a pre-existing contract template from the drop-down menu. Contract templates are typically created through the *Recruitment* application."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:98
+msgid ":guilabel:`New Contract Document Template`: Select a contract from the drop-down menu to be modified for this new employee contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:100
+msgid ":guilabel:`Contract Update Document Template`: Select a contract from the drop-down menu if the employee has an existing contract that requires updating."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:102
+msgid ":guilabel:`Notes`: The notes field is a text field where any notes for the employee contract can be entered for future reference."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:106
+msgid "Modifying a contract"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:108
+msgid "Click the :guilabel:`External Link` button at the end of each line to open the corresponding contract template and make any changes."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:115
+msgid "A pop-up window appears with all the contract details. Modify the fields for the contract as needed."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:-1
+msgid "Edit the details for the contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:121
+msgid ":guilabel:`Tags`: Select any tags associated with the contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:122
+msgid ":guilabel:`Signed Document Workspace`: This is where the signatures are stored. Choose a pre-configured workspace or create a new one."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:124
+msgid ":guilabel:`Signed Document Tags`: Select or create any tags associated only with the signed contract as opposed to the original unsigned contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:126
+msgid ":guilabel:`Redirect Link`: Enter a redirect link for the employee to access the contract. A redirect link takes the user from one URL to another, in this case, to the newly updated contract specifically written for them."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:129
+msgid ":guilabel:`Who can Sign`: Select either :guilabel:`All Users` or :guilabel:`On Invitation`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:131
+msgid ":guilabel:`All Users`: Any user in the organization can sign the contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:132
+msgid ":guilabel:`On Invitation`: Only users selected in this field can sign the contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:134
+msgid ":guilabel:`Invited Users`: Select the person(s) that can sign the document."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:135
+msgid ":guilabel:`Document`: The attached document can be replaced by clicking the :guilabel:`✏️ (pencil)` icon. A pop-up window appears so another document can be selected for upload. The file must be a PDF. To remove the document, click the :guilabel:`🗑️ (trash can)` icon."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:139
+msgid "Once the edits are complete, click the :guilabel:`Save` button. All the information for the selected contract template populates the fields in the :guilabel:`Salary Information` tab. Any additional tabs, such as :guilabel:`Personal Documents`, appears if applicable."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:144
+msgid "Salary information"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:-1
+msgid "Optional tabs for a new contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:150
+msgid "This section is where the specific salary details are defined. This section is country-specific, so depending on where the company is located, these fields may vary."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:153
+msgid "Enter the amount in the various fields, or check a box to apply a benefit. Some options that can be entered here include :guilabel:`Meal Vouchers`, :guilabel:`Fuel Card`, :guilabel:`Internet`, :guilabel:`Paid Time Off`, etc."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:157
+msgid "Some fields may be automatically filled in based off of the contracts selected in the :guilabel:`Contract Details` tab."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:161
+msgid "Attachment of salary"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:163
+msgid "Any automatic deductions or allocations for an employee, such as child support payments and wage garnishments, are referred to as a *salary attachment*. This section is where all of these deductions or allocations are set."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:167
+msgid "To add a new deduction, click :guilabel:`Add a line`. Type in a description for the allocation under :guilabel:`Description`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:-1
+msgid "Enter a new line for each type of garnishment."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:174
+msgid "Select the :guilabel:`Garnished Type` from the drop-down menu. Choose from:"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:176
+msgid ":guilabel:`Attachment of Salary`: Any payments taken out towards something that is *not* child support. Typically any garnishments such as lawsuit payments, payments toward taxes owed, etc."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:178
+msgid ":guilabel:`Assignment of Salary`: Any deduction that is not required but voluntary, such as a pre-tax allocation to a college savings account."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:180
+msgid ":guilabel:`Child Support`: Any payments taken out specifically for child support."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:182
+msgid "Enter the start and end dates the entry applies to. Click on the drop-down menu under :guilabel:`From` and :guilabel:`To`, navigate to the correct month and year by using the :guilabel:`< > (arrow)` icons, then click on the :guilabel:`date`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:186
+msgid "Last, enter the :guilabel:`Amount` that each payslip pays towards the entry."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:188
+msgid "To delete a line, click the :guilabel:`🗑️ (trash can)` icon at the end of the line."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:191
+msgid "Save and send the contract"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:193
+msgid "Once a contract has been created and/or modified, save the contract by clicking the :guilabel:`Save` button. Next, the contract must be sent to the employee to be signed."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:196
+msgid "Click on one of the following buttons to send the contract to the employee:"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:-1
+msgid "Send the contract to the employee via one of the buttons."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:202
+msgid ":guilabel:`Generate Simulation Link`: This option is for Belgian companies only. Clicking this opens a pop-up window that contains the basic information from the contract as well as a link for the contract when using the salary configurator. Click :guilabel:`Send Offer` to send an email to the employee so they can sign the contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:0
+msgid "Sends a link to the employee for the contract."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:212
+msgid "In order to send a contract using the :guilabel:`Generate Simulation Link`, there must be a signature field in the contract PDF being sent to the employee so they can sign it."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:215
+msgid ":guilabel:`Signature Request`: Click this and a pop-up window appears where an email can be typed to the employee. Select the document, such as a contract, NDA, or Homeworking Policy, from the drop-down menu, and fill out the email section. Click :guilabel:`Send` when the email is ready to be sent."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:0
+msgid "Request a signature for the contract via email."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/contracts.rst:224
+msgid ":guilabel:`Credit Time`: This option is for Belgian companies only. When clicked, a pop-up window appears that allows for the changing of working times, and can compute time off."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:3
+msgid "Payslips"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:5
+msgid "Payslips are created either by the employees themselves or their managers, and are approved by authorized employees (typically managers). Then, once payslips are approved, employees are issued payslips and are paid either by check or direct deposit, depending on how their employee profile is configured."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:10
+msgid "The :guilabel:`Payslips` drop-down header of the :menuselection:`Payroll` application consists of three sections: :guilabel:`To Pay`, :guilabel:`All Payslips`, and :guilabel:`Batches`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:13
+msgid "These three sections provide all the tools needed to create payslips for employees, including individual payslips, a batch of payslips, or commission payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Payslips menu selection in Payroll."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:21
+msgid "To pay"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:23
+msgid "Click on :menuselection:`Payroll app --> Payslips --> To Pay` to see the payslips that need to be paid. On this page, Odoo displays the payslips that have not been generated yet, and can be created from this dashboard."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "View all payslips that need to be paid on the Payslips To Pay page."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:31
+msgid "Each payslip will list the :guilabel:`Reference` number for the individual payslip, the :guilabel:`Employee` name, :guilabel:`Batch Name`, the :guilabel:`From` and :guilabel:`To` date range, the :guilabel:`Company`, the :guilabel:`Basic Wage`, :guilabel:`Net Wage`, and the :guilabel:`Status` of the payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:36
+msgid "Clicking on an individual payslip entry will show the details for the individual payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:41
+msgid "Create new payslip"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:43
+msgid "A new payslip can be created from the :guilabel:`Payslips To Pay` page (:menuselection:`Payroll app --> Payslips --> To Pay`) or the :guilabel:`Employee Payslips` page (:menuselection:`Payroll app --> Payslips --> All Payslips`), by clicking the :guilabel:`Create` button in the top-left corner."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:47
+msgid "Clicking :guilabel:`Create` reveals a blank payslip form, wherein the necessary payslip information can be entered."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:53
+msgid "On the blank payslip form, a number of fields are required to be filled in with the necessary information. These required fields are represented by **bold** lines."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "The necessary fields for a new payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:60
+msgid ":guilabel:`Employee`: Type in the name of an employee, or select the desired employee from the drop-down list. Upon selecting an employee, several other fields on the payslip form may auto-populate. Typically, after making a selection in the :guilabel:`Employee` field, Odoo auto-populates the :guilabel:`Contract`, :guilabel:`Structure`, and :guilabel:`Payslip Name` fields, but **only** if that information is already on that employee's form in the *Employees* app."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:66
+msgid ":guilabel:`Period`: Click the default date to reveal a pop-up calendar. On this calendar, use the :guilabel:`< (less-than)` and :guilabel:`> (greater than)` icons to select the desired month, and click on the desired day to select that specific date as the start date for the payslip. Repeat this process to add an end date for the payslip in the field below."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:70
+msgid ":guilabel:`Contract`: Using the drop-down menu, select the desired contract for the employee. Only the available corresponding contracts for the selected employee appear as options."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:72
+msgid ":guilabel:`Structure`: Using the drop-down menu, select the salary structure type. Only the available corresponding structures for the selected contract for that specific employee appear as options."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:75
+msgid ":guilabel:`Payslip Name`: In the blank field, type in the name for the payslip. The name should be short and descriptive, such as `April 2023`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:77
+msgid ":guilabel:`Company`: In the :guilabel:`Accounting Information` tab, select the company the payslip applies to from the :guilabel:`Company` drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:79
+msgid ":guilabel:`Salary Journal`: In the :guilabel:`Accounting Information` tab, enter the salary journal in which the payment will be reflected, and found in the *Accounting* application."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "The necessary fields for a new payslip in the Accounting Information tab."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:87
+msgid "It is recommended to check with the accounting department to ensure every entry that affects the *Accounting* application is correct."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:93
+msgid ":guilabel:`Reference`: Any note or reference message for the new entry can be entered here."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:94
+msgid ":guilabel:`Company Car`: If applicable, select the company car from the drop-down."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:95
+msgid ":guilabel:`Worked Days`: In the :guilabel:`Worked Days \\& Inputs` tab, the entries under :guilabel:`Worked Days` (including the :guilabel:`Type`, :guilabel:`Description`, :guilabel:`Number of Days`, :guilabel:`Number of Hours`, and :guilabel:`Amount`) are automatically filled in, based on what was entered for the :guilabel:`Period`, :guilabel:`Contract`, and :guilabel:`Structure` fields of the payslip form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:100
+msgid ":guilabel:`Salary Computation`: The :guilabel:`Salary Computation` tab is automatically filled in after the :guilabel:`Compute Sheet` button is clicked. Doing so displays all the wages, deductions, taxes, etc. for the entry."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:103
+msgid ":guilabel:`Batch Name`: Located in the :guilabel:`Accounting Information` tab, select the payslip batch this new payslip should be added to from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:105
+msgid ":guilabel:`Date Account`: Located in the :guilabel:`Accounting Information` tab, enter the date on which the payslip should be posted, by clicking on the drop-down menu, and navigating to the correct month and year using the :guilabel:`< > (less-than/greater-than)` icons in the calendar pop-up window. Then, click on the desired date."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:109
+msgid ":guilabel:`Salary Journal`: This field, located in the :guilabel:`Accounting Information` tab, represents the journal that the payslip will be logged in, and is automatically selected when the :guilabel:`Contract` and :guilabel:`Structure` are entered in the payslip form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:112
+msgid ":guilabel:`Accounting Entry`: This field, located in the :guilabel:`Accounting Information` tab, is automatically filled in once the payslip is confirmed."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:116
+msgid "Save and process new payslip"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:118
+msgid "When all the necessary information on the payslip is entered, click :guilabel:`Save` to save the data, or click :guilabel:`Discard` to delete the entry."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:122
+msgid "Saving the entry is not required in order to compute the sheet, although it is considered best practice to do so. The :guilabel:`Compute Sheet` button can be clicked without first saving the payslip. Doing so will save the entry *and* compute the sheet."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:126
+msgid "Click the :guilabel:`Compute Sheet` button to register all the information, and have the :guilabel:`Salary Computation` tab populated. If any modifications need to be made, click the :guilabel:`Edit` button, make the desired changes, then click the :guilabel:`Recompute Worked Days` button to have the changes reflected in the :guilabel:`Worked Days` and :guilabel:`Salary Computation` tabs."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:132
+msgid "To print the payslip, click the :guilabel:`Print` button. To cancel the payslip, click the :guilabel:`Cancel Payslip` button."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:135
+msgid "Once everything on the payslip form is correct, click the :guilabel:`Create Draft Entry` button to create the payslip. The chatter is automatically updated to show the email sent to the employee, along with a PDF copy of the payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "The new payslip is emailed to the employee and the email appears in the chatter."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:143
+msgid "Next, the payment must be sent to the employee. To do this, click the :guilabel:`Make Payment` button. Doing so reveals a pop-up form, in which the desired :guilabel:`Bank Journal` that the payment should be made against must be selected from a drop-down menu. Then, click the :guilabel:`Confirm` button to confirm the journal, and return to the payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Click Make Payment to send the payment to the employee."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:152
+msgid "If a payment needs to be cancelled or refunded, click the corresponding :guilabel:`Refund` or :guilabel:`Cancel Payslip` button, located at the top of the payslip form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:156
+msgid "In order for a payslip to be paid, the employee *must* have a bank account entered in their contact information. If there is no bank information, a payslip cannot be paid, and an error will appear when the :guilabel:`Make Payment` button is clicked. Banking information can be found in the :guilabel:`Private Information` tab on the employee's card. Edit the employee card, and add banking information, if it is missing."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:0
+msgid "Banking information can be entered in an employee's card."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:167
+msgid "All payslips"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:169
+msgid "To view all payslips regardless of status, go to :menuselection:`Payroll app --> Payslips --> All Payslips`. Here, all payslips are organized by batch (in a default list view)."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:172
+msgid "Click on the :guilabel:`▶ (arrow)` next to the individual batch name to view all the payslips in that particular batch, along with all the payslip details. The number of payslips in the batch is written in parenthesis after the batch name. The :guilabel:`Status` for each individual payslip appears on the far-right side, indicating if it is in :guilabel:`Draft Mode`, :guilabel:`Waiting`, or if it is :guilabel:`Done`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:179
+msgid ":guilabel:`Draft` indicates the payslip is created, and there is still time to make edits, since the amounts are not calculated."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:181
+msgid "`Waiting` indicates the payslip has been calculated and the salary details can be found in the *Salary Computation* tab."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:183
+msgid "`Done` indicates the payslip is calculated and ready to be paid."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "View all payslips organized by batches. Click on the arrow to expand each batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:189
+msgid "Click on an individual payslip to view the details for that payslip on a separate page. Using the breadcrumb menu, click :guilabel:`Employee Payslips` to go back to the list view of all payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:192
+msgid "A new payslip can be created from the :guilabel:`Employee Payslips` page, by clicking the :guilabel:`Create` button in the upper-left corner. Doing so reveals a separate blank payslip form page. On that blank payslip form page, enter all the necessary information, as described in the :ref:`Create a new payslip <payroll/new-payslip>` section."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:197
+msgid "To print PDF versions of payslips from the :guilabel:`Payslips to Pay` or :guilabel:`Employee Payslips` pages, first select the desired payslips by clicking on the individual checkbox next to each payslip to be printed. Or, click the box next to :guilabel:`Reference`, which selects all visible payslips on the page. Then, click the :guilabel:`Print` button to print the payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Click on the Print smart button to print payslips to a PDF."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:206
+msgid "Payslips can also be exported to an Excel spreadsheet. When exporting, all payslips are exported regardless of whether some are selected or not. Click on the :guilabel:`Export All` button (download icon) to export all payslips to an Excel spreadsheet."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Click on the Export All smart button to export all payslips to an Excel payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:215
+msgid "Both *To Pay* and *All Payslips* display all the detailed information for each payslip."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:218
+msgid "Batches"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:220
+msgid "To view payslips in batches, navigate to :menuselection:`Payroll app --> Payslips --> Batches` to display all the payslip batches that have been created. These payslip batches are displayed in a list view, by default."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:224
+msgid "Each batch displays the :guilabel:`Name`, :guilabel:`Date From` and :guilabel:`Date To` dates, whether it was a :guilabel:`Credit note`, its :guilabel:`Status`, and the :guilabel:`Company`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "View displaying all batches created."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:231
+msgid "Click on an individual batch to view the details for that batch on a separate page. On this batch detail page, modifications can be made. To make any modifications to a batch, click the :guilabel:`Edit` button. Then, proceed to make any necessary changes."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:235
+msgid "When all desired changes have been made, click either :guilabel:`Save` to save the changes, or :guilabel:`Discard` to revert back to the original data."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:238
+msgid "After modifications have been saved, click the :guilabel:`Generate Payslips` button to reveal a :guilabel:`Generate Payslips` pop-up form, in which payslips affected by the changes can be created or modified."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:242
+msgid "All payslips associated with the batch are displayed in the employees section of the :guilabel:`Generate Payslips` pop-up. To filter the results by either the :guilabel:`Salary Structure` and/or the :guilabel:`Department`, select a salary structure and/or department from the respective drop-down menus."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:247
+msgid "Only employees that match the selected :guilabel:`Salary Structure` and/or :guilabel:`Department` appear in the employees list. Click the :guilabel:`Generate` button at the bottom of the :guilabel:`Generate Payslips` pop-up window to generate the modified payslips, and close the pop-up window."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Generate payslips from the edited batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:256
+msgid "Back on the batch details page, click the :guilabel:`Create Draft Entry` smart button to create a draft of the payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:263
+msgid "Once the draft payslips are created, the button changes to say :guilabel:`Make Payment`. Click the :guilabel:`Make Payment` button. A pop-up window appears, in which the bank journal information must be entered. Select the :guilabel:`Bank Journal` from the drop-down list, and click :guilabel:`Confirm` to process the payslips, and pay the employees."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:268
+msgid "On the batch detail page, the number of payslips in the batch is accessible via the :guilabel:`Payslips` smart button, located in the top-right corner. Individual payslips for the batch can be viewed by clicking the :guilabel:`Payslips` smart button in the top-right corner."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:272
+msgid "Use the breadcrumb menu to navigate back to the individual batch detail page, or back to the list of all batches."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Click the Payslips smart button to view the individual payslips in the batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:280
+msgid "Create a new batch"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:282
+msgid "To create a new batch of payslips from the :guilabel:`Payslips Batches` page (:menuselection:`Payroll app --> Payslips --> Batches`), click the :guilabel:`Create` button in the upper-left corner. Doing so reveals a blank payslip batch form on a separate page."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:286
+msgid "On the new payslip batch form, enter the :guilabel:`Name` for the batch, and select the date range to which the batch applies, by clicking the :guilabel:`▼ (drop-down arrow)` icon in the :guilabel:`Period` fields, which reveals a calendar pop-up window. From this calendar pop-up window, navigate to the correct month, and click on the corresponding day for both the start and end dates."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Enter the details for the new batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:295
+msgid "If the batch is a credit note, check the box next to :guilabel:`Credit Note`. Then, in the :guilabel:`Generation Date` field, select the date the payslips should be generated from a calendar pop-up window. This generated date is reflected in the accounting journal entries."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:299
+msgid "Lastly, in the :guilabel:`Company` field, select the company these payslips are written against."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:301
+msgid "When all the information on the payslip batch form is correct, click the :guilabel:`Save` button to save the information. To delete the entry, click the :guilabel:`Discard` button."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:304
+msgid "To create the payslips for the newly-created batch, click the :guilabel:`Generate Payslips` button at the top of the form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:307
+msgid "When clicked, a pop-up window appears showing all the payslips that will be created. To remove any individual payslips, click the black :guilabel:`✖ (x mark)` icon at the far right of the payslip line."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:311
+msgid "If a specific :guilabel:`Salary Structure` or :guilabel:`Department` needs to be specified for the batch, select them from the corresponding drop-down menus."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:314
+msgid "Click the :guilabel:`Generate` button at the bottom of the pop-up window to create the payslips for the batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Generate payslips for the new batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:322
+msgid "On the :guilabel:`Generate Payslips` pop-up window, selecting a :guilabel:`Department` and/or :guilabel:`Salary Structure` only displays payslips that apply to those specifically-selected parameters."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:326
+msgid "If there are any errors or issues preventing the payslips from being generated, an error message appears in the top-right section. This error box disappears on its own after several seconds, or the :guilabel:`✖ (x mark)` icon can be clicked to close the alert."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:330
+msgid "To remedy the issue, make any necessary modifications (e.g. removing any payslip lines that cannot be processed), then click the :guilabel:`Generate` button again."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:333
+msgid "Once the payslips have been successfully generated, the screen returns to the payslip batch form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:335
+msgid "From here, click the :guilabel:`Generate Draft Entry` button to change the payslips' status from :guilabel:`Draft` to :guilabel:`Done`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:338
+msgid "Once payslips have been generated, click the :guilabel:`Make Payment` button to process the payments. Doing so reveals a pop-up window, in which the proper banking information must be entered. In this pop-up window, select the appropriate :guilabel:`Bank Journal` from the drop-down menu, and enter the appropriate file name."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:343
+msgid "When done, click the :guilabel:`Confirm` button to confirm the information, or click :guilabel:`Cancel` to discard."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:347
+msgid "Generate commission payslips"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:349
+msgid "Commission payslips can be generated directly from the :guilabel:`Payslips Batches` page (:menuselection:`Payroll app --> Payslips --> Batches`). To generate commission payslips from this page, click on the desired batch (or batches) to create commissions payslips for, then click the :guilabel:`Generate Commission Payslips` button."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:354
+msgid "Doing so reveals a :guilabel:`Generate Commission Payslip` pop-up window, in which the necessary information **must** be filled out."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:-1
+msgid "Enter the commission details."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:361
+msgid "On this pop-up window, click on the drop-down menus, located beside the :guilabel:`Period` field, to reveal calendar pop-up windows. On these calendar pop-up windows, select the desired period for which the payslips are being generated. Using the :guilabel:`< (left)` and :guilabel:`> (right)` arrows, navigate to the correct month, and click on the date to select it."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:366
+msgid "In the :guilabel:`Department` field, select the desired department from the drop-down menu."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:368
+msgid "When a department is selected, the employees listed for that department appear in the :guilabel:`Employee` section."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:371
+msgid "Under the :guilabel:`Employee` section, enter the :guilabel:`Commission Amount` for each employee in the appropriate column. To remove an employee, click the :guilabel:`🗑️ (trash)` icon to remove the line."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:375
+msgid "Add a new entry by clicking :guilabel:`Add a Line`, and entering the :guilabel:`Employee` and the appropriate :guilabel:`Commission Amount`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:378
+msgid "Click the :guilabel:`Upload Your File` button to add a file, if necessary. Any file type is accepted."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:381
+msgid "Using the drop-down menu beside the :guilabel:`Commission Type` field, select either :guilabel:`Classic Commission` or :guilabel:`Warrant`. :guilabel:`Classic` is the most typical of commission, while :guilabel:`Warrant` is primarily used for Belgium companies."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/payslips.rst:385
+msgid "Once all the commissions are properly entered, click the :guilabel:`Generate Payslips` button to create the commission payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:3
+msgid "Reporting"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:5
+msgid "The :guilabel:`Reporting` section of the *Payroll* app offers a variety of reports to choose from. The :guilabel:`Payroll`, :guilabel:`Meal Vouchers`, :guilabel:`Attachment of Salary`, and :guilabel:`DMFA` reports are universal and available for all companies regardless of location. The :guilabel:`Paid Time Off Allocation`, :guilabel:`273S Sheet`, and :guilabel:`274.XX Sheets` reports are specific to Belgian companies only."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:11
+msgid "To view a report, go to :menuselection:`Payroll --> Reporting` and click on the specific report."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:-1
+msgid "Report dashboard view."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:17
+msgid "If a report is unavailable to a company, a user error pops up, stating `You must be logged in to a Belgian company to use this feature.`"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:20
+msgid "At the top of each report, click on :guilabel:`Filters` to display the optional filters for the specific report. Filters show information that matches the specific filter parameters. For example, when selecting the :guilabel:`Last 365 Day Payslip` filter, only payslips for the last 365 days appear. All reports have the option to add a custom filter, and each have different default custom filter options. Select the parameters, then click the :guilabel:`Apply` button."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:30
+msgid "Clicking on :guilabel:`Favorites` displays three options: :guilabel:`Save the current search`, :guilabel:`Add the search to the dashboard`, or :guilabel:`Insert the search to a Google spreadsheet`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:-1
+msgid "Favorite options for reports."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:41
+msgid "Click on :menuselection:`Payroll --> Reporting --> Payroll` to display the :guilabel:`Payroll Analysis` report."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:48
+msgid "This shows all the payslips generated in the last 365 days. The report can display metrics for a variety of parameters. Click the :guilabel:`Measures` box to view a drop-down menu with the various options to display. The options available include: :guilabel:`# Payslip`, :guilabel:`Basic Wage`, :guilabel:`Basic Wage for Time Off`, :guilabel:`Days of Paid Time Off`, :guilabel:`Days of Unforeseen Absence`, :guilabel:`Days of Unpaid Time Off`, :guilabel:`Gross Wage`, :guilabel:`Net Wage`, :guilabel:`Number of Days`, :guilabel:`Number of Hours`, :guilabel:`Work Days`, :guilabel:`Work Hours`, and :guilabel:`Count`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:61
+msgid "Line chart"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:63
+msgid "A line chart is the default view for the *Payroll Analysis* report. If a different view was selected, click on the :guilabel:`Line Chart` icon (middle icon) in the menu bar to change the view back to a line chart. An option to display the line chart in ascending or descending order appears at the end of the options."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:73
+msgid "Bar chart"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:75
+msgid "To display the data in a bar chart, click on the :guilabel:`Bar Chart` icon (first icon) in the menu bar."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:82
+msgid "Click the :guilabel:`Stacked` icon to view the bar chart in a stacked format (where multiple values appear in each column). An option to display the columns in ascending or descending order appears at the end of the options."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:87
+msgid "Clicking an option enables it. To disable the option, click it again. When the option is enabled it appears grey. When it is inactive, it appears white."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:91
+msgid "Pie chart"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:93
+msgid "To display the data in a pie chart, click on the :guilabel:`Pie Chart` icon (last icon) in the menu bar. There are no additional options available in this view."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:101
+msgid "Pivot table"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:103
+msgid "The bottom half of the :guilabel:`Payroll Analysis` dashboard presents a pivot table no matter which type of chart is selected for the top of the dashboard. The default information displayed is the number of payslips, net wage, gross wage, days of paid time off, and days of unpaid time off. The information is divided by department. To display more information on the report, select the :guilabel:`Measures` drop-down menu, then click on any other items to display."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:113
+msgid "To sort the entries by a specific column, such as :guilabel:`Net Wage`, click on the column name twice. The first click selects the column, and the second click sorts the information in descending order."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:-1
+msgid "To sort information by descending order, click the column head twice."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:121
+#: ../../content/applications/hr/payroll/reporting.rst:172
+msgid "To export the data in an XLSX format, click the :guilabel:`Download xlsx` icon. The information will be downloaded into an Excel spreadsheet."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:-1
+msgid "Download an Excel spreadsheet of the data by clicking the download button."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:128
+#: ../../content/applications/hr/payroll/reporting.rst:179
+msgid "The data can be inserted into a spreadsheet by clicking the :guilabel:`Insert in Spreadsheet` button. A pop-up appears asking which spreadsheet to place the information in. Select an existing spreadsheet or enter the name for a new spreadsheet. Click the :guilabel:`Confirm` button to move to a spreadsheet view with all the information populated."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:-1
+msgid "Send the data to a spreadsheet."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:137
+msgid "Once in the spreadsheet view, click on :guilabel:`File`, then select :guilabel:`Save` to save the data, or :guilabel:`Save as Template` to save the setting as a template to use in the future."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:141
+#: ../../content/applications/hr/payroll/reporting.rst:188
+msgid "The *Documents* application must be installed in order to use the :guilabel:`Insert in Spreadsheet` option."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:146
+msgid "Meal Vouchers"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:148
+msgid ":guilabel:`Meal Vouchers` provides an overview of the meal vouchers used by employees, and can be shown by :guilabel:`Day`, :guilabel:`Week`, :guilabel:`Month`, :guilabel:`Quarter`, or :guilabel:`Year`. The default view is by month."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:-1
+msgid "Meal voucher"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:156
+msgid "To change the displayed view, click on :guilabel:`Total`. The data collapses, showing only the count column. Click on :guilabel:`Total` again, then hover over :guilabel:`Day`, then click on one of the other time-period options available."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:164
+msgid "It is possible to compare the current meal voucher report to the one for the previous time period or the previous year. To view these comparisons, click on the :guilabel:`Comparison` drop-down menu at the top, then select either :guilabel:`Date: Previous Period` or :guilabel:`Date: Previous Year`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:184
+msgid "Once in the spreadsheet view, click on :guilabel:`File`, then select :guilabel:`Save` to save the data, or :guilabel:`Save as Template` to save the settings as a template to use in the future."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:192
+msgid "Attachment of Salary"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:194
+msgid "The :guilabel:`Attachment of Salary` report shows all deductions or allocations per employee, such as child support payments and wage garnishments."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:-1
+msgid "View the Attachment of Salary report that shows all salary garnishments."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:201
+msgid "The employees are listed in the left-side column, while the different deductions are listed in the top row, organized by month."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:204
+msgid "The report can be exported as a XLSX file, or inserted into a spreadsheet, using the corresponding buttons at the top."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:207
+msgid "Clicking on the :guilabel:`Measures` button shows options for how the data is displayed. :guilabel:`Assignment of salary`, :guilabel:`Attachment of salary`, :guilabel:`Child support`, and :guilabel:`Count`, can all be selected or deselected by clicking on the item. If an item has a check mark, it is displayed."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:-1
+msgid "Select the options that be displayed in the report."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/reporting.rst:216
+msgid "The salary attachment report can be compared to the one for the previous time period or the previous year. To view these comparisons, click on the on the :guilabel:`Comparison` drop-down menu at the top, then select either :guilabel:`Payslip End Date: Previous Period` or :guilabel:`Payslip End Date: Previous Year`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:5
+msgid "The *Work Entries* dashboard, which can be found by going to :menuselection:`Payroll --> Work Entries --> Work Entries`, provides a visual overview of the individual time sheets of every employee, with each day split into a morning shift and an afternoon shift."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Work Entries dashboard view showing all employee's work entries."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:13
+msgid "To change the view so that only the entries for a single day, week, or month are shown, click on one of the corresponding links for :guilabel:`Day`, :guilabel:`Week`, or :guilabel:`Month`, located at the top of the dashboard."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:17
+msgid "Use the :guilabel:`⬅️ (left arrow)` and :guilabel:`➡️ (right arrow)` icons on the left and right side of the :guilabel:`Today` button to adjust the displayed dates. The arrows will adjust the date based on the type of time selected. For example, if month is selected, the arrows will move one month with each click of the arrow. If week or day is selected, the time will move by either a week or a day for each click of the arrow, respectively."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:24
+msgid "Adding a new work entry"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:26
+msgid "If a work entry is missing and needs to be added, such as sick time or time off, click :guilabel:`Add` to create a new work entry. A pop-up will appear, with several fields to fill in."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:29
+msgid "Enter the :guilabel:`Work Entry Name`, such as `Sick Time` or any other short description. Select the :guilabel:`Employee` and the :guilabel:`Work Entry Type` from the respective drop-down lists."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Filling in the work entry Create form in Odoo."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:36
+msgid "Next, enter the date and time for the work entry in the :guilabel:`From` and :guilabel:`To` drop-downs. First, select the date by navigating to the correct month and year using the :guilabel:`⬅️ (left arrow)` and :guilabel:`➡️ (right arrow)` icons, then click on the specific day."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:40
+msgid "Then, select the time by clicking on the :guilabel:`⏰ (clock)` icon, and using the :guilabel:`⬆️ (up arrow)` and :guilabel:`⬇️ (down arrow)` icons for each section to enter the hour, minute, and second for the time period."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:44
+msgid "The :guilabel:`Period` will display the hours based on the :guilabel:`To` and :guilabel:`From` entries."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:48
+msgid "Before clicking either :guilabel:`Save & Close` or :guilabel:`Save & New`, it is good to double check the :guilabel:`Period` to ensure the time stated corresponds to the :guilabel:`To` and :guilabel:`From` fields."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:0
+msgid "Hours entered in the Period field."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:56
+msgid "Once the information is entered, click :guilabel:`Save & Close` to save the entry and close the pop-up, or :guilabel:`Save & New` to save the entry and create another :guilabel:`Work Entry Type`."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:60
+msgid "Regenerate work entries"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:62
+msgid "After a work entry has been either added or modified, the work entries need to be regenerated for the affected employee(s). Click on the :guilabel:`Regenerate Work Entries` button at the top of the main dashboard, and a pop-up will appear."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:66
+msgid "Select the :guilabel:`Employee` to regenerate work entries for from the :guilabel:`drop-down menu`, and adjust the :guilabel:`From` and :guilabel:`To` fields so the correct date range is displayed. Click the :guilabel:`Regenerate Work Entries` button and the work entries will be recreated. Once finished, the pop-up will close."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Regenerate a work entry for a particular employee."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:76
+msgid "Conflicts"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:78
+msgid "A conflict appears for any request that has not been approved, such as sick time or vacation, or if there are any errors on the work entry, such as required fields being left blank. Conflicts are required to be resolved before payslips can be generated."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:82
+msgid "Any work entry that has a conflict to be resolved is indicated on the main :guilabel:`Work Entry` overview dashboard, located by going to :menuselection:`Payroll --> Work Entries --> Conflicts`, where only conflicts needing resolution are shown."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Conflicts dashboard view showing all employee's conflicts in work entries."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:90
+msgid "Conflicts are indicated with an orange triangle in the top left corner of each individual entry. Click on an individual work entry to see the conflict details in a pop-up."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:93
+msgid "The conflict is briefly explained in an orange text box."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Details for a conflict appear in the pop-up."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:99
+msgid "The :guilabel:`Work Entry Name`, :guilabel:`Employee`, and :guilabel:`Work Entry Type` are listed on the left side of the pop-up. The :guilabel:`From` and :guilabel:`To` date range, as well as the total time requested (in hours), appear in the :guilabel:`Period` field on the right side."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:103
+msgid "If there is a conflict because a time-off request for the same time already exists in the system, the time-off will be entered in the :guilabel:`Time Off` field. Clicking the :guilabel:`External Link` button next to the :guilabel:`Time Off` entry will bring up the duplicate time-off request."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:107
+msgid "The details for the time-off request appear in the pop-up. The request can be modified if needed. Click either the :guilabel:`Validate` or :guilabel:`Refuse` button to approve or deny the request, then click the :guilabel:`Save` button to save the changes."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Edit and/or validate a duplicate time-off request."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:115
+msgid "Once the duplicate time-off request has been approved and saved, the screen goes back to the conflict. Click :guilabel:`Refuse Time Off` or :guilabel:`Approve Time Off` via the buttons in the top right to either approve or deny the request. Repeat for all conflicts until there are no conflicts to resolve."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:120
+msgid "After conflicts have been resolved, work entries must be regenerated for each employee by clicking the :guilabel:`Regenerate Work Entries` button, and entering the corresponding information for each employee."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Regenerate Work Entries button on the Work Entries Regeneration form."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:129
+msgid "Generating payslips"
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:131
+msgid "To generate payslips, navigate to the time period the payslips should be generated for, either day, week, or month. When the desired pay period is displayed, click the :guilabel:`Generate Payslips` button."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Generate Payslips button on the Work Entry dashboard."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:140
+msgid "If the :guilabel:`Generate Payslips` button is not active (appears light turquoise instead of dark turquoise), that indicates there are conflicts. *Solve conflicts first* will appear as a warning when :guilabel:`Generate Payslips` is moused over. Resolve all conflicts before generating payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:145
+msgid "A batch entry will appear for the time period selected. The batch name appears at the top in the :guilabel:`Name` field, typically listing the month and year for the particular batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:148
+msgid "The date range the payslips apply to appears in the :guilabel:`Period` field. The company appears in the :guilabel:`Company` field, along with an option to mark the payslips as a credit note. To make changes, click the :guilabel:`Edit` button in the top left, make any changes, then click either :guilabel:`Save` to accept the changes or :guilabel:`Discard` to revert to the original data."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Batch information that appears when making a batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:157
+msgid "Click the :guilabel:`Create Draft Entry` button to create the payslips for the batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:159
+msgid "Click on the :guilabel:`Payslips` button in the top right to view all the payslips for the batch."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:162
+msgid "Payslips will have a status of *Waiting* until the :guilabel:`Create Draft Entry` button has been clicked. After, the payslip status will change to *Done*."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:165
+msgid "Payslips can be printed by clicking the box next to each payslip to print, or clicking the box next to :guilabel:`Reference` to select all the payslips at once. Click the :guilabel:`Print` button, and a PDF file will be created with all the specified payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:-1
+msgid "Print button for printing the payslips."
+msgstr ""
+
+#: ../../content/applications/hr/payroll/work_entries.rst:174
+msgid ":ref:`Configure work entries <payroll/work-entries-config>`"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment.rst:5
+#: ../../content/applications/hr/recruitment/new_job.rst:60
+msgid "Recruitment"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:3
+msgid "Job positions"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:5
+msgid "In the default :menuselection:`Recruitment` dashboard view, all job positions are shown, regardless of status. Current published positions with active applicants are shown, as well as job positions that have been created but have not yet been published."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:9
+msgid "Each job position is shown in an individual kanban card. If the job position is active and candidates can apply, then a :guilabel:`Published` banner will appear in the top-right corner of the card."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:13
+msgid "View submitted applications by clicking the :guilabel:`# Applications` button, with `#` being the number of applications received. If a position is not published, a :guilabel:`Start Recruitment` button will appear instead."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:-1
+msgid "Main dashboard view of Recruitment showing all job positions."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:22
+msgid "Create a new job position"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:24
+msgid "There are two ways a job position can be created: from the main :guilabel:`Recruitment` dashboard, or from the :guilabel:`Configuration` menu."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:27
+msgid "To create a job position from the :guilabel:`Configuration` menu, go to :menuselection:`Recruitment app --> Configuration --> Job Positions`. The job positions in this view are displayed in a list."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:30
+msgid "Create a new job position from the :guilabel:`Job Positions` dashboard by clicking the :guilabel:`Create` button in the top-left corner."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:33
+msgid "Then, a :guilabel:`Create a Job Position` pop-up window will appear. From here, enter the name of the position (such as `Sales Manager`, `Mechanical Engineer`, etc.). When complete, click the :guilabel:`Create` button to save the entry, or the :guilabel:`Discard` button to delete it."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:-1
+msgid "Create a new job position."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:41
+msgid "Once the job position has been created, it will appear as a card in the kanban view on the main :guilabel:`Recruitment`` dashboard, as well as in the list view on the :guilabel:`Configuration` dashboard."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:46
+msgid "Edit a new job position"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:48
+msgid "Once the job position is created, it's time to enter the details for the position. Click on the :guilabel:`⋮ (three dots)` icon in the upper-right corner of the relevant card to reveal several options, and then click :guilabel:`Edit` to edit the details."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:-1
+msgid "Edit the job position card."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:56
+msgid "Enter the job description in the :guilabel:`Job Description` tab. This information is what is visible to potential employees when searching for available jobs."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:62
+msgid "All the basic information about the job position is listed under the :guilabel:`Recruitment` tab. None of the fields are required, but it is a good idea to provide at least a few details, such as where the job is located."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:66
+msgid "The fields can be filled out as follows:"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:68
+msgid ":guilabel:`Company`: Select the company the job is for."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:69
+msgid ":guilabel:`Website`: Select the website where the job will be published."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:70
+msgid ":guilabel:`Department`: Select the relevant department for the job position."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:71
+msgid ":guilabel:`Expected New Employees`: Enter the number of employees to be hired for this position."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:72
+msgid ":guilabel:`Contract Template`: Select a contract template that will be used when offering the job to a candidate."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:74
+msgid ":guilabel:`Interview Form`: Select a form that applicants will fill out prior to their interview, or create a new form. Once selected, a :guilabel:`Display (Name) Form` button will appear next to the selected form. Click on this to see how the form will be displayed to the candidate on the front end."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:0
+msgid "The interview form will display a link to see the form as the candidate will."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:83
+msgid ":guilabel:`Recruiter`: Select the person who will be doing the recruiting for this role."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:-1
+msgid "Enter job information details in the recruitment tab."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:90
+msgid "Appraisals"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:92
+msgid "This tab displays the :guilabel:`Employee Feedback Template` and the :guilabel:`Manager Feedback Template`, both of which will be used after the employee has been hired, the predetermined time has passed, and feedback is requested."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:97
+msgid "Create interview form"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:99
+msgid "Once a job position has been made, the :guilabel:`Interview Form` needs to be created. In the kanban view of the :menuselection:`Recruitment` dashboard, click on the :guilabel:`⋮ (three dots)` icon in the upper-right corner of the card to reveal several options, and then click :guilabel:`Create Interview Form`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:-1
+msgid "Create an interview form for the new position."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:108
+msgid "Click on :guilabel:`Add a section` to add a section to the form. A line will appear, and a section heading can be entered. When complete, click off the line, or press enter to lock in the new section on the form."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:116
+msgid "Next, click :guilabel:`Add a question` to add a question to the section. A pop-up window appears to enter the question details. Type out the question in the top line."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:119
+msgid "There are several *Question Types* to choose from:"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:121
+msgid ":guilabel:`Multiple Lines Text Box`: allows the applicant to enter several lines of text"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:122
+msgid ":guilabel:`Single Line Text Box`: limits the applicant to only a single line of text"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:123
+msgid ":guilabel:`Numerical Value`: only allows a number to be entered"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:124
+msgid ":guilabel:`Date`: a calendar module is presented to select a date"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:125
+msgid ":guilabel:`Datetime`:  a calendar module and a clock icon is presented to select a date and time"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:126
+msgid ":guilabel:`Multiple choice: only one answer`: a multiple choice question that only allows the candidate to select one answer"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:128
+msgid ":guilabel:`Multiple choice: multiple answers allowed`: a multiple choice question that allows the candidate to select multiple answers"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:130
+msgid ":guilabel:`Matrix`: a customizable table that allows the candidate to choose an answer for each row"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:-1
+msgid "Add a new question to the interview form."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:137
+msgid "Questions and sections can be reorganized. Move them by clicking and dragging individual section headings or question lines to their desired position(s)."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:140
+msgid "Sections are indicated by a gray background, while questions have a white background."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:-1
+msgid "A sample of categories and questions for a candidate."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:146
+msgid "Next, configure the options for the interview form. Click the :guilabel:`Options` tab to view all the options to configure, by category."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:150
+msgid "Questions"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:152
+msgid ":guilabel:`Layout`: Choose how the questions should be displayed."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:154
+msgid ":guilabel:`One page with all the questions`: Display all sections and questions at the same time."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:156
+msgid ":guilabel:`One page per section`: Display each section with the corresponding questions on an individual page."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:158
+msgid ":guilabel:`One page per question`: Display a single question on each page."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:160
+msgid ":guilabel:`Progression Mode`: Display the progress the candidate is making, either as a :guilabel:`Percentage`, or as a :guilabel:`Number`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:162
+msgid ":guilabel:`Survey Time Limit`: Check this box to limit the time allowed to complete the form. When selected, a field to enter the minutes appears next to the checked box. Enter the time (using an XX:XX minute/second format) in the field."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:165
+msgid ":guilabel:`Selection`: Display the entire form (e.g. :guilabel:`All questions`), or only a random selection of questions from each section (:guilabel:`Randomized per section`)."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:169
+msgid "Although it is a selectable option, the :guilabel:`Randomized per section` option is not typically selected for an interview form."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:173
+msgid "Scoring"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:175
+msgid ":guilabel:`No scoring`: Select this option to not score the form."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:176
+msgid ":guilabel:`Scoring with answers at the end`: Select this option to score the form and display the"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:177
+msgid "correct answers for the candidate when they are finished with the form."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:178
+msgid ":guilabel:`Scoring without answers at the end`: Select this option to score the form but not display the answers to the candidate."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:181
+msgid "If one of the scoring options was selected, a :guilabel:`Success %` field will appear. Enter the percentage the candidate needs to pass the exam (example, 80.00%). The entry should be written in an “XX.XX” format."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:186
+msgid "Candidates"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:188
+msgid ":guilabel:`Access Mode`: Specify who can access the exam. Either :guilabel:`Anyone with the link` or :guilabel:`Invited people only`."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:190
+msgid ":guilabel:`Appraisal Managers Only`: Check this box so only the managers who are reviewing the exam can see the answers. If left unchecked, anyone can view the results."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:192
+msgid ":guilabel:`Login Required`: Check this box to require candidates to log in before taking the exam, whether they have a valid token or not."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:194
+msgid ":guilabel:`Attempts Limit`: If there is a limit to how many times the exam can be taken, check this box, then enter the maximum attempt number in the field next to it."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:198
+msgid "Live Session"
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:200
+msgid ":guilabel:`Reward quick answers`: If the exam is to be taken live, check this box to award more points to participants who answer quickly."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:202
+msgid ":guilabel:`Session Code`: Enter an access code that will allow the viewers into the live exam session."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:205
+msgid "After all fields have been entered, click the :guilabel:`Save` button to save the changes, or click :guilabel:`Discard` to delete the changes."
+msgstr ""
+
+#: ../../content/applications/hr/recruitment/new_job.rst:-1
+msgid "Various options to configure for the interview form."
+msgstr ""
