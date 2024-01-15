@@ -15,3 +15,4 @@
     :maxdepth: 2
 
     applications/exchange
+    applications/iot
