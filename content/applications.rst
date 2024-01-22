@@ -14,4 +14,4 @@
 .. toctree::
     :maxdepth: 2
 
-    applications/exchange
+    applications/gym
