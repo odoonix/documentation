@@ -1,6 +1,8 @@
-docutils==0.16.0  # Compatibility with sphinx-tabs 3.2.0.
-libsass==0.20.1
-pygments~=2.6.1
-pygments-csv-lexer~=0.1
-sphinx==4.3.2
-sphinx-tabs==3.2.0
+docutils
+libsass
+
+pygments
+pygments-csv-lexer
+
+sphinx
+sphinx-tabs

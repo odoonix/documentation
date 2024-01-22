@@ -16,7 +16,7 @@ div[aria-label="related navigation"] {
 
 body {
     position: relative;
-
+    direction: ltr;
     a {
         text-underline-position: from-font;
 
@@ -260,6 +260,7 @@ header {
         padding-bottom: $o-padding-xs;
 
         > .o_toc_entry_wrapper {
+            direction: ltr;
             a, i {
                 color: $secondary;
                 font-weight: $o-font-weight-medium;
@@ -432,6 +433,7 @@ aside.o_page_toc {
     grid-template-areas: "main";
     grid-template-columns: minmax(0,100%);
     margin-top: $o-headers-mobile-height;
+    direction: ltr;
 
     @include media-breakpoint-up(lg) {
         grid-template-areas: "sidebar main toc";

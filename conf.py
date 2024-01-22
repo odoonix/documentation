@@ -13,11 +13,11 @@ from sphinx.util import logging
 _logger = logging.getLogger(__name__)
 
 
-#=== General configuration ===#
+# === General configuration ===#
 
 # General information about the project.
-project = 'MoonSun'
-copyright = 'MoonSul LT.'
+project = 'ViraWeb123'
+copyright = 'DPQ co.'
 
 # `version` is the version info for the project being documented, acts as replacement for |version|,
 # also used in various other places throughout the built documents.
@@ -32,18 +32,19 @@ current_branch = version
 current_version = current_branch.replace('saas-', '').replace('.0', '')
 # `current_major_branch` is the technical name of the major branch before the current branch.
 # E.g., saas-15.4 -> 15.0; 12.0 -> 12.0; master -> master (*).
-current_major_branch = re.sub(r'\.\d', '.0', current_branch.replace('saas-', ''))
+current_major_branch = re.sub(
+    r'\.\d', '.0', current_branch.replace('saas-', ''))
 # `current_major_version` is the Odoo version linked to the current major branch.
 # E.g., saas-15.4 -> 15; 12.0 -> 12; master -> master (*).
 current_major_version = current_major_branch.replace('.0', '')
 # (*): We don't care for master.
 
 # The minimal Sphinx version required to build the documentation.
-needs_sphinx = '3.0.0'
+needs_sphinx = '7.0.0'
 
 # The default language in which the documentation is written. It is set to `None` because Sphinx
 # considers that no language means 'en'.
-language = None
+language = 'fa'
 
 # The suffix of source filenames.
 source_suffix = '.rst'
@@ -72,7 +73,7 @@ html_scaled_image_link = False
 # If true, '()' will be appended to :func: etc. cross-reference text
 add_function_parentheses = True
 
-#=== Extensions configuration ===#
+# === Extensions configuration ===#
 
 source_read_replace_vals = {
     'BRANCH': current_branch,
@@ -103,19 +104,23 @@ if not odoo_sources_dirs:
         "The 'Developer' documentation will be built but autodoc directives will be skipped.\n"
         "In order to fully build the 'Developer' documentation, clone the repository with "
         "`git clone https://github.com/odoo/odoo` or create a symbolic link.",
-        {'dir_list': '\n'.join([f'\t- {d.resolve()}' for d in odoo_sources_candidate_dirs])},
+        {'dir_list': '\n'.join(
+            [f'\t- {d.resolve()}' for d in odoo_sources_candidate_dirs])},
     )
 else:
     if (3, 6) < sys.version_info < (3, 7):
         # Running odoo needs python 3.7 min but monkey patch version_info to be compatible with 3.6.
         sys.version_info = (3, 7, 0)
     odoo_dir = odoo_sources_dirs[0].resolve()
-    source_read_replace_vals['ODOO_RELPATH'] = '/../' + str(odoo_sources_dirs[0])
+    source_read_replace_vals['ODOO_RELPATH'] = '/../' + \
+        str(odoo_sources_dirs[0])
     sys.path.insert(0, str(odoo_dir))
     import odoo.addons
     odoo.addons.__path__.append(str(odoo_dir) + '/addons')
-    from odoo import release as odoo_release  # Don't collide with Sphinx's 'release' config option
-    odoo_version = '.'.join(str(s) for s in odoo_release.version_info[:2]).replace('~', '-')  # Change saas~XX.Y to saas-XX.Y
+    # Don't collide with Sphinx's 'release' config option
+    from odoo import release as odoo_release
+    odoo_version = '.'.join(str(s) for s in odoo_release.version_info[:2]).replace(
+        '~', '-')  # Change saas~XX.Y to saas-XX.Y
     odoo_version = 'master' if 'alpha' in odoo_release.version else odoo_version
     if release != odoo_version:
         _logger.warning(
@@ -124,7 +129,8 @@ else:
             "The 'Developer' documentation will be built but autodoc directives will be skipped.\n"
             "In order to fully build the 'Developer' documentation, checkout the matching branch"
             " with `cd odoo && git checkout %(doc_version)s`.",
-            {'directory': odoo_dir, 'odoo_version': odoo_version, 'doc_version': version},
+            {'directory': odoo_dir, 'odoo_version': odoo_version,
+                'doc_version': version},
         )
     else:
         _logger.info(
@@ -188,7 +194,8 @@ else:
     extensions += [
         'autodoc_placeholder',
     ]
-extensions.append('sphinx.ext.graphviz' if shutil.which('dot') else 'graphviz_placeholder')
+extensions.append('sphinx.ext.graphviz' if shutil.which(
+    'dot') else 'graphviz_placeholder')
 
 todo_include_todos = False
 
@@ -218,7 +225,7 @@ versions_names = {
     'saas-16.3': "Odoo Online",
     'saas-16.2': "Odoo Online",
     'saas-16.1': "Odoo Online",
-    '16.0': "Odoo 16",
+    '16.0': "اودوو ۱۶",
     'saas-15.2': "Odoo Online",
     '15.0': "Odoo 15",
     '14.0': "Odoo 14",
@@ -227,16 +234,8 @@ versions_names = {
 # The language names that should be shown in the language switcher, if the config option `languages`
 # is populated. If a language is passed to `languages` but is not listed here, it will not be shown.
 languages_names = {
-    'de': 'DE',
-    'en': 'EN',
-    'es': 'ES',
-    'fr': 'FR',
-    'it': 'IT',
-    'nl': 'NL',
-    'pt_BR': 'PT',
-    'uk': 'UA',
-    'zh_CN': 'ZH (CN)',
-    'zh_TW': 'ZH (TW)'
+    'fa': 'فارسی',
+    'en': 'انگلیسی'
 }
 
 # The directory in which files holding redirect rules used by the 'redirects' extension are listed.
@@ -245,7 +244,7 @@ redirects_dir = 'redirects/'
 sphinx_tabs_disable_tab_closing = True
 sphinx_tabs_disable_css_loading = True
 
-#=== Options for HTML output ===#
+# === Options for HTML output ===#
 
 html_theme = 'odoo_theme'
 
@@ -258,7 +257,8 @@ html_theme_path = ['extensions']
 
 # The name of an image file (within the static path) to use as favicon of the docs.
 # This file should be a Windows icon file (.ico) being 16x16 or 32x32 pixels large.
-html_favicon = os.path.join(html_theme_path[0], html_theme, 'static', 'img', 'favicon.ico')
+html_favicon = os.path.join(
+    html_theme_path[0], html_theme, 'static', 'img', 'favicon.ico')
 
 # The paths that contain custom static files, relative to this directory.
 # They are copied after the builtin static files, so a file named "default.css" will overwrite the
@@ -273,10 +273,10 @@ html_css_files = []
 
 # PHP lexer option to not require <?php
 highlight_options = {
-  'php': {'startinline': True},
+    'php': {'startinline': True},
 }
 
-#=== Options for LaTeX output ===#
+# === Options for LaTeX output ===#
 
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
@@ -335,12 +335,14 @@ latex_documents = [
 legal_translations = ['de', 'es', 'fr', 'nl', 'pt_BR']
 
 # The name of an image file (relative to this directory) to place at the top of the title page.
-latex_logo = 'static/img/odoo_logo.png'
+latex_logo = 'static/img/vw_logo.png'
 
 # If true, show URL addresses after external links.
 latex_show_urls = 'True'
 
 # https://github.com/sphinx-doc/sphinx/issues/4054#issuecomment-329097229
+
+
 def source_read_replace(app, docname, source):
     """Substitute parts of strings with computed values.
 
@@ -353,8 +355,10 @@ def source_read_replace(app, docname, source):
     """
     result = source[0]
     for key in app.config.source_read_replace_vals:
-        result = result.replace(f"{{{key}}}", app.config.source_read_replace_vals[key])
+        result = result.replace(
+            f"{{{key}}}", app.config.source_read_replace_vals[key])
     source[0] = result
+
 
 def setup(app):
     # Generate all alternate URLs for each document
@@ -362,7 +366,8 @@ def setup(app):
     app.add_config_value('canonical_version', None, 'env')
     app.add_config_value('versions', None, 'env')
     app.add_config_value('languages', None, 'env')
-    app.add_config_value('is_remote_build', None, 'env')  # Whether the build is remotely deployed
+    # Whether the build is remotely deployed
+    app.add_config_value('is_remote_build', None, 'env')
     app.add_config_value('source_read_replace_vals', {}, 'env')
     app.connect('source-read', source_read_replace)
 
@@ -373,12 +378,14 @@ def setup(app):
 
     # Add a `condition` option on directives to ignore them based on config values
     app.add_config_value('odoo_dir_in_path', None, 'env')
+
     def context_eval(expr):
         return eval(expr, {confval.name: confval.value for confval in app.config})
 
     def patch(to_patch):
         to_patch.option_spec['condition'] = context_eval
         original_run = to_patch.run
+
         def new_run(self):
             if not self.options.get('condition', True):
                 return []
@@ -400,6 +407,7 @@ def _generate_alternate_urls(app, pagename, templatename, context, doctree):
       - The version switcher
       - The language switcher and related link tags
     """
+    # app, pagename, templatename, context, doctree
 
     def _canonicalize():
         """ Add the canonical URL for the current document in the rendering context.
@@ -414,8 +422,10 @@ def _generate_alternate_urls(app, pagename, templatename, context, doctree):
         """
         # If the canonical version is not set, assume that the project has a single version
         _canonical_version = app.config.canonical_version or app.config.version
-        _canonical_lang = 'en'  # Always 'en'. Don't take the value of the config option.
-        context['canonical'] = _build_url(_version=_canonical_version, _lang=_canonical_lang)
+        # Always 'fa'. Don't take the value of the config option.
+        _canonical_lang = 'fa'
+        context['canonical'] = _build_url(
+            _version=_canonical_version, _lang=_canonical_lang)
 
     def _versionize():
         """ Add the pairs of (version, url) for the current document in the rendering context.
@@ -425,7 +435,8 @@ def _generate_alternate_urls(app, pagename, templatename, context, doctree):
         context['version_display_name'] = versions_names[version]
 
         # If the list of versions is not set, assume the project has no alternate version
-        _provided_versions = app.config.versions and app.config.versions.split(',') or []
+        _provided_versions = app.config.versions and app.config.versions.split(',') or [
+        ]
 
         # Map alternate versions to their display names and URLs.
         context['alternate_versions'] = []
@@ -442,13 +453,14 @@ def _generate_alternate_urls(app, pagename, templatename, context, doctree):
 
         The entry 'language' is added by Sphinx in the rendering context.
         """
-        _current_lang = app.config.language or 'en'
+        _current_lang = app.config.language or 'fa'
         # Replace the context value by its upper-cased value ("FR" instead of "fr")
         context['language'] = languages_names.get(_current_lang)
         context['language_code'] = _current_lang
 
         # If the list of languages is not set, assume that the project has no alternate language
-        _provided_languages = app.config.languages and app.config.languages.split(',') or []
+        _provided_languages = app.config.languages and app.config.languages.split(',') or [
+        ]
 
         # Map alternate languages to their display names and URLs.
         context['alternate_languages'] = []
@@ -457,7 +469,8 @@ def _generate_alternate_urls(app, pagename, templatename, context, doctree):
                 context['alternate_languages'].append(
                     (
                         _display_name,
-                        _alternate_lang.split('_')[0] if _alternate_lang != 'en' else 'x-default',
+                        _alternate_lang.split(
+                            '_')[0] if _alternate_lang != 'fa' else 'x-default',
                         _build_url(_lang=_alternate_lang),
                     )
                 )
@@ -465,24 +478,24 @@ def _generate_alternate_urls(app, pagename, templatename, context, doctree):
         # Dynamic generation of localized legal doc links
         context['legal_translations'] = legal_translations
 
-
     def _build_url(_version=None, _lang=None):
-        if app.config.is_remote_build:
-            # Project root like https://www.odoo.com/documentation
-            _root = app.config.project_root
-        else:
-            # Project root like .../documentation/_build/html/14.0/fr
-            _root = re.sub(rf'(/{app.config.version})?(/{app.config.language})?$', '', app.outdir)
+        # if app.config.is_remote_build:
+        #     # Project root like https://www.odoo.com/documentation
+        _root = app.config.project_root
+        # else:
+        #     # Project root like .../documentation/_build/html/14.0/fr
+        #     _root = re.sub(
+        #         rf'(/{app.config.version})?(/{app.config.language})?$', '', app.outdir)
         # If the canonical version is not set, assume that the project has a single version
         _canonical_version = app.config.canonical_version or app.config.version
         _version = _version or app.config.version
-        _lang = _lang or app.config.language or 'en'
+        _lang = _lang or app.config.language or 'fa'
         _canonical_page = f'{pagename}.html'
         if app.config.is_remote_build:
             _canonical_page = _canonical_page.replace('index.html', '')
         return f'{_root}' \
                f'{f"/{_version}" if app.config.versions else ""}' \
-               f'{f"/{_lang}" if _lang != "en" else ""}' \
+               f'{f"/{_lang}" if _lang != "fa" else ""}' \
                f'/{_canonical_page}'
 
     _canonicalize()

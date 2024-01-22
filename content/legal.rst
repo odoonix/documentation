@@ -3,7 +3,7 @@
 :custom-css: legal.css
 :orphan:
 
-=====
+======
 قوانین
-=====
+======
 

@@ -13,9 +13,12 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          apt install nodejs
+          npm install -g rtlcss 
       - name: Sphinx build
         run: |
           make
+          rtlcss -d _build -e .css
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/16.0' }}

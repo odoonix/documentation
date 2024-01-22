@@ -18,3 +18,5 @@
     :titlesonly:
 
     administration/install
+    administration/maintain
+    administration/iot
