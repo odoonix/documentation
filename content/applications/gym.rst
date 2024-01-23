@@ -19,4 +19,4 @@
 
 .. toctree::
 
-    gym/intro
+    gym/tanita
