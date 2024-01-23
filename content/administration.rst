@@ -17,7 +17,8 @@
 .. toctree::
     :titlesonly:
 
-    administration/install
+    administration/deployment
     administration/maintain
+    administration/upgrade
     administration/iot
 

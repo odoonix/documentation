@@ -6,3 +6,8 @@
 
 بسته به اینکه شما چه هدفی دارید؟
 
+
+
+.. toctree::
+
+    deployment/install
