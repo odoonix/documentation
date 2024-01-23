@@ -13,6 +13,6 @@
 
 * پروفایل های شخصی برای خود و مشتریان خود ایجاد کنید و تاریخچه، پیشرفت، نظرات و بازخوردهای آن ها را ثبت و مدیریت کنید.
 
-.. image:: ./src/img/analysis_device.png
+.. image:: ./src/img/analysis_device.jpg
     :alt: دستگاه آنالیز بدن ویراوب123 
     :align: center
