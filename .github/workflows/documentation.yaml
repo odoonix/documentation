@@ -17,8 +17,7 @@ jobs:
           pip install -r requirements.txt
       - name: Sphinx build
         run: |
-          make clean
-          make
+          make clean; make
           rtlcss -d _build -e .css
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
