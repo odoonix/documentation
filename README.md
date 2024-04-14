@@ -2,6 +2,7 @@
 
 This is a repository of Odoo Documentation. We try to support our native modules.
 
+We will update more.
 
 ## Build the documentation locally
 
