@@ -1,5 +1,8 @@
 # Odoo documentation
 
+This is a repository of Odoo Documentation. We try to support our native modules.
+
+
 ## Build the documentation locally
 
 ### Requirements
