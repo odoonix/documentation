@@ -23,3 +23,5 @@
 
     gym/analysis_iot
     .. image:: ./gym/src/img/gym.jpg
+            :alt: باشگاه ویراوب123 
+             :align: center
