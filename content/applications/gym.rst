@@ -16,9 +16,10 @@
 
 <<this part is just for test>>
 
-.. image:: ./gym/src/img/gym.jpg
+
 
 
 .. toctree::
 
     gym/analysis_iot
+    .. image:: ./gym/src/img/gym.jpg
