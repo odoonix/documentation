@@ -3,7 +3,7 @@
 
 مدیریت ارتباط با مشتریان
 =========================
-.. image:: ./crm/src/img/plans.png
+.. image:: ./crm/src/img/01.png
     :alt: باشگاه ویراوب123 
     :align: center
 
