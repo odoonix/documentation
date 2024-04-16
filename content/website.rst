@@ -17,6 +17,6 @@
 .. toctree::
     :titlesonly:
 
-    administration/online_chat
+    website/online_chat
 
 
