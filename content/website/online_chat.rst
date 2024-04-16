@@ -34,7 +34,7 @@
 نکته: کاربری که کانال چت آنلاین را ایجاد کرده است به طور پیش فرض به عنوان اپراتور اضافه شده است.
 
 
-.. image:: ./src/img/operatorsTab
+.. image:: ./src/img/operatorsTab.png
     :alt: کانال جدید
     :align: center
 
