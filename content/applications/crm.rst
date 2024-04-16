@@ -66,7 +66,7 @@
 
 
     
-.. image:: ./crm/src/img/04.png
+.. image:: ./crm/src/img/4.png
     :align: center
     :alt: photo4
     :width: 50%
