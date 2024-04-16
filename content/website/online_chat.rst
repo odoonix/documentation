@@ -120,7 +120,7 @@ Livechat online
 برگه "قوانین کانال" در فرم جزئیات کانال چت آنلاین، با پیکربندی زمانی که یک اقدام "URL Regex" فعال می‌شود مانند بازدید از صفحه، تعیین می‌کند که چه زمانی پنجره چت آنلاین در وب‌سایت باز می‌شود.
 
 
-.. image:: ./src/img/channelRules2.png
+.. image:: ./src/img/channelRules.png
     :alt: کانال جدید
     :align: center
 
