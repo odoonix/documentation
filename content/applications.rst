@@ -17,3 +17,4 @@
     applications/iot
     applications/gym
     applications/crm
+    applications/fleet
