@@ -62,7 +62,7 @@
     :alt: photo3
 
 تست بین عکس
-
+|
 
 
 .. image:: ./crm/src/img/04.png
