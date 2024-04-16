@@ -47,7 +47,7 @@
 
 
 
-.. image:: ./src/img/operatorsTab1.png
+.. image:: ./src/img/addOperator.png
     :alt: کانال جدید
     :align: center
 
@@ -57,13 +57,13 @@
 
 همچنین، اپراتورهای جدید را می‌توانید مستقیماً با استفاده از مدال افزودن و به لیست اضافه کنید.
 
-.. image:: ./src/img/operatorsTab2.png
+.. image:: ./src/img/addOperator2.png
     :alt: کانال جدید
     :align: center
 
 همچنین با کلیک بر روی جدید و پر کردن فرم ایجاد اپراتورها میتوان اپراتور جدید اضافه کرد. 
 
-.. image:: ./src/img/operatorsTab3.png
+.. image:: ./src/img/addOperator3.png
     :alt: کانال جدید
     :align: center
 
