@@ -63,18 +63,16 @@
 
 همچنین با کلیک بر روی جدید و پر کردن فرم ایجاد اپراتورها میتوان اپراتور جدید اضافه کرد. 
 
-.. image:: ./src/img/addOperator3.png
+.. image:: ./src/img/addOperator4.png
     :alt: کانال جدید
     :align: center
 
 
 تب "Options" یا گزینه‌ها در فرم جزئیات کانال چت آنلاین، شامل تنظیمات تصویری و متنی برای پنجره چت آنلاین است. 
 
-.. image:: ./src/img/channelRules.png
+.. image:: ./src/img/options.png
     :alt: کانال جدید
     :align: center
-
-
 
 
 
