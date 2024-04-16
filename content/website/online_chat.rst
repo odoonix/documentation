@@ -172,5 +172,79 @@ URL Regex صفحات وبی را مشخص می کند که این قانون ب�
     :align: center
 
 
+
+
+تگ ها
+------------
+
+# چت آنلاین
+# چت آنلاین
+# پشتیبانی چت
+# پلتفرم چت
+# چت آنلاین
+# سرویس چت
+# نرم‌افزار چت
+# ابزار چت
+# ابزار گفتگو
+# پیام‌ رسانی فوری
+# چت آنلاین به صورت زمان واقعی
+# چت وب برای پشتیبانی مشتریان
+# راهکارهای چت آنلاین
+# اپلیکیشن پیام‌رسانی چت
+# پشتیبانی چت وب‌سایت
+# چت اودو
+# چت آنلاین 
+# پلتفرم چت اودو
+# چت آنلاین اودو
+# چت فوراً اودو
+#Online Chat
+#Online Chat Odoo
+#Live Chat
+#Live Chat Odoo
+#Chat Support
+#Chat Platform
+#Chat Online
+#Chat Service
+#Chat Software
+#Chat Widget
+#Chat Tool
+#Instant Messaging
+#Real Time Chat
+#Real Time Online Chat
+#Web Chat for Customer Support
+#Live Chat Solutions
+#Chat Messaging App
+#Website Chat Support
+#Chat With Strangers
+#Group Chat Online
+#Private Chat Rooms
+#Chat With Customer Service
+#Chat With Friends Online
+#Start Chatting Now
+#Join Our Chat Community
+#Chat Instantly
+#Get Live Help Now
+#Connect With Us Via Chat
+#Online Chat
+#Free Online Chat
+#Online Chat Rooms
+#Online Chat Apps
+#Online Chat Sites
+#Online Chat Bot
+#Live Online Chat
+#Free Online Chat Room
+#Online Chat App
+
+
+
+
+رفرنس ها
+------------
+https://www.cybrosys.com/odoo/odoo#books/v17#ce/crm/
+https://www.cybrosys.com/odoo/odoo#books/v17/crm/
+https://www.tashilgostar.com/documentation/16.0/applications/websites/forum.html
+https://www.odoo.com/documentation/17.0/applications/websites/livechat/ratings.html
+
+
 .. toctree::
     website/online_chat.rst
