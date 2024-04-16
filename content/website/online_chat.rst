@@ -13,8 +13,6 @@
 .. image:: ./src/img/install_onlinechat.png
     :alt: نصب چت آنلاین
     :align: center
-    :width: 50%
-    :height: 20px
 
 
 .. toctree::
