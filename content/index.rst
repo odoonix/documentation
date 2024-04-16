@@ -9,7 +9,4 @@
 
     applications
     administration
-    website
-    lunch
-    Fleet
     
