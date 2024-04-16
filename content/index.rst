@@ -9,3 +9,4 @@
 
     applications
     administration
+    website
