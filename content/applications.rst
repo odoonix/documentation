@@ -19,3 +19,5 @@
     applications/crm
     applications/fleet
     applications/lunch
+    applications/hr/fleet
+
