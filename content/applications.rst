@@ -18,3 +18,4 @@
     applications/gym
     applications/crm
     applications/fleet
+    applications/lunch
