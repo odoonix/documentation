@@ -32,7 +32,7 @@
 
 نصب ماژول
 ---------------------
-.. image:: ./applications/crm/src/img/1.png
+.. image:: ../applications/crm/1.png
     :alt: باشگاه ویراوب123 
     :align: center
 
@@ -127,6 +127,6 @@ https://www.cybrosys.com/odoo/odoo-books/v17-ce/crm/28/import-267
 .. toctree::
     :titlesonly:
 
-   ./leads
-   ./teams
-   ./config
+     /leads
+     /teams
+     /config
