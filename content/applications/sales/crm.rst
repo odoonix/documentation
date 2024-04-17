@@ -8,13 +8,19 @@
 ====================
 
          
-**مهم ترین هدف ماژول مدیریت ادوو ارج نهادن احترام به مشتری و مسئولیت های فروشنده می باشد. **
+**مهم ترین هدف ماژول مدیریت ادوو ارج نهادن احترام به مشتری و مسئولیت های فروشنده می باشد.**
 
 .. raw:: html
 
-    <p style="font-family:'Courier New'"> .fontMade by Sanaz </p>
+    <p style="font-family:'Courier New'; color:red" > .fontMade by Sanaz </p>
 
 .. role:: font
+
+.. raw:: html
+
+    <style> .rrrred {color:red} </style>
+.. role:: red
+
 
 قبل از شروع و معرفی اودوو کمی درباره ی اهداف و روش های فروش توضیح دهیم.
 منظور از سرنخ چیست؟
