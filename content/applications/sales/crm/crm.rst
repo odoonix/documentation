@@ -127,6 +127,6 @@ https://www.cybrosys.com/odoo/odoo-books/v17-ce/crm/28/import-267
 .. toctree::
     :titlesonly:
 
-    crm/leads
-    crm/teams
-    crm/config
+    crm/crm/leads
+    crm/crm/teams
+    crm/crm/config
