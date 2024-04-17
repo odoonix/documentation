@@ -52,6 +52,7 @@
 
 .. image:: ./src/img/operatorsTab.png
     :alt: کانال جدید
+    
     :align: center
 
 
