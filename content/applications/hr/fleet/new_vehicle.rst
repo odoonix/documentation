@@ -32,7 +32,7 @@
 -	**پلاک:** شماره پلاک خودرو را در این قسمت وارد کنید.
 -	**برچسب‌ها:** از منوی کشویی برچسب‌ها را انتخاب کنید یا یک برچسب جدید تایپ کنید. تعداد برچسب‌های قابل انتخاب هیچ محدودیتی ندارد.
 
-.. note::
+.. tip::
     نکته: مدل تنها فیلد الزامی در فرم خودروی جدید است. وقتی یک مدل انتخاب می‌شود، سایر فیلدها در فرم خودرو ظاهر می‌شوند و اطلاعات مربوطه فیلدهایی را که برای آن مدل اعمال می‌شوند به‌طور خودکار پر می‌شوند. اگر برخی از فیلدها ظاهر نشدند، ممکن است نشان دهد که هنوز مدلی انتخاب نشده است.
 
 .. image:: ./img/fleet16.png
@@ -239,39 +239,23 @@ Plan To Change Car
 --------- 
 
 
-:guilabel:`fleet`
+:guilabel:`#fleet`
+:guilabel:`#vehicle`
+:guilabel:`#Car`
+:guilabel:`#PublicTransportation`
+:guilabel:`#Fleet management`
+:guilabel:`#Driver management `
+:guilabel:`#Vehicle information`
+:guilabel:`#Transportation`
+:guilabel:`#اطلاعات تماس`
+:guilabel:`#مدیریت ناوگان`
+:guilabel:`#مدیریت رانندگان`
+:guilabel:`#اطلاعات خودرو`
+:guilabel:`#ناوگان ادو`
+:guilabel:`#ناوگان `
+:guilabel:`#اتومبیل`
+:guilabel:`#حمل_و_نقل_عمومی`
 
-#fleet
-
-#vehicle
-
-#Car 
-
-#PublicTransportation 
-
-#Fleet management
-
-#Driver management 
-
-#Vehicle information 
-
-#Transportation 
-
-#اطلاعات تماس
-
-#مدیریت ناوگان
-
-#مدیریت رانندگان
-
-#اطلاعات خودرو
-
-#ناوگان ادو
-
-#ناوگان 
-
-#اتومبیل
-
-#حمل_و_نقل_عمومی
 
 
 
