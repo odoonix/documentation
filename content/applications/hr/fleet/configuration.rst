@@ -150,6 +150,48 @@
     :align: center
 
 
+تگ ها
+--------- 
 
+:guilabel:`#fleet`
+
+:guilabel:`#vehicle`
+
+:guilabel:`#Car`
+
+:guilabel:`#PublicTransportation`
+
+:guilabel:`#Fleet management`
+
+:guilabel:`#Driver management `
+
+:guilabel:`#Vehicle information`
+
+:guilabel:`#Transportation`
+
+:guilabel:`#اطلاعات تماس`
+
+:guilabel:`#مدیریت ناوگان`
+
+:guilabel:`#مدیریت رانندگان`
+
+:guilabel:`#اطلاعات خودرو`
+
+:guilabel:`#ناوگان ادو`
+
+:guilabel:`#ناوگان `
+
+:guilabel:`#اتومبیل`
+
+:guilabel:`#حمل_و_نقل_عمومی`
+
+
+رفرنس ها
+--------------------
+
+1. https://www.cybrosys.com/odoo/odoo#books/v17#ce/crm
+2. https://www.cybrosys.com/odoo/odoo#books/v17/crm
+3. https://www.tashilgostar.com/documentation/16.0/applications/websites/forum.html
+4. https://www.odoo.com/documentation/17.0/applications
 
 

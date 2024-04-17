@@ -32,7 +32,7 @@
 -	**پلاک:** شماره پلاک خودرو را در این قسمت وارد کنید.
 -	**برچسب‌ها:** از منوی کشویی برچسب‌ها را انتخاب کنید یا یک برچسب جدید تایپ کنید. تعداد برچسب‌های قابل انتخاب هیچ محدودیتی ندارد.
 
-.. tip::
+.. note::
     نکته: مدل تنها فیلد الزامی در فرم خودروی جدید است. وقتی یک مدل انتخاب می‌شود، سایر فیلدها در فرم خودرو ظاهر می‌شوند و اطلاعات مربوطه فیلدهایی را که برای آن مدل اعمال می‌شوند به‌طور خودکار پر می‌شوند. اگر برخی از فیلدها ظاهر نشدند، ممکن است نشان دهد که هنوز مدلی انتخاب نشده است.
 
 .. image:: ./img/fleet16.png
@@ -238,36 +238,45 @@ Plan To Change Car
 تگ ها
 --------- 
 
-
 :guilabel:`#fleet`
+
 :guilabel:`#vehicle`
+
 :guilabel:`#Car`
+
 :guilabel:`#PublicTransportation`
+
 :guilabel:`#Fleet management`
+
 :guilabel:`#Driver management `
+
 :guilabel:`#Vehicle information`
+
 :guilabel:`#Transportation`
+
 :guilabel:`#اطلاعات تماس`
+
 :guilabel:`#مدیریت ناوگان`
+
 :guilabel:`#مدیریت رانندگان`
+
 :guilabel:`#اطلاعات خودرو`
+
 :guilabel:`#ناوگان ادو`
+
 :guilabel:`#ناوگان `
+
 :guilabel:`#اتومبیل`
+
 :guilabel:`#حمل_و_نقل_عمومی`
-
-
 
 
 رفرنس ها
 --------------------
 
-https://www.cybrosys.com/odoo/odoo#books/v17#ce/crm
-
-https://www.cybrosys.com/odoo/odoo#books/v17/crm
-
-https://www.tashilgostar.com/documentation/16.0/applications/websites/forum.html
-
-https://www.odoo.com/documentation/17.0/applications
+1. https://www.cybrosys.com/odoo/odoo#books/v17#ce/crm
+2. https://www.cybrosys.com/odoo/odoo#books/v17/crm
+3. https://www.tashilgostar.com/documentation/16.0/applications/websites/forum.html
+4. https://www.odoo.com/documentation/17.0/applications
 
 
