@@ -2,9 +2,9 @@
 :show-content:
 :show-toc:
 
-=====
-Fleet
-=====
+====================
+ناوگان
+====================
 
 Odoo *Fleet* organizes all the vehicles, contracts, and repairs of all the vehicles.
 
