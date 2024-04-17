@@ -4,7 +4,7 @@
 آموزش ماژول باشگاه
 =============
 
-.. image:: ./gym/src/img/gym-1.png
+.. image:: ./src/img/gym-1.png
     :alt: باشگاه ویراوب123 
     :align: center
 
