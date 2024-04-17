@@ -28,4 +28,3 @@
 
    ./fleet/configuration
    ./fleet/new_vehicle
-   ./fleet/service
