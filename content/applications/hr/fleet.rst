@@ -12,6 +12,6 @@ Odoo *Fleet* organizes all the vehicles, contracts, and repairs of all the vehic
 .. toctree::
    :titlesonly:
 
-   hr/fleet/configuration
-   hr/fleet/new_vehicle
-   hr/fleet/service
+   ./fleet/configuration
+   ./fleet/new_vehicle
+   ./fleet/service
