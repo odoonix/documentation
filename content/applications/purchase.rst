@@ -3,8 +3,10 @@
 :hide-page-toc:
 :show-toc:
 
-==================
-خرید
-==================
 
- .خرید اودوو به پیگیری قراردادهای خرید، قیمت‌ها و سفارش‌های خرید کمک می‌کند
+.. toctree::
+   :titlesonly:
+
+   ./purchase/advanced
+   ./purchase/manage deals
+   ./purchase/products
