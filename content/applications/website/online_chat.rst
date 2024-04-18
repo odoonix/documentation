@@ -201,6 +201,7 @@ URL Regex صفحات وبی را مشخص می کند که این قانون ب�
 -	https://www.odoo.com/documentation/17.0/applications/websites/livechat/ratings.html
 
 
-
 .. toctree::
+   :titlesonly:
+
     website/online_chat.rst
