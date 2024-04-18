@@ -10,9 +10,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
+      - uses: actions/setup-node@v20
       - name: Install dependencies
         run: |
-          sudo apt install nodejs
           npm install -g rtlcss 
           pip install -r requirements.txt
       - name: Sphinx build
