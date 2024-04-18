@@ -22,5 +22,7 @@
     applications/purchase
     applications/website
     applications/website/website
+    applications/dashbord
+
 
 
