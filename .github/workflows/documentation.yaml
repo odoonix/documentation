@@ -12,7 +12,7 @@ jobs:
       - uses: actions/setup-python@v3
       - name: Install dependencies
         run: |
-          sudo apt install nodejs
+          sudo apt-get install nodejs
           npm install -g rtlcss 
           pip install -r requirements.txt
       - name: Sphinx build
