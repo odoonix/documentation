@@ -8,6 +8,6 @@
 .. toctree::
    :titlesonly:
 
-   ./purchase/Configure reordering rules
-   ./purchase/Temporary reordering rules
-   ./purchase/Purchase in different units of measure than sales
+   ./products/Configure reordering rules
+   ./products/Temporary reordering rules
+   ./products/Purchase in different units of measure than sales
