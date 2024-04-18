@@ -163,7 +163,7 @@
 
 :guilabel:`#Fleet management`
 
-:guilabel:`#Driver management `
+:guilabel:`#Driver management`
 
 :guilabel:`#Vehicle information`
 
@@ -179,7 +179,7 @@
 
 :guilabel:`#ناوگان ادو`
 
-:guilabel:`#ناوگان `
+:guilabel:`#ناوگان`
 
 :guilabel:`#اتومبیل`
 
