@@ -46,11 +46,12 @@
 
 نصب ماژول
 ---------------------
+با نصب این ماژول منوهایی مطابق عکس زیر نمایش داده می شود.
+
 .. image:: ./crm/img/1.png
     :alt: باشگاه ویراوب123 
     :align: center
 
-با نصب این ماژول منوهایی مطابق عکس زیر نمایش داده می شود.
 
 
 سرنخ ها و فرصت های مشابه را ادغام کنید
@@ -71,6 +72,8 @@
 .. image:: ./crm/img/15.png
     :align: center
 
+
+.. note::
 نکته:دقت داشته باشید هنگام باز شدن این پجره باید در قسمت انتخاب فرصت ها بیش از یک سرنخ را انتخاب کرده باشید.
 
 
@@ -104,38 +107,36 @@
 تگ های مربوطه:
 
 
-
-
-1.	#سئو_و_CRM
-2.	#بهینه_سازی_برای_مشتریان
-3.	#تجربه_کاربری_سئویی
-4.	#رتبه_بندی_و_ارتباط_مشتری
-5.	#سئو_و_تجربه_مشتری
-6.	#بهبود_رتبه_با_ارتباط_موثر
-7.	#کسب_و_کار_دوستانه_با_مشتری
-8.	#بهینه_سازی_برای_تجربه_مشتری
-9.	#ارتباط_موثر_و_سئو
-10.	#بازخورد_مشتری_و_سئو
-11.	#CRM
-12.	#CustomerRelations
-13.	#CustomerExperience
-14.	#CustomerSupport
-15.	#CustomerFeedback
-16.	#MarketingStrategy
-17.	#CustomerDataAnalysis
-18.	#EmailMarketing
-19.	#CustomerTouchpoints
-20.	#CustomerExperienceManagement
+1.	:guilabel:`#crm`
+2.	:guilabel:`#بهینه_سازی_برای_مشتریان`
+3.	:guilabel:`#تجربه_کاربری_سئویی`
+4.	:guilabel:`#رتبه_بندی_و_ارتباط_مشتری`
+5.	:guilabel:`#سئو_و_تجربه_مشتری`
+6.	:guilabel:`#بهبود_رتبه_با_ارتباط_موثر`
+7.	:guilabel:`#کسب_و_کار_دوستانه_با_مشتری`
+8.	:guilabel:`#بهینه_سازی_برای_تجربه_مشتری`
+9.	:guilabel:`#ارتباط_موثر_و_سئو`
+10.	:guilabel:`#بازخورد_مشتری_و_سئو`
+11.	:guilabel:`#سئو`
+12.	:guilabel:`#CustomerRelations`
+13.	:guilabel:`#CustomerExperience`
+14.	:guilabel:`#CustomerSupport`
+15.	:guilabel:`#CustomerFeedback`
+16.	:guilabel:`#MarketingStrategy`
+17.	:guilabel:`#CustomerDataAnalysis`
+18.	:guilabel:`#EmailMarketing`
+19.	:guilabel:`#CustomerTouchpoints`
+20.	:guilabel:`#CustomerExperienceManagement`
 
 
 لینک های مرتبط:
 
-https://www.tashilgostar.com/documentation/16.0/applications/sales/crm.html
+1. https://www.tashilgostar.com/documentation/16.0/applications/sales/crm.html
 
-https://www.odoo.com/documentation/17.0/applications/sales/crm.html
-https://oxydoo.com/blog/guide-
+2. https://www.odoo.com/documentation/17.0/applications/sales/crm.html
+3. https://oxydoo.com/blog/guide-
 
-https://www.cybrosys.com/odoo/odoo-books/v17-ce/crm/28/import-267
+4. https://www.cybrosys.com/odoo/odoo-books/v17-ce/crm/28/import-267
 
 
 
