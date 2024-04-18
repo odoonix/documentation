@@ -9,7 +9,8 @@
 
 این مستند شامل دستورالعمل‌هایی برای ماژول وبسایت و زیر ماژول های آن است.
 
+
 .. toctree::
    :titlesonly:
 
-   ./chat/online-chat
+   ./chat/online_chat
