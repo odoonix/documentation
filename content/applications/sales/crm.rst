@@ -66,6 +66,8 @@
 
 .. image:: ./crm/img/13.png
     :align: center
+    
+    به عکس دقت شود:
 
 .. image:: ./crm/img/14.png
     :align: center
