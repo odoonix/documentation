@@ -9,7 +9,7 @@
 
 
 .. toctree::
-    :titlesonly:
+   :titlesonly:
 
    ./manage deals/Blanket orders
    ./manage deals/Alternative RfQs
