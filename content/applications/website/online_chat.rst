@@ -160,37 +160,37 @@ URL Regex صفحات وبی را مشخص می کند که این قانون ب�
 تگ ها
 ------------
 
-:guilabel:`#چت آنلاین`
-:guilabel:`#پشتیبانی چت`
-:guilabel:`#پلتفرم چت`
-:guilabel:`#سرویس چت`
-:guilabel:`#نرم‌افزار چت`
-:guilabel:`#ابزار چت`
-:guilabel:`#ابزار گفتگو`
-:guilabel:`#پیام‌ رسانی فوری`
-:guilabel:`#چت وب برای پشتیبانی مشتریان`
-:guilabel:`#پشتیبانی چت وب‌سایت`
-:guilabel:`#چت اودو`
-:guilabel:`#پلتفرم چت اودو`
-:guilabel:`#Online Chat`
-:guilabel:`#Online Chat Odoo`
-:guilabel:`#Live Chat`
-:guilabel:`#Live Chat Odoo`
-:guilabel:`#Chat Support`
-:guilabel:`#Chat Online`
-:guilabel:`#Chat Service`
-:guilabel:`#Chat Software`
-:guilabel:`#Chat Widget`
-:guilabel:`#Chat Tool`
-:guilabel:`#Real Time Chat`
-:guilabel:`#Chat Messaging App`
-:guilabel:`#Website Chat Support`
-:guilabel:`#Chat With Friends Online`
-:guilabel:`#Start Chatting Now`
-:guilabel:`#Free Online Chat`
-:guilabel:`#Online Chat Rooms`
-:guilabel:`#Online Chat Bot`
-:guilabel:`#Live Online Chat`
+1.	:guilabel:`#چت آنلاین`
+2.	:guilabel:`#پشتیبانی چت`
+3.	:guilabel:`#پلتفرم چت`
+4.	:guilabel:`#سرویس چت`
+5.	:guilabel:`#نرم‌افزار چت`
+6.	:guilabel:`#ابزار چت`
+7.	:guilabel:`#ابزار گفتگو`
+8.	:guilabel:`#پیام‌ رسانی فوری`
+9.	:guilabel:`#چت وب برای پشتیبانی مشتریان`
+10.	:guilabel:`#پشتیبانی چت وب‌سایت`
+11.	:guilabel:`#چت اودو`
+12.	:guilabel:`#پلتفرم چت اودو`
+13.	:guilabel:`#Online Chat`
+14.	:guilabel:`#Online Chat Odoo`
+15.	:guilabel:`#Live Chat`
+16.	:guilabel:`#Live Chat Odoo`
+17.	:guilabel:`#Chat Support`
+18.	:guilabel:`#Chat Online`
+19.	:guilabel:`#Chat Service`
+20.	:guilabel:`#Chat Software`
+21.	:guilabel:`#Chat Widget`
+22.	:guilabel:`#Chat Tool`
+23.	:guilabel:`#Real Time Chat`
+24.	:guilabel:`#Chat Messaging App`
+25.	:guilabel:`#Website Chat Support`
+26.	:guilabel:`#Chat With Friends Online`
+27.	:guilabel:`#Start Chatting Now`
+28.	:guilabel:`#Free Online Chat`
+29.	:guilabel:`#Online Chat Rooms`
+30.	:guilabel:`#Online Chat Bot`
+31.	:guilabel:`#Live Online Chat`
 
 
 رفرنس ها
