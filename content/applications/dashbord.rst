@@ -47,7 +47,7 @@
 
 در بخش فروش میتوانید میانگین سفارش، درآمد، سفارشات و پیش فاکتور را در بخش بالا رویت کنید
 
-.. image:: ./dashbord-img/dashbord5.png
+.. image:: ./dashbord-img/dashbord6.png
     :alt: داشبورد
     :align: center
 
@@ -65,10 +65,6 @@
 - Top sources
 - Top mediums
 
-.. image:: ./dashbord-img/dashbord6.png
-    :alt: داشبورد
-    :align: center
-
 .. image:: ./dashbord-img/dashbord7.png
     :alt: داشبورد
     :align: center
@@ -77,13 +73,17 @@
     :alt: داشبورد
     :align: center
 
-با کلیک روی گزینه "محصول" در ماژول داشبورد در قسمت فروش، می‌توان به جزئیات فروش هر محصول، شامل تعداد واحدهای فروخته شده، میزان درآمد، و میانگین قیمت فروش، دسترسی پیدا کرد.
-
 .. image:: ./dashbord-img/dashbord9.png
     :alt: داشبورد
     :align: center
 
+با کلیک روی گزینه "محصول" در ماژول داشبورد در قسمت فروش، می‌توان به جزئیات فروش هر محصول، شامل تعداد واحدهای فروخته شده، میزان درآمد، و میانگین قیمت فروش، دسترسی پیدا کرد.
+
 .. image:: ./dashbord-img/dashbord10.png
+    :alt: داشبورد
+    :align: center
+
+.. image:: ./dashbord-img/dashbord11.png
     :alt: داشبورد
     :align: center
 
@@ -109,16 +109,16 @@
 تگ ها
 --------- 
 
-:guilabel:`#Dashboard Module`
-:guilabel:`#Custom Menus`
-:guilabel:`#Dashboard Installation`
-:guilabel:`#Custom Dashboards`
-:guilabel:`#Odoo Platform`
-:guilabel:`#ماژول داشبورد`
-:guilabel:`#پلتفرم Odoo`
-:guilabel:`#نصب داشبورد`
-:guilabel:`#افزودن منوها`
-:guilabel:`#داشبوردهای سفارشی`
+- :guilabel:`#Dashboard Module`
+- :guilabel:`#Custom Menus`
+- :guilabel:`#Dashboard Installation`
+- :guilabel:`#Custom Dashboards`
+- :guilabel:`#Odoo Platform`
+- :guilabel:`#ماژول داشبورد`
+- :guilabel:`#پلتفرم Odoo`
+- :guilabel:`#نصب داشبورد`
+- :guilabel:`#افزودن منوها`
+- :guilabel:`#داشبوردهای سفارشی`
 
 رفرنس ها
 --------------------
