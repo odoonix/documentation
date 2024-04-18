@@ -3,13 +3,13 @@
 :hide-page-toc:
 :show-toc:
 
-=================
+==================
 مدیریت معاملات
-=================
+==================
 
 
 .. toctree::
-   :titlesonly:
+    :titlesonly:
 
    ./manage deals/Blanket orders
    ./manage deals/Alternative RfQs
