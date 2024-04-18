@@ -19,4 +19,5 @@
     applications/sales/crm
     applications/lunch
     applications/hr/fleet
+    applications/purchase
 
