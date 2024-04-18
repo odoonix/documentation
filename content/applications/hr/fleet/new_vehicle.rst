@@ -248,7 +248,7 @@ Plan To Change Car
 
 :guilabel:`#Fleet management`
 
-:guilabel:`#Driver management `
+:guilabel:`#Driver management`
 
 :guilabel:`#Vehicle information`
 
@@ -264,7 +264,7 @@ Plan To Change Car
 
 :guilabel:`#ناوگان ادو`
 
-:guilabel:`#ناوگان `
+:guilabel:`#ناوگان`
 
 :guilabel:`#اتومبیل`
 
