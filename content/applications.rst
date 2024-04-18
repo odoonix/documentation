@@ -20,4 +20,6 @@
     applications/lunch
     applications/hr/fleet
     applications/purchase
+    applications/website/online-chat
+
 
