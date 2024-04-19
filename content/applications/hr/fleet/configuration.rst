@@ -189,8 +189,8 @@
 رفرنس ها
 --------------------
 
-1. https://www.cybrosys.com/odoo/odoo#books/v17#ce/crm
-2. https://www.cybrosys.com/odoo/odoo#books/v17/crm
+1. https://www.cybrosys.com/odoo/odoo#books/v17
+2. https://www.cybrosys.com/odoo/odoo#books/v17
 3. https://www.tashilgostar.com/documentation/16.0/applications/websites/forum.html
 4. https://www.odoo.com/documentation/17.0/applications
 
