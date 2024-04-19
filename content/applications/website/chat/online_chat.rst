@@ -196,7 +196,7 @@ URL Regex صفحات وبی را مشخص می کند که این قانون ب�
 
 رفرنس ها
 ------------
--	https://www.cybrosys.com/odoo/odoo#books/v17#ce/crm
+-	https://www.cybrosys.com/odoo/odoo#books/v17
 -	https://www.cybrosys.com/odoo/odoo#books/v17/crm
 -	https://www.tashilgostar.com/documentation/16.0/applications/websites/forum.html
 -	https://www.odoo.com/documentation/17.0/applications/websites/livechat/ratings.html
