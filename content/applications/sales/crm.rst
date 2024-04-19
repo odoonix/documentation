@@ -96,5 +96,5 @@
     :titlesonly:
 
    ./crm/leads
-   ./crm/config
    ./crm/teams
+   ./crm/config
