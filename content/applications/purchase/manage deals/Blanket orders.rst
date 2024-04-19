@@ -137,4 +137,9 @@
 
 
 
+.. image:: ./purchase/img/purchase/p31.jpg
+    :alt: خرید
+    :align: center
+
+
 
