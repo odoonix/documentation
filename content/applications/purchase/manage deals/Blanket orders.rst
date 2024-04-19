@@ -113,3 +113,28 @@
 از فرم جدید RfQ، برای نوشتن و ارسال ایمیل به فروشنده فهرست شده، روی ارسال با ایمیل کلیک کنید. برای ایجاد یک PDF قابل چاپ از پیش  فاکتور، روی Print RFQ کلیک کنید. یا پس از آماده شدن، روی تأیید سفارش کلیک کنید تا :abbr:`PO(purchase Order)`تأیید شود
 
 
+.. image:: ./purchase/img/purchase/p28.jpg
+    :alt: خرید
+    :align: center
+
+
+
+
+.. image:: ./purchase/img/purchase/p29.jpg
+    :alt: خرید
+    :align: center
+
+
+
+
+.. image:: ./purchase/img/purchase/p30.jpg
+    :alt: خرید
+    :align: center
+
+
+
+پس از تأیید :abbr:`PO(purchase Order)`، به فرم سفارش عمده (در بالای صفحه) برگردید. از فرم سفارش عمده، اکنون یک :abbr:`RfQ(Requests for Quotation) `در دکمه هوشمند RFQs/Orders در سمت راست بالای فرم فهرست شده است. روی دکمه هوشمند RFQs/Orders کلیک کنید تا PO ایجاد شده را ببینید.
+
+
+
+
