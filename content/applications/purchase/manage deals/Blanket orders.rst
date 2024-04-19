@@ -156,3 +156,8 @@
 .. image:: ./purchase/img/purchase/p32.jpg
     :alt: خرید
     :align: center
+
+
+
+.. seealso::
+   - :doc:`Alternative RfQs`
