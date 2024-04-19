@@ -56,6 +56,17 @@
 
 
 
+
+
+
+
+.. toctree::
+    :titlesonly:
+
+   ./crm/leads
+   ./crm/teams
+   ./crm/config
+
 تگ های مربوطه:
 
 
@@ -89,12 +100,3 @@
 3. https://oxydoo.com/blog/guide-
 
 4. https://www.cybrosys.com/odoo/odoo-books/v17-ce/crm/28/import-267
-
-
-
-.. toctree::
-    :titlesonly:
-
-   ./crm/leads
-   ./crm/teams
-   ./crm/config
