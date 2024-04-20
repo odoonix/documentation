@@ -8,9 +8,3 @@
 ====================
 
 تم های وب سایت
-
-.. .. toctree::
-..    :titlesonly:
-
-..    ./website-themes/website-themes
-..    ./building-blocks/building-blocks

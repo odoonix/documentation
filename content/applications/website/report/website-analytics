@@ -9,8 +9,3 @@
 
 تجزیه و تحلیل وب‌سایت
 
-; .. toctree::
-;    :titlesonly:
-
-;    ./website-analytics
-;    ./link-trackers

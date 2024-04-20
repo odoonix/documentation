@@ -9,9 +9,3 @@
 
 مدیریت چند وب‌سایت
 
-.. .. toctree::
-..    :titlesonly:
-
-..    ./cookies-bar
-..    ./manage-multiple-websites
-..    ./translations

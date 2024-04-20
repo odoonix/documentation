@@ -9,10 +9,3 @@
 
 محتوای درونی
 
-.. .. toctree::
-..    :titlesonly:
-
-..    ./dynamic-content
-..    ./inner-content
-..    ./structure
-   

@@ -9,10 +9,3 @@
 
 ساختار
 
-.. .. toctree::
-..    :titlesonly:
-
-..    ./dynamic-content
-..    ./inner-content
-..    ./structure
-   

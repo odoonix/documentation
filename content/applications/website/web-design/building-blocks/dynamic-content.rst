@@ -9,10 +9,3 @@
 
 محتوای پویا
 
-.. .. toctree::
-..    :titlesonly:
-
-..    ./dynamic-content
-..    ./inner-content
-..    ./structure
-   

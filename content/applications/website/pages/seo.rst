@@ -9,8 +9,3 @@
 
 بهینه سازی وبسایت
 
-.. toctree::
-   :titlesonly:
-
-   ./menu
-   ./seo
