@@ -198,6 +198,3 @@
 1. https://www.cybrosys.com/odoo/odoo#books/v17
 2. https://www.tashilgostar.com/documentation/16.0/applications
 3. https://www.odoo.com/documentation/17.0/applications
-
-
-
