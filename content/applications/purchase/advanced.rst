@@ -9,7 +9,6 @@
 
 
 .. toctree::
-   :titlesonly:
+    :titlesonly:
 
-   ./advanced/Analyze the performance of your Purchase
-   
+    ./advanced/Analyze the performance of your Purchase
