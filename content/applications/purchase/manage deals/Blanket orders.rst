@@ -22,14 +22,14 @@
 برای ایجاد سفارش‌های عمومی، ویژگی قراردادهای خرید را از تنظیمات برنامه خرید فعال کنید. به برنامه :menuselection:`خرید --> پیکربندی --> تنظیمات`خرید` بروید و در بخش سفارشات، روی کادر تأیید قراردادهای خرید کلیک کنید. سپس روی ذخیره کلیک کنید تا تغییرات اعمال شود.
 
 
-.. image:: ./img/manage order/p23.jpg
+.. image:: ./img/manageorder/p23.jpg
     :alt: خرید
     :align: center
 
 برای ایجاد یک سفارش عمومی، به برنامه :menuselection:`خرید --> سفارشات --> سفارشات عمده` عمده بروید و روی جدید کلیک کنید. با این کار یک فرم سفارش جدید باز می شود.
 
 
-.. image:: ./img/manage order/p24.jpg
+.. image:: ./img/manageorder/p24.jpg
     :alt: خرید
     :align: center
 
@@ -52,7 +52,7 @@
 
 
 
-.. image:: ./img/manage order/p25.jpg
+.. image:: ./img/manageorder/p25.jpg
     :alt: خرید
     :align: center
 
@@ -69,7 +69,7 @@
 
 
 
-.. image:: ./img/manage order/p26.jpg
+.. image:: ./img/manageorder/p26.jpg
     :alt: خرید
     :align: center
 
@@ -81,7 +81,7 @@
 
 در بخش داده‌ها برای پیش فاکتور‌های جدید، فیلدهای خطوط و مقادیر قابل ویرایش هستند. انجام این کار تعیین می کند که قیمت های جدید چگونه باید در هنگام استفاده از این قرارداد خرید پر شوند.
 
-.. image:: ./img/manage order/p27.jpg
+.. image:: ./img/manageorder/p27.jpg
     :alt: خرید
     :align: center
 
@@ -116,21 +116,21 @@
 از فرم جدید RfQ، برای نوشتن و ارسال ایمیل به فروشنده فهرست شده، روی ارسال با ایمیل کلیک کنید. برای ایجاد یک PDF قابل چاپ از پیش  فاکتور، روی Print RFQ کلیک کنید. یا پس از آماده شدن، روی تأیید سفارش کلیک کنید تا :abbr:`PO(manage order Order)`تأیید شود
 
 
-.. image:: ./img/manage order/p28.jpg
+.. image:: ./img/manageorder/p28.jpg
     :alt: خرید
     :align: center
 
 
 
 
-.. image:: ./img/manage order/p29.jpg
+.. image:: ./img/manageorder/p29.jpg
     :alt: خرید
     :align: center
 
 
 
 
-.. image:: ./img/manage order/p30.jpg
+.. image:: ./img/manageorder/p30.jpg
     :alt: خرید
     :align: center
 
@@ -140,7 +140,7 @@
 
 
 
-.. image:: ./img/manage order/p31.jpg
+.. image:: ./img/manageorder/p31.jpg
     :alt: خرید
     :align: center
 
@@ -153,7 +153,7 @@
 
 
 
-.. image:: ./img/manage order/p32.jpg
+.. image:: ./img/manageorder/p32.jpg
     :alt: خرید
     :align: center
 

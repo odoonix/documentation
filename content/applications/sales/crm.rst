@@ -95,8 +95,7 @@
 لینک های مرتبط:
 
 1. https://www.tashilgostar.com/documentation/16.0/applications/sales/crm.html
-
 2. https://www.odoo.com/documentation/17.0/applications/sales/crm.html
 3. https://oxydoo.com/blog/guide-
-
 4. https://www.cybrosys.com/odoo/odoo-books/v17-ce/crm/28/import-267
+5. https://oxydoo.com/blog/odoo17-28/crm-206

@@ -20,7 +20,7 @@
 
 
 
-.. image:: ./img/manage order/p46.jpg
+.. image:: ./img/manageorder/p46.jpg
     :alt: خرید
     :align: center
 
@@ -31,7 +31,7 @@
 - مقادیر دریافتی: صورتحساب فقط پس از دریافت بخشی از کل سفارش ایجاد می شود. محصولات و مقادیر دریافتی برای تهیه پیش نویس صورتحساب استفاده می شود. اگر اقدام به ایجاد صورت‌حساب فروشنده بدون دریافت چیزی شود، یک پیام خطا ظاهر می‌شود.
 
 
-.. image:: ./img/manage order/p47(2).jpg
+.. image:: ./img/manageorder/p47(2).jpg
     :alt: خرید
     :align: center
 
@@ -42,7 +42,7 @@
     برای انجام این کار، به برنامه خرید ‣ محصولات ‣ محصولات بروید و یک محصول را انتخاب کنید. از فرم محصول، روی تب خرید کلیک کنید. در بخش فروشنده صورتحساب، انتخاب را در قسمت سیاست های کنترلی تغییر دهید.
 
 
-    .. image:: ./img/manage order/p48.jpg
+    .. image:: ./img/manageorder/p48.jpg
         :alt: خرید
         :align: center
 
@@ -58,7 +58,7 @@
 
 
 
-.. image:: ./img/manage order/p49.jpg
+.. image:: ./img/manageorder/p49.jpg
         :alt: خرید
         :align: center
 
@@ -106,7 +106,7 @@
 
 
 
-.. image:: ./img/manage order/p50.jpg
+.. image:: ./img/manageorder/p50.jpg
         :alt: خرید
         :align: 
         
