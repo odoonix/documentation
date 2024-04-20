@@ -69,6 +69,7 @@
 لینک های مرتبط:
 
 1. https://www.cybrosys.com/odoo/odoo-books/v17-ce/contacts/
+2. https://oxydoo.com/blog/odoo17-28/contacts-211
 
 
 تگ های مرتبط:
