@@ -214,5 +214,18 @@
 
 
 
+.. image:: ./purchase/img/purchase/p57.jpg
+    :alt: خرید
+    :align: center
+
+
+
+
+.. image:: ./purchase/img/purchase/p58.jpg
+    :alt: خرید
+    :align: center
+
+
+
 .. tip::
     برای مرتبط کردن پیش نویس صورتحساب به یک سفارش خرید موجود، روی منوی کشویی کنار تکمیل خودکار کلیک کنید و یک  :abbr:`PO (Purchase Order)` را از منو انتخاب کنید. صورتحساب به طور خودکار با اطلاعات  :abbr:`PO (Purchase Order)` پر می شود.
