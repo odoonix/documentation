@@ -13,7 +13,7 @@
 همچنین در صورت لزوم می توانید از کادر سرچ بر اساس شرایط فیلترهای خاصی برای مخاطبین انتخاب کرده و آن ها را بر اساس نام یا شرکت جستجو کنید. در این ماژول شم می توانید تمام افراد و شرکای خود را ذخیره کنید.
 
 .. image:: ./img/cont1.png
-    :alt:  ماژول ناهار
+    :alt:  ماژول مخاطبین
     :align: center
 
 افزودن مخاطب جدید
@@ -22,7 +22,7 @@
 نکته: دقت کنید که با انتخاب هر کدام فیلدهای مخصوص هر مخاطب (فرد/شرکت) کمی متفاوت است.
 
 .. image:: ./img/cont2.png
-    :alt:  ماژول ناهار
+    :alt:  ماژول مخاطبین
     :align: center
 
 همانطور که مشاهده می کنید در کادر پایین علاوه بر اطلاعات فردی مخاطب تب های دیگری مانند تماس ها و نشانی، خرید و فروش . صدور فاکتور و در نهایت یادداشت های داخلی ملاحظه میکنید.
@@ -30,7 +30,7 @@
 با انتخاب گزینه افزودن شما می توانید اطلاعات دیگری درباره ادرس تحویل ادرس و ... وارد کنید.
 
 .. image:: ./img/cont3.png
-    :alt:  ماژول ناهار
+    :alt:  ماژول مخاطبین
     :align: center
 
 .. note::
@@ -38,21 +38,20 @@
 
 
 .. image:: ./img/cont4.png
-    :alt:  ماژول ناهار
+    :alt:  ماژول مخاطبین
     :align: center
 
 
 تب **صدور فاکتور** به شما این امکان را م یدهد تا صورت حساب بانکی افراد را ثبت کنید.
 
 .. image:: ./img/cont5.png
-    :alt:  ماژول ناهار
+    :alt:  ماژول مخاطبین
     :align: center
 
 در تب **یادداشت های داخلی**  می توانید هر جزئیات دیگری را برای مخاطب خود نوشته. 
 
-
 .. image:: ./img/cont6.png
-    :alt:  ماژول ناهار
+    :alt:  ماژول مخاطبین
     :align: center
 
 
@@ -67,10 +66,41 @@
 
 
 
+لینک های مرتبط:
 
+1. https://www.cybrosys.com/odoo/odoo-books/v17-ce/contacts/
 
+تگ های مرتبط:
 
-
+1.  :guilabel:`#Audience`
+2.  :guilabel:`#TargetAudience`
+3.  :guilabel:`#AudienceEngagement`
+4.  :guilabel:`#AudienceAnalysis`
+5.  :guilabel:`#AudienceSegmentation`
+6.  :guilabel:`#CustomerSegmentation`
+7.  :guilabel:`#AudienceInsights`
+8.  :guilabel:`#AudienceStrategy`
+9. :guilabel:`#AudienceNeeds`
+10. :guilabel:`#AudienceFeedback`
+11. :guilabel:`#CustomerFeedback`
+12. :guilabel:`#AudienceDevelopment`
+13. :guilabel:`#AudienceReach`
+14. :guilabel:`#AudienceExperience`
+15. :guilabel:`#AudienceBehavior`
+16. :guilabel:`#مخاطبین`
+17. :guilabel:`#هدفمندسازی_مخاطب`
+18. :guilabel:`#ارتباط_با_مخاطب`
+19. :guilabel:`#تعامل_مخاطب`
+20. :guilabel:`#نیازهای_مخاطب`
+21. :guilabel:`#رضایت_مخاطب`
+22. :guilabel:`#بازاریابی_مخاطب‌مدار`
+23. :guilabel:`#استراتژی_مخاطبین`
+24. :guilabel:`#تفاوت_مخاطبین`
+25. :guilabel:`#تعاملات_مخاطبانه`
+26. :guilabel:`#پیشنهادات_مخاطبین`
+27. :guilabel:`#تحقیقات_مخاطبین`
+28. :guilabel:`#گسترش_مخاطبین`
+29. :guilabel:`#تجربه_مخاطبین`
 
 
 
