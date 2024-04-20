@@ -25,7 +25,7 @@
 در اینجا، دو گزینه سیاست کنترل صورتحساب وجود دارد: مقادیر سفارش داده شده و مقادیر دریافت شده. پس از انتخاب یک خط مشی، روی ذخیره کلیک کنید تا تغییرات ذخیره شوند.
 
 
-.. image:: ./img/manage order/p51.jpg
+.. image:: ./img/manageorder/p51.jpg
     :alt: خرید
     :align: center
 
@@ -45,7 +45,7 @@
 
 
 
-.. image:: ./img/manage order/p52.jpg
+.. image:: ./img/manageorder/p52.jpg
     :alt: خرید
     :align: center
 
@@ -63,7 +63,7 @@
 .. important::
     تطبیق سه مرحله فقط برای کار با سیاست کنترل صورتحساب تنظیم شده روی مقادیر دریافتی در نظر گرفته شده است.
 
-    .. image:: ./img/manage order/p53.jpg
+    .. image:: ./img/manageorder/p53.jpg
         :alt: خرید
         :align: center
 
@@ -122,7 +122,7 @@
 
 
 
-.. image:: ./img/manage order/p54.jpg
+.. image:: ./img/manageorder/p54.jpg
     :alt: خرید
     :align: center
 
@@ -163,7 +163,7 @@
 
 
 
-.. image:: ./img/manage order/p55.jpg
+.. image:: ./img/manageorder/p55.jpg
     :alt: خرید
     :align: center
 
@@ -177,7 +177,7 @@
 
 سپس روی دکمه **تایید** کلیک کنید تا پیش نویس صورتحساب تایید شود.
 
-.. image:: ./img/manage order/p56.jpg
+.. image:: ./img/manageorder/p56.jpg
     :alt: خرید
     :align: center
 
@@ -214,14 +214,14 @@
 
 
 
-.. image:: ./img/manage order/p57.jpg
+.. image:: ./img/manageorder/p57.jpg
     :alt: خرید
     :align: center
 
 
 
 
-.. image:: ./img/manage order/p58.jpg
+.. image:: ./img/manageorder/p58.jpg
     :alt: خرید
     :align: center
 
@@ -231,7 +231,7 @@
 .. tip::
     برای مرتبط کردن پیش نویس صورتحساب به یک سفارش خرید موجود، روی منوی کشویی کنار تکمیل خودکار کلیک کنید و یک  :abbr:`PO (manage order Order)` را از منو انتخاب کنید. صورتحساب به طور خودکار با اطلاعات  :abbr:`PO (manage order Order)` پر می شود.
 
-    .. image:: ./img/manage order/p59.jpg
+    .. image:: ./img/manageorder/p59.jpg
         :alt: خرید
         :align: center
 
@@ -252,13 +252,13 @@
 
 
 
-.. image:: ./img/manage order/p60.jpg
+.. image:: ./img/manageorder/p60.jpg
     :alt: خرید
     :align: center
 
 
 
-.. image:: ./img/manage order/p61.jpg
+.. image:: ./img/manageorder/p61.jpg
     :alt: خرید
     :align: center
 
