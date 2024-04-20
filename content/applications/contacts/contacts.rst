@@ -50,7 +50,6 @@
 
 در تب **یادداشت های داخلی**  می توانید هر جزئیات دیگری را برای مخاطب خود نوشته. 
 
-
 .. image:: ./img/cont6.png
     :alt:  ماژول مخاطبین
     :align: center
@@ -71,37 +70,38 @@
 
 1. https://www.cybrosys.com/odoo/odoo-books/v17-ce/contacts/
 
+
 تگ های مرتبط:
 
-2.  :guilabel:`#Audience`
-3.  :guilabel:`#TargetAudience`
-4.  :guilabel:`#AudienceEngagement`
-5.  :guilabel:`#AudienceAnalysis`
-6.  :guilabel:`#AudienceSegmentation`
-7.  :guilabel:`#CustomerSegmentation`
-8.  :guilabel:`#AudienceInsights`
-9.  :guilabel:`#AudienceStrategy`
-10. :guilabel:`#AudienceNeeds`
-11. :guilabel:`#AudienceFeedback`
-12. :guilabel:`#CustomerFeedback`
-13. :guilabel:`#AudienceDevelopment`
-14. :guilabel:`#AudienceReach`
-15. :guilabel:`#AudienceExperience`
-16. :guilabel:`#AudienceBehavior`
-17. :guilabel:`#مخاطبین`
-18. :guilabel:`#هدفمندسازی_مخاطب`
-19. :guilabel:`#ارتباط_با_مخاطب`
-20. :guilabel:`#تعامل_مخاطب`
-21. :guilabel:`#نیازهای_مخاطب`
-22. :guilabel:`#رضایت_مخاطب`
-23. :guilabel:`#بازاریابی_مخاطب‌مدار`
-24. :guilabel:`#استراتژی_مخاطبین`
-25. :guilabel:`#تفاوت_مخاطبین`
-26. :guilabel:`#تعاملات_مخاطبانه`
-27. :guilabel:`#پیشنهادات_مخاطبین`
-28. :guilabel:`#تحقیقات_مخاطبین`
-29. :guilabel:`#گسترش_مخاطبین`
-30. :guilabel:`#تجربه_مخاطبین`
+1.  :guilabel:`#Audience`
+2.  :guilabel:`#TargetAudience`
+3.  :guilabel:`#AudienceEngagement`
+4.  :guilabel:`#AudienceAnalysis`
+5.  :guilabel:`#AudienceSegmentation`
+6.  :guilabel:`#CustomerSegmentation`
+7.  :guilabel:`#AudienceInsights`
+8.  :guilabel:`#AudienceStrategy`
+9. :guilabel:`#AudienceNeeds`
+10. :guilabel:`#AudienceFeedback`
+11. :guilabel:`#CustomerFeedback`
+12. :guilabel:`#AudienceDevelopment`
+13. :guilabel:`#AudienceReach`
+14. :guilabel:`#AudienceExperience`
+15. :guilabel:`#AudienceBehavior`
+16. :guilabel:`#مخاطبین`
+17. :guilabel:`#هدفمندسازی_مخاطب`
+18. :guilabel:`#ارتباط_با_مخاطب`
+19. :guilabel:`#تعامل_مخاطب`
+20. :guilabel:`#نیازهای_مخاطب`
+21. :guilabel:`#رضایت_مخاطب`
+22. :guilabel:`#بازاریابی_مخاطب‌مدار`
+23. :guilabel:`#استراتژی_مخاطبین`
+24. :guilabel:`#تفاوت_مخاطبین`
+25. :guilabel:`#تعاملات_مخاطبانه`
+26. :guilabel:`#پیشنهادات_مخاطبین`
+27. :guilabel:`#تحقیقات_مخاطبین`
+28. :guilabel:`#گسترش_مخاطبین`
+29. :guilabel:`#تجربه_مخاطبین`
 
 
 

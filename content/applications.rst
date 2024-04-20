@@ -16,6 +16,7 @@
 
     applications/iot
     applications/gym
+    applications/contacts/contacts
     applications/sales/crm
     applications/lunch/lunch
     applications/hr/fleet
