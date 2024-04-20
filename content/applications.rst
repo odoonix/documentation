@@ -23,6 +23,7 @@
     applications/website
     applications/website/website
     applications/dashbord
+    applications/pos
 
 
 
