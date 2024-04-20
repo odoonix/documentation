@@ -20,7 +20,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p16.jpg
+.. image:: ./img/purchase/p16.jpg
     :alt: خرید
     :align: center
 
@@ -43,7 +43,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p17.jpg
+.. image:: ./img/purchase/p17.jpg
     :alt: خرید
     :align: center
 
@@ -56,7 +56,7 @@
 برای انجام این کار، به :menuselection:`خرید --> پیکربندی --> دسته بندی واحدهای اندازه گیری` بروید. روی جدید کلیک کنید و دسته را نامگذاری کنید.
 
 
-.. image:: ./purchase/img/purchase/p18.jpg
+.. image:: ./img/purchase/p18.jpg
     :alt: خرید
     :align: center
 
@@ -69,7 +69,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p19.jpg
+.. image:: ./img/purchase/p19.jpg
     :alt: خرید
     :align: center
 
@@ -79,12 +79,12 @@
     اگر از دقت گرد کردن کمتر از 0.01 استفاده می‌کنید، ممکن است یک پیام هشدار ظاهر شود که نشان دهد از دقت اعشاری بالاتر است و ممکن است باعث ناهماهنگی شود. اگر می‌خواهید از دقت گرد کردن کمتر از 0.01 استفاده کنید، ابتدا حالت توسعه‌دهنده را فعال کنید، سپس به تنظیمات ‣ فنی ‣ ساختار پایگاه داده  ‣ دقت اعشاری بروید، واحد اندازه‌گیری محصول را انتخاب کنید و اعداد را بر اساس آن ویرایش کنید. به عنوان مثال، اگر می خواهید از دقت گرد کردن 0.00001 استفاده کنید، رقم را روی 5 قرار دهید.
 
 
-.. image:: ./purchase/img/purchase/p20.jpg
+.. image:: ./img/purchase/p20.jpg
     :alt: خرید
     :align: center
 
 
-.. image:: ./purchase/img/purchase/p21.jpg
+.. image:: ./img/purchase/p21.jpg
     :alt: خرید
     :align: center
 
@@ -97,7 +97,7 @@
 در مرحله بعد، باید نسبت بین واحد مرجع خود و واحد دوم را وارد کنید. اگر واحد دوم کوچکتر باشد، نسبت باید بزرگتر از 1 باشد. اگر واحد دوم بزرگتر باشد، نسبت باید کوچکتر از 1 باشد.
 
 
-.. image:: ./purchase/img/purchase/p22.jpg
+.. image:: ./img/purchase/p22.jpg
     :alt: خرید
     :align: center
 
