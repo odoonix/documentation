@@ -14,4 +14,4 @@
 
 .. toctree::
 
-    attendance/Access rights.rst
+    attendance/Access_rights.rst
