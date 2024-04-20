@@ -17,13 +17,13 @@
     applications/iot
     applications/gym
     applications/sales/crm
-    applications/lunch
+    applications/lunch/lunch
     applications/hr/fleet
     applications/purchase
     applications/website
     applications/website/website
     applications/dashbord
-    applications/contacts
+    applications/contacts/contacts
 
 
 
