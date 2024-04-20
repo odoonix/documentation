@@ -23,7 +23,7 @@
     applications/website
     applications/website/website
     applications/dashbord
-    applications/contacts/contacts
+    applications/pos
 
 
 

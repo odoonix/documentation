@@ -25,7 +25,7 @@
 در اینجا، دو گزینه سیاست کنترل صورتحساب وجود دارد: مقادیر سفارش داده شده و مقادیر دریافت شده. پس از انتخاب یک خط مشی، روی ذخیره کلیک کنید تا تغییرات ذخیره شوند.
 
 
-.. image:: ./purchase/img/purchase/p51.jpg
+.. image:: ./img/manage order/p51.jpg
     :alt: خرید
     :align: center
 
@@ -45,7 +45,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p52.jpg
+.. image:: ./img/manage order/p52.jpg
     :alt: خرید
     :align: center
 
@@ -63,7 +63,7 @@
 .. important::
     تطبیق سه مرحله فقط برای کار با سیاست کنترل صورتحساب تنظیم شده روی مقادیر دریافتی در نظر گرفته شده است.
 
-    .. image:: ./purchase/img/purchase/p53.jpg
+    .. image:: ./img/manage order/p53.jpg
         :alt: خرید
         :align: center
 
@@ -122,7 +122,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p54.jpg
+.. image:: ./img/manage order/p54.jpg
     :alt: خرید
     :align: center
 
@@ -163,7 +163,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p55.jpg
+.. image:: ./img/manage order/p55.jpg
     :alt: خرید
     :align: center
 
@@ -177,7 +177,7 @@
 
 سپس روی دکمه **تایید** کلیک کنید تا پیش نویس صورتحساب تایید شود.
 
-.. image:: ./purchase/img/purchase/p56.jpg
+.. image:: ./img/manage order/p56.jpg
     :alt: خرید
     :align: center
 
@@ -214,14 +214,14 @@
 
 
 
-.. image:: ./purchase/img/purchase/p57.jpg
+.. image:: ./img/manage order/p57.jpg
     :alt: خرید
     :align: center
 
 
 
 
-.. image:: ./purchase/img/purchase/p58.jpg
+.. image:: ./img/manage order/p58.jpg
     :alt: خرید
     :align: center
 
@@ -229,9 +229,9 @@
 
 
 .. tip::
-    برای مرتبط کردن پیش نویس صورتحساب به یک سفارش خرید موجود، روی منوی کشویی کنار تکمیل خودکار کلیک کنید و یک  :abbr:`PO (Purchase Order)` را از منو انتخاب کنید. صورتحساب به طور خودکار با اطلاعات  :abbr:`PO (Purchase Order)` پر می شود.
+    برای مرتبط کردن پیش نویس صورتحساب به یک سفارش خرید موجود، روی منوی کشویی کنار تکمیل خودکار کلیک کنید و یک  :abbr:`PO (manage order Order)` را از منو انتخاب کنید. صورتحساب به طور خودکار با اطلاعات  :abbr:`PO (manage order Order)` پر می شود.
 
-    .. image:: ./purchase/img/purchase/p59.jpg
+    .. image:: ./img/manage order/p59.jpg
         :alt: خرید
         :align: center
 
@@ -252,13 +252,23 @@
 
 
 
-.. image:: ./purchase/img/purchase/p60.jpg
+.. image:: ./img/manage order/p60.jpg
     :alt: خرید
     :align: center
 
 
 
-.. image:: ./purchase/img/purchase/p61.jpg
+.. image:: ./img/manage order/p61.jpg
     :alt: خرید
     :align: center
+
+
+
+.. note::
+    گزینه ثبت پرداخت برای صورت‌حساب‌های فروشنده به صورت دسته‌ای فقط برای ورودی‌های  **آیتم های روزنامه ی** که وضعیت آنها روی ارسال شده تنظیم شده است، کار می‌کند.
+
+
+
+.. seealso::
+    - :doc:`Bill control policies`
 
