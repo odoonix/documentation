@@ -33,3 +33,4 @@
    ./pages/pages
    ./configuration/config
    ./report/reporting
+   ./web-design/web-design
