@@ -22,14 +22,14 @@
 برای ایجاد سفارش‌های عمومی، ویژگی قراردادهای خرید را از تنظیمات برنامه خرید فعال کنید. به برنامه :menuselection:`خرید --> پیکربندی --> تنظیمات`خرید` بروید و در بخش سفارشات، روی کادر تأیید قراردادهای خرید کلیک کنید. سپس روی ذخیره کلیک کنید تا تغییرات اعمال شود.
 
 
-.. image:: ./purchase/img/purchase/p23.jpg
+.. image:: ./img/manage order/p23.jpg
     :alt: خرید
     :align: center
 
 برای ایجاد یک سفارش عمومی، به برنامه :menuselection:`خرید --> سفارشات --> سفارشات عمده` عمده بروید و روی جدید کلیک کنید. با این کار یک فرم سفارش جدید باز می شود.
 
 
-.. image:: ./purchase/img/purchase/p24.jpg
+.. image:: ./img/manage order/p24.jpg
     :alt: خرید
     :align: center
 
@@ -52,7 +52,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p25.jpg
+.. image:: ./img/manage order/p25.jpg
     :alt: خرید
     :align: center
 
@@ -69,7 +69,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p26.jpg
+.. image:: ./img/manage order/p26.jpg
     :alt: خرید
     :align: center
 
@@ -81,7 +81,7 @@
 
 در بخش داده‌ها برای پیش فاکتور‌های جدید، فیلدهای خطوط و مقادیر قابل ویرایش هستند. انجام این کار تعیین می کند که قیمت های جدید چگونه باید در هنگام استفاده از این قرارداد خرید پر شوند.
 
-.. image:: ./purchase/img/purchase/p27.jpg
+.. image:: ./img/manage order/p27.jpg
     :alt: خرید
     :align: center
 
@@ -113,34 +113,34 @@
 پس از تایید سفارش عمومی، می‌توان قیمت‌های جدید را مستقیماً از فرم سفارش عمومی ایجاد کرد. RfQ هایی که از این فرم استفاده می کنند با اطلاعات بر اساس قوانین تنظیم شده در فرم از قبل پر شده اند. علاوه بر این، پیش فاکتور‌های جدید به‌طور خودکار از طریق دکمه هوشمندRFQ /سفارشات در سمت راست بالای فرم به این فرم سفارش عمومی مرتبط می‌شوند.
 
 برای ایجاد یک پیش فاکتور جدید از فرم سفارش عمده، روی دکمه قیمت جدید کلیک کنید. این یک (درخواست پیش فاکتور) RfQ جدید را باز می کند، که از قبل با اطلاعات صحیح، بسته به تنظیمات پیکربندی شده در فرم سفارش عمده، پر شده است.
-از فرم جدید RfQ، برای نوشتن و ارسال ایمیل به فروشنده فهرست شده، روی ارسال با ایمیل کلیک کنید. برای ایجاد یک PDF قابل چاپ از پیش  فاکتور، روی Print RFQ کلیک کنید. یا پس از آماده شدن، روی تأیید سفارش کلیک کنید تا :abbr:`PO(purchase Order)`تأیید شود
+از فرم جدید RfQ، برای نوشتن و ارسال ایمیل به فروشنده فهرست شده، روی ارسال با ایمیل کلیک کنید. برای ایجاد یک PDF قابل چاپ از پیش  فاکتور، روی Print RFQ کلیک کنید. یا پس از آماده شدن، روی تأیید سفارش کلیک کنید تا :abbr:`PO(manage order Order)`تأیید شود
 
 
-.. image:: ./purchase/img/purchase/p28.jpg
+.. image:: ./img/manage order/p28.jpg
     :alt: خرید
     :align: center
 
 
 
 
-.. image:: ./purchase/img/purchase/p29.jpg
+.. image:: ./img/manage order/p29.jpg
     :alt: خرید
     :align: center
 
 
 
 
-.. image:: ./purchase/img/purchase/p30.jpg
+.. image:: ./img/manage order/p30.jpg
     :alt: خرید
     :align: center
 
 
 
-پس از تأیید :abbr:`PO (purchase Order)`، به فرم سفارش عمده (در بالای صفحه) برگردید. از فرم سفارش عمده، اکنون یک :abbr:` RFQ (Requests for Quotation)`در دکمه هوشمند RFQs/Orders در سمت راست بالای فرم فهرست شده است. روی دکمه هوشمند RFQs/Orders کلیک کنید تا PO ایجاد شده را ببینید.
+پس از تأیید :abbr:`PO (manage order Order)`، به فرم سفارش عمده (در بالای صفحه) برگردید. از فرم سفارش عمده، اکنون یک :abbr:` RFQ (Requests for Quotation)`در دکمه هوشمند RFQs/Orders در سمت راست بالای فرم فهرست شده است. روی دکمه هوشمند RFQs/Orders کلیک کنید تا PO ایجاد شده را ببینید.
 
 
 
-.. image:: ./purchase/img/purchase/p31.jpg
+.. image:: ./img/manage order/p31.jpg
     :alt: خرید
     :align: center
 
@@ -153,7 +153,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p32.jpg
+.. image:: ./img/manage order/p32.jpg
     :alt: خرید
     :align: center
 
