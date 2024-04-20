@@ -1,7 +1,7 @@
 ماژول پایانه فروش 
 =============
 
-.. image:: ./gym/src/img/gym.jpg
+.. image:: ./pos/pos-background.png
     :alt: باشگاه ویراوب123 
     :align: center
 
