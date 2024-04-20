@@ -1,0 +1,17 @@
+:nosearch:
+:show-content:
+:hide-page-toc:
+:show-toc:
+
+====================
+نوار کوکی‌ها
+====================
+
+نوار کوکی‌ها
+
+.. .. toctree::
+..    :titlesonly:
+
+..    ./cookies-bar
+..    ./manage-multiple-websites
+..    ./translations
