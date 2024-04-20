@@ -121,8 +121,3 @@
 
 
 
-.. toctree::
-    :titlesonly:
-
-   ./contacts
-  
