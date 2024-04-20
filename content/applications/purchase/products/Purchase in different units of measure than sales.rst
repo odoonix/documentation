@@ -30,7 +30,7 @@
 برای پیکربندی محصولی که وقتی موجودی آن به 0 رسید، قوانین سفارش مجدد موقت را آغاز می کند، با رفتن به برنامه :menuselection:`انبار--> محصولات --> محصولات` شروع کنید و روی جدید کلیک کنید.
 
 
-.. image:: ./purchase/img/purchase/p8.jpg
+.. image:: ./img/purchase/p8.jpg
     :alt: خرید
     :align: center
 
@@ -43,14 +43,14 @@
 
 سپس، در زیر برگه اطلاعات عمومی، نوع محصول را روی محصول قابل ذخیره سازی قرار دهید.در مرحله بعد، روی تب خرید کلیک کنید و در قسمت فروشنده، روی افزودن یک سطر کلیک کنید تا فروشنده را از منوی کشویی انتخاب کنید. سپس، قیمت خرید را زیر قیمت تعیین کنید.
 
-.. image:: ./purchase/img/purchase/p9.jpg
+.. image:: ./img/purchase/p9.jpg
     :alt: خرید
     :align: center
 
 
 قبل از ایجاد یک SO برای محصول، اطمینان حاصل کنید که دکمه هوشمند موجود در فرم محصول 0.00 واحد می خواند. سپس، مطمئن شوید که دکمه هوشمند قوانین سفارش مجدد0 را می خواند، که نشان می دهد هیچ قانونی برای این محصول اعمال نمی شود.
 
-.. image:: ./purchase/img/purchase/p10.jpg
+.. image:: ./img/purchase/p10.jpg
     :alt: خرید
     :align: center
 
@@ -65,7 +65,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p11.jpg
+.. image:: ./img/purchase/p11.jpg
     :alt: خرید
     :align: center
 
@@ -78,7 +78,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p12.jpg
+.. image:: ./img/purchase/p12.jpg
     :alt: خرید
     :align: center
 
@@ -86,7 +86,7 @@
 در این داشبورد، محصولی را که قانون سفارش مجدد موقت برای آن ایجاد شده است، پیدا کنید. در خط تولید آن، مقدار موجودی، مقدار پیش بینی منفی، مسیر خرید و مقدار سفارش برای تکمیل قابل مشاهده است.
 
 
-.. image:: ./purchase/img/purchase/p13.jpg
+.. image:: ./img/purchase/p13.jpg
     :alt: خرید
     :align: center
 
@@ -111,7 +111,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p14.jpg
+.. image:: ./img/purchase/p14.jpg
     :alt: خرید
     :align: center
 
@@ -119,7 +119,7 @@
 
 
 
-.. image:: ./purchase/img/purchase/p15.jpg
+.. image:: ./img/purchase/p15.jpg
     :alt: خرید
     :align: center
 

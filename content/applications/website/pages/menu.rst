@@ -9,8 +9,3 @@
 
 منو
 
-.. .. toctree::
-..    :titlesonly:
-
-..    ./menu
-..    ./seo

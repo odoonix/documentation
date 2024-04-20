@@ -9,9 +9,3 @@
 
 ترجمه‌ها
 
-.. .. toctree::
-..    :titlesonly:
-
-..    ./cookies-bar
-..    ./manage-multiple-websites
-..    ./translations
