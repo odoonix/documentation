@@ -15,4 +15,5 @@
 
 .. toctree::
 
-    pos/pos
+    pos/pos.rst
+    pos/new-session-pos.rst
