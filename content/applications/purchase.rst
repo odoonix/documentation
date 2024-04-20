@@ -34,9 +34,22 @@
 
       -عملکرد خریدهای خود را تجزیه و تحلیل کنید
 
+
+
+
+
 .. toctree::
    :titlesonly:
 
    ./purchase/advanced
    ./purchase/manage deals
    ./purchase/products
+
+
+
+رفرنس ها
+--------------------------
+
+1. https://www.odoo.com/documentation/17.0/applications/inventory_and_mrp/purchase.html
+2. https://oxydoo.com/blog/guide-28/purchase-257
+3. https://www.tashilgostar.com/forum/buy-12

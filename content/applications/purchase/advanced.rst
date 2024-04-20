@@ -10,5 +10,5 @@
 
 .. toctree::
    :titlesonly:
-
-   ./advanced/Analyze the performance of your purchases
+   
+   ./Advanced/Analyze the performance of your purchases
