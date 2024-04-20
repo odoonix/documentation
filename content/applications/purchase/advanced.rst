@@ -11,4 +11,4 @@
 .. toctree::
    :titlesonly:
 
-   ./advanced/Analyze the performance of your purchases
+   ./advanced/Configure reordering rules
