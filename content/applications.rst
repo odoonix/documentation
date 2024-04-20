@@ -25,6 +25,7 @@
     applications/website/website
     applications/dashbord
     applications/pos
+    applications/Attendance
 
 
 
