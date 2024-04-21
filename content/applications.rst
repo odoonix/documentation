@@ -26,6 +26,7 @@
     applications/dashbord
     applications/pos
     applications/attendance
+    applications/inventory
 
 
 
