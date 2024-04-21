@@ -1,7 +1,7 @@
 گزارشات
 =============
 
-.. image:: ./pos/pos-background.png
+.. image:: ./attendance/reporting.png
     :alt: باشگاه ویراوب123 
     :align: center
 
