@@ -20,6 +20,7 @@
     applications/sales/crm
     applications/lunch/lunch
     applications/hr/fleet
+    applications/hr/employees
     applications/purchase
     applications/website
     applications/website/website
@@ -28,6 +29,7 @@
     applications/attendance
     applications/inventory
     applications/chat/online_chat
+    applications/reporting
 
 
 
