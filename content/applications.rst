@@ -27,6 +27,7 @@
     applications/pos
     applications/attendance
     applications/inventory
+    applications/chat/online_chat
 
 
 
