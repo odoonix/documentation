@@ -29,7 +29,6 @@
 .. toctree::
    :titlesonly:
 
-   ./chat/online_chat
    ./pages/pages
    ./configuration/config
    ./report/reporting
