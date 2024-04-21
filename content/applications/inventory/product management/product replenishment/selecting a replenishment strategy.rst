@@ -112,3 +112,18 @@
 .. image:: img/product replenishment/s4.jpg
    :align: center
    :alt: انبار.
+
+
+.. image:: img/product replenishment/s5.jpg
+   :align: center
+   :alt: انبار.
+
+
+- یک PO یا MO ایجاد شده توسط یک دوباره شارژکردن دستی یک گزارش شارژ کردن به عنوان سند منبع دارد. یک PO یا MO ایجاد شده توسط یک قانون مرتب سازی مجدد خودکار دارای شماره(های) مرجع SO است که قانون را به عنوان سند منبع فعال کرده است.
+
+
+.. image:: img/product replenishment/s6.jpg
+   :align: center
+   :alt: انبار.
+
+
