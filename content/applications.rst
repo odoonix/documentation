@@ -20,6 +20,7 @@
     applications/sales/crm
     applications/lunch/lunch
     applications/hr/fleet
+    applications/hr/employees
     applications/purchase
     applications/website
     applications/website/website
