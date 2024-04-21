@@ -107,3 +107,7 @@
 
 .. seealso::
    - :doc:`selecting a replenishment strategy`
+
+
+.. tip::
+    داشبورد شارژمجدد با رفتن به برنامه انبار ‣ عملیات ‣ شارژمجدد قابل دسترسی است
