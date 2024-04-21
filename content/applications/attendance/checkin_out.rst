@@ -3,7 +3,7 @@
 ورود و خروج بصورت دستی
 =============
 
-.. image:: ./checkin_out.png
+.. image:: ./checkin-out.png
     :alt: باشگاه ویراوب123 
     :align: center
 
