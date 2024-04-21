@@ -1,7 +1,7 @@
 گزارشات
 =============
 
-.. image:: ../attendance/reporting.png
+.. image:: ./reporting.png
     :alt:   حضور و غیاب ویراوب123 
     :align: center
 

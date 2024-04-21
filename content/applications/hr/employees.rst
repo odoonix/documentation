@@ -29,3 +29,44 @@
 
    ./employees/howtostart
    ./employees/config
+
+
+تگ ها
+--------- 
+
+:guilabel:`#Employees`
+
+:guilabel:`#HRManagement`
+
+:guilabel:`#EmployeeRelations`
+
+:guilabel:`#CareerDevelopment`
+
+:guilabel:`#TeamBuilding`
+
+:guilabel:`#EmployeeSatisfaction`
+
+:guilabel:`#چالش کارمندان`
+
+:guilabel:`#کارمندان`
+
+:guilabel:`# استخدام کارمند`
+
+:guilabel:`#منابع انسانی`
+
+:guilabel:`#پرسنل`
+
+:guilabel:`#پاداش_کارمندان`
+
+:guilabel:`#مدیریت_کیفیت_کارمندان`
+
+
+
+
+رفرنس ها
+--------------------
+
+1. https://oxydoo.com/blog/guide-28/employees-214
+2. https://www.cybrosys.com/odoo/odoo-books/v17-ce/employees/
+3. https://www.tashilgostar.com/documentation/16.0/applications/websites/forum.html
+4. https://www.odoo.com/documentation/17.0/applications/hr/employees/new_employee.html
