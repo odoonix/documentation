@@ -14,8 +14,8 @@
 
 
 .. seealso::
-   - :doc:`https://www.youtube.com/watch?v=XEJZrCjoXaU`
-   - :doc:`https://www.youtube.com/watch?v=XEJZrCjoXaU`
+    - :doc:`https://www.youtube.com/watch?v=XEJZrCjoXaU`
+    - :doc:`https://www.youtube.com/watch?v=XEJZrCjoXaU`
 
 
 
@@ -27,15 +27,15 @@
 
 
 .. image:: img/product replenishment/s19.jpg
-   :align: center
-   :alt: انبار.
+    :align: center
+    :alt: انبار.
 
 
 سپس روی تب انبار کلیک کرده و از قسمت مسیرها یک یا چند مسیر را انتخاب کنید. انجام این کار به Odoo می گوید که از کدام مسیر برای شارژ کردن محصول استفاده کند.
 
 .. image:: img/product replenishment/s20.jpg
-   :align: center
-   :alt: انبار.
+    :align: center
+    :alt: انبار.
 
 
 
@@ -43,8 +43,8 @@
 
 
 .. image:: img/product replenishment/s21.jpg
-   :align: center
-   :alt: انبار.
+    :align: center
+    :alt: انبار.
 
 
 اگر محصول با استفاده از مسیر تولید دوباره شارژ شود، باید حداقل یک فهرست اقلام (BoM) مرتبط با آن باشد. این امر ضروری است زیرا Odoo فقط برای محصولات با BoM سفارشات تولید ایجاد می کند.
@@ -52,8 +52,8 @@
 اگر BoM از قبل برای محصول وجود ندارد، دکمه هوشمند فهرست اقلام را در بالای فرم محصول انتخاب کنید، سپس روی جدید کلیک کنید تا BoM جدیدی را پیکربندی کنید.
 
 .. image:: img/product replenishment/s22.jpg
-   :align: center
-   :alt: انبار.
+    :align: center
+    :alt: انبار.
 
 
 قوانین جدید برای سفارش مجدد ایجاد کنید
@@ -75,8 +75,8 @@
 
 
 .. image:: img/product replenishment/s23.jpg
-   :align: center
-   :alt: انبار.
+    :align: center
+    :alt: انبار.
 
 
 .. tip::
@@ -101,12 +101,12 @@
 
 
 .. image:: img/product replenishment/s24.jpg
-   :align: center
-   :alt: انبار.
+    :align: center
+    :alt: انبار.
 
 
 .. seealso::
-   - :doc:`selecting a replenishment strategy`
+    - :doc:`selecting a replenishment strategy`
 
 
 .. tip::
@@ -118,8 +118,8 @@
 
 
 .. image:: img/product replenishment/s25.jpg
-   :align: center
-   :alt: انبار.
+    :align: center
+    :alt: انبار.
 
 
 خودکار
@@ -127,7 +127,18 @@
 
 قوانین سفارش‌دهی مجدد خودکار، که با تنظیم فیلد راه اندازی قانون سفارش مجدد روی خودکار پیکربندی شده‌اند، سفارش‌های خرید یا تولید را ایجاد می‌کنند زمانی که:
 
-   #. زمانبندی اجرا می شود و مقدار موجود کمتر از حداقل است
+    #. زمانبندی اجرا می شود و مقدار موجود کمتر از حداقل است
 
-   #. یک سفارش فروش تایید می‌شود و مقدار پیش‌بینی‌شده محصول را کمتر از حداقل می‌کند
+    #. یک سفارش فروش تایید می‌شود و مقدار پیش‌بینی‌شده محصول را کمتر از حداقل می‌کند
 
+
+.. tip::
+    زمانبندی به طور پیش فرض تنظیم شده است که یک بار در روز اجرا شود.
+
+    برای راه‌اندازی دستی یک قانون سفارش مجدد قبل از اجرای زمان‌بندی، مطمئن شوید که حالت برنامه‌نویس فعال است و برنامه انبار‣ عملیات ‣ اجرای برنامه ریزرا انتخاب کنید. سپس روی دکمه اجرای برنامه ریزدر پنجره پاپ آپی که ظاهر می شود کلیک کنید.
+
+    توجه داشته باشید که این کار هر گونه اقدام برنامه ریزی شده دیگری را نیز آغاز می کند.
+
+    .. image:: img/product replenishment/s26.jpg
+        :align: center
+        :alt: انبار.
