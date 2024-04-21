@@ -16,3 +16,5 @@
 
     attendance/Access_rights.rst
     attendance/Configuration.rst
+    attendance/checkin_out.rst
+    attendance/reporting
