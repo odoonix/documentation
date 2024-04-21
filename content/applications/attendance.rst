@@ -15,3 +15,4 @@
 .. toctree::
 
     attendance/Access_rights.rst
+    attendance/Configuration.rst
