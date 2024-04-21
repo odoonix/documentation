@@ -11,3 +11,7 @@
 حالتها
 -------
 
+-**Modes** با استفاده از منوی کشویی، نحوه چک کردن کارمند هنگام استفاده از کیوسک را انتخاب کنید.گزینه ها هستندBarcode/RFID, Barcode/RFID and Manual Selection, or Manual Selection.
+
+
+
