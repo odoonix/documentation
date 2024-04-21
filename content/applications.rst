@@ -28,6 +28,7 @@
     applications/attendance
     applications/inventory
     applications/chat/online_chat
+    applications/reporting
 
 
 
