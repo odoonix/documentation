@@ -15,3 +15,4 @@
    ./cookies-bar
    ./manage-multiple-websites
    ./translations
+   ./domain-name
