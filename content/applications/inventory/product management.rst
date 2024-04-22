@@ -12,5 +12,5 @@
 .. toctree::
    :titlesonly:
    
-   ./product management/product replenishment
-   ./product management/product tracking
+   ./product management/productreplenishment
+   ./product management/producttracking
