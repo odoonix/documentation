@@ -28,14 +28,14 @@
 
 .. image:: ./img/productreplenishment/s19.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 سپس روی تب انبار کلیک کرده و از قسمت مسیرها یک یا چند مسیر را انتخاب کنید. انجام این کار به Odoo می گوید که از کدام مسیر برای شارژ کردن محصول استفاده کند.
 
 .. image:: ./img/productreplenishment/s20.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
@@ -44,7 +44,7 @@
 
 .. image:: ./img/productreplenishment/s21.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 اگر محصول با استفاده از مسیر تولید دوباره شارژ شود، باید حداقل یک فهرست اقلام (BoM) مرتبط با آن باشد. این امر ضروری است زیرا Odoo فقط برای محصولات با BoM سفارشات تولید ایجاد می کند.
@@ -53,7 +53,7 @@
 
 .. image:: ./img/productreplenishment/s22.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 قوانین جدید برای سفارش مجدد ایجاد کنید
@@ -76,7 +76,7 @@
 
 .. image:: ./img/productreplenishment/s23.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 .. tip::
@@ -102,7 +102,7 @@
 
 .. image:: ./img/productreplenishment/s24.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 .. seealso::

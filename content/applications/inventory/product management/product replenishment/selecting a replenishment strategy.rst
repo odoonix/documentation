@@ -45,7 +45,7 @@
 
 .. image:: ./img/productreplenishment/s1.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 .. note::
    برای محصولاتی که قوانین سفارش مجدد ندارند، Odoo پیش‌بینی را بر اساس سفارش‌های فروش، تحویل، و رسیدهای تأیید شده محاسبه می‌کند. برای محصولاتی که دارای یک قانون تنظیم مجدد سفارش هستند، Odoo پیش بینی را به طور معمول محاسبه می کند، اما زمان خرید/تولید و زمان تحویل امنیتی را نیز در نظر می گیرد.
@@ -60,7 +60,7 @@
 
 .. image:: ./img/productreplenishment/s2.jpg
     :align: center 
-    :alt: انبار.
+    :alt: انبار
 
 
 
@@ -97,7 +97,7 @@
 
 .. image:: ./img/productreplenishment/s3.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 به‌طور پیش‌فرض، مقدار موجود در سفارش‌ها، مقداری است که برای رسیدن به مقادیر تعیین‌شده لازم است. با این حال، مقدار سفارش را می توان با کلیک بر روی فیلد و تغییر مقدار تنظیم کرد. برای شارژ مجدد یک محصول به صورت دستی، روی یک بار سفارش کلیک کنید .
 
@@ -111,12 +111,12 @@
 
 .. image:: ./img/productreplenishment/s4.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 .. image:: ./img/productreplenishment/s5.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 - یک PO یا MO ایجاد شده توسط یک دوباره شارژکردن دستی یک گزارش شارژ کردن به عنوان سند منبع دارد. یک PO یا MO ایجاد شده توسط یک قانون مرتب سازی مجدد خودکار دارای شماره(های) مرجع SO است که قانون را به عنوان سند منبع فعال کرده است.
@@ -124,7 +124,7 @@
 
 .. image:: ./img/productreplenishment/s6.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 تولیدسفارشی
@@ -141,19 +141,19 @@
 
 .. image:: ./img/productreplenishment/s7.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
 .. image:: ./img/productreplenishment/s8.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
 .. image:: ./img/productreplenishment/s9.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 .. note::
@@ -172,4 +172,4 @@
 
 .. image:: ./img/productreplenishment/s10.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار

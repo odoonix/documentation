@@ -19,7 +19,7 @@
 
 .. image:: ./img/productreplenishment/s11.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 کادر انتخاب کنار شارژمجدد طبق سفارش (MTO) را فعال کنید، سپس روی دکمه کنش(چرخ دنده) کلیک کنید تا منوی کشویی نمایان شود. از منوی کشویی، برگشت از بایگانی را انتخاب کنید.
@@ -27,13 +27,13 @@
 
 .. image:: ./img/productreplenishment/s12.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 در نهایت، فیلتر بایگانی شده را از نوارجستجو… حذف کنید. صفحه مسیرها اکنون همه مسیرهای موجود، از جمله تکمیل سفارش (MTO) را نشان می دهد، که اکنون در برگه موجودی هر صفحه محصول قابل انتخاب است.
 
 .. image:: ./img/productreplenishment/s13.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 یک محصول را برای استفاده از مسیر MTO پیکربندی کنید
@@ -50,7 +50,7 @@
 
 .. image:: ./img/productreplenishment/s14.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
@@ -61,12 +61,12 @@
 
 .. image:: ./img/productreplenishment/s15.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 .. image:: ./img/productreplenishment/s16.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 اگر محصول تولید شده است، مطمئن شوید که یک فهرست اقلام (BOM) برای آن پیکربندی شده است. برای انجام این کار، روی دکمه هوشمند فهرست اقلام در بالای صفحه کلیک کنید، سپس روی جدید در صفحه کلیک کنید تا یک BOM(فهرست اقلام) جدید برای محصول پیکربندی شود.
@@ -79,13 +79,13 @@
 
 .. image:: ./img/productreplenishment/s17.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
 .. image:: ./img/productreplenishment/s18.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
