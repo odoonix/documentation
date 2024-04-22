@@ -41,3 +41,8 @@
     :align: center
     :alt: انبار.
 
+
+
+.. seealso::
+   - :doc:`use serial numbers to track products`
+
