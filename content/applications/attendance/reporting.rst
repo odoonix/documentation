@@ -1,8 +1,8 @@
 گزارشات
 =============
 
-.. image:: ./attendance/reporting.png
-    :alt: باشگاه ویراوب123 
+.. image:: ./reporting.png
+    :alt:   حضور و غیاب ویراوب123 
     :align: center
 
 
