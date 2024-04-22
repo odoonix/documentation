@@ -29,9 +29,13 @@
     :alt: وبسایت
     :align: center
 
+.. image:: ./img/Todo3.png
+    :alt: وبسایت
+    :align: center
+
 همچنین با علامت ساعت و انتخاب add یادداشت(To-do)  میتوان این مراحل را انجام داد.
 
-.. image:: ./img/Todo3.png
+.. image:: ./img/Todo7-1.png
     :alt: وبسایت
     :align: center
 
