@@ -25,8 +25,8 @@
 
 
 .. image:: ./img/producttracking/t1.jpg
-    :align: center
     :alt: انبار
+    :align: center
 
 
 پیکربندی
