@@ -30,6 +30,9 @@
     applications/inventory
     applications/chat/online_chat
     applications/reporting
+    applications/productivity
+    applications/productivity/to-do
+
 
 
 
