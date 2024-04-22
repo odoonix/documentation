@@ -19,10 +19,6 @@
     :alt: وبسایت
     :align: center
 
-.. image:: ./img/Todo3.png
-    :alt: وبسایت
-    :align: center
-
 .. image:: ./img/Todo1.png
     :alt: وبسایت
     :align: center
@@ -35,15 +31,18 @@
 
 همچنین با علامت ساعت و انتخاب add یادداشت(To-do)  میتوان این مراحل را انجام داد.
 
-.. image:: ./img/Todo4.png
+.. image:: ./img/Todo3.png
     :alt: وبسایت
     :align: center
-
 
 تبدیل یادداشت (To-do) به project task
 -------------------------
 
 زمانیکه بخواهیم تسک فردی خود را به تسکی از پروژه تبدیل کنیم ،در همان صفحه یادداشت(To-do)  علامت چرخ دنده >convert to task را کلیک میکنیم و صفحه ای باز میشود که میتوان نام پروژه و افراد مسئول و برچسب را انتخاب کنیم و سپس دکمه Convert to Task را کلیک کنیم.
+
+.. image:: ./img/Todo4.png
+    :alt: وبسایت
+    :align: center
 
 .. image:: ./img/Todo8.png
     :alt: وبسایت
