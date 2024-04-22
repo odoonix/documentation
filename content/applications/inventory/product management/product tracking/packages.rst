@@ -174,4 +174,15 @@
   - مکان: مکان فعلی بسته.
 
   - تاریخ بسته بندی: تاریخی که بسته ایجاد شده است.
+
+  
  
+.. image:: ./img/producttracking/t27.jpg
+    :align: center
+    :alt: انبار
+
+
+
+.. image:: ./img/producttracking/t28.jpg
+    :align: center
+    :alt: انبار
