@@ -17,23 +17,23 @@
 برای انجام این کار، با پیمایش به  :menuselection:`انبار --> پیکربندی --> مسیرها` شروع کنید. در صفحه **مسیرها**روی دکمه **فیلترها** کلیک کرده و گزینه **بایگانی شده** را انتخاب کنید. این همه مسیرهایی را که در حال حاضر بایگانی شده اند نشان می دهد.
 
 
-.. image:: img/product replenishment/s11.jpg
-   :align: center
-   :alt: انبار.
+.. image:: ./img/productreplenishment/s11.jpg
+    :align: center
+    :alt: انبار.
 
 
 کادر انتخاب کنار شارژمجدد طبق سفارش (MTO) را فعال کنید، سپس روی دکمه کنش(چرخ دنده) کلیک کنید تا منوی کشویی نمایان شود. از منوی کشویی، برگشت از بایگانی را انتخاب کنید.
 
 
-.. image:: img/product replenishment/s12.jpg
-   :align: center
-   :alt: انبار.
+.. image:: ./img/productreplenishment/s12.jpg
+    :align: center
+    :alt: انبار.
 
 در نهایت، فیلتر بایگانی شده را از نوارجستجو… حذف کنید. صفحه مسیرها اکنون همه مسیرهای موجود، از جمله تکمیل سفارش (MTO) را نشان می دهد، که اکنون در برگه موجودی هر صفحه محصول قابل انتخاب است.
 
-.. image:: img/product replenishment/s13.jpg
-   :align: center
-   :alt: انبار.
+.. image:: ./img/productreplenishment/s13.jpg
+    :align: center
+    :alt: انبار.
 
 
 یک محصول را برای استفاده از مسیر MTO پیکربندی کنید
@@ -48,9 +48,9 @@
    مسیر شارژمجدد طبق سفارش (MTO) کار نمی کند مگر اینکه مسیر دیگری نیز انتخاب شود. این به این دلیل است که Odoo باید بداند که چگونه محصول را هنگامی که سفارشی برای آن ارسال می شود (خرید، تولید و غیره) دوباره پر کند.
 
 
-.. image:: img/product replenishment/s14.jpg
-   :align: center
-   :alt: انبار.
+.. image:: ./img/productreplenishment/s14.jpg
+    :align: center
+    :alt: انبار.
 
 
 
@@ -59,14 +59,14 @@
 
 تب خرید را انتخاب کنید و فروشنده و قیمتی را که محصول را با آن می فروشند مشخص کنید
 
-.. image:: img/product replenishment/s15.jpg
-   :align: center
-   :alt: انبار.
+.. image:: ./img/productreplenishment/s15.jpg
+    :align: center
+    :alt: انبار.
 
 
-.. image:: img/product replenishment/s16.jpg
-   :align: center
-   :alt: انبار.
+.. image:: ./img/productreplenishment/s16.jpg
+    :align: center
+    :alt: انبار.
 
 
 اگر محصول تولید شده است، مطمئن شوید که یک فهرست اقلام (BOM) برای آن پیکربندی شده است. برای انجام این کار، روی دکمه هوشمند فهرست اقلام در بالای صفحه کلیک کنید، سپس روی جدید در صفحه کلیک کنید تا یک BOM(فهرست اقلام) جدید برای محصول پیکربندی شود.
@@ -77,15 +77,15 @@
 
 
 
-.. image:: img/product replenishment/s17.jpg
-   :align: center
-   :alt: انبار.
+.. image:: ./img/productreplenishment/s17.jpg
+    :align: center
+    :alt: انبار.
 
 
 
-.. image:: img/product replenishment/s18.jpg
-   :align: center
-   :alt: انبار.
+.. image:: ./img/productreplenishment/s18.jpg
+    :align: center
+    :alt: انبار.
 
 
 

@@ -23,7 +23,7 @@ Odoo را می توان برای استفاده از واحدهای اندازه
 برای استفاده از واحدهای اندازه گیری مختلف در Odoo، ابتدا به برنامه  :menuselection:`انبار --> پیکربندی --> تنظیمات` رفته و در قسمت محصولات، تنظیمات واحدهای انازه گیریرا فعال کنید. سپس، روی ذخیره کلیک کنید.
 
 
-.. image:: img/product replenishment/s29.jpg
+.. image:: ./img/productreplenishment/s29.jpg
     :align: center
     :alt: انبار.
 
@@ -33,12 +33,12 @@ Odoo را می توان برای استفاده از واحدهای اندازه
 پس از فعال کردن تنظیمات واحدهای اندازه‌گیری، واحدهای پیش‌فرض دسته‌های اندازه‌گیری را در برنامه  :menuselection:`انبار -->پیکربندی --> دسته بندی واحدهای اندازه گیری` مشاهده کنید. دسته برای تبدیل واحد مهم است. Odoo می تواند واحدهای یک محصول را از یک واحد به واحد دیگر تبدیل کند تنها در صورتی که هر دو واحد متعلق به یک دسته باشند.
 
 
-.. image:: img/product replenishment/s30.jpg
+.. image:: ./img/productreplenishment/s30.jpg
     :align: center
     :alt: انبار.
 
 
-.. image:: img/product replenishment/s31.jpg
+.. image:: ./img/productreplenishment/s31.jpg
     :align: center
     :alt: انبار.
 
@@ -49,7 +49,7 @@ Odoo را می توان برای استفاده از واحدهای اندازه
 
 برای ایجاد یک واحد جدید، ابتدا دسته صحیح را از صفحه دسته بندی واحدهای اندازه گیری انتخاب کنید.
 
-.. image:: img/product replenishment/s32.jpg
+.. image:: ./img/productreplenishment/s32.jpg
     :align: center
     :alt: انبار.
 
@@ -91,7 +91,7 @@ Odoo به طور خودکار واحد اندازه گیری خرید را به 
     یک  :abbr:`PO (Purchase Order)` تنها زمانی می تواند به صورت خودکار ایجاد شود که حداقل یک فروشنده در برگه خرید فرم محصول فهرست شده باشد.
 
 
-.. image:: img/product replenishment/s33.jpg
+.. image:: ./img/productreplenishment/s33.jpg
     :align: center
     :alt: انبار.
 
