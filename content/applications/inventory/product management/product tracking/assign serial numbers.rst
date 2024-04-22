@@ -22,9 +22,27 @@
   - هنگام بستن یک سفارش تولید
   - هنگام انجام تعدیل موجودی
 
-  
+
 
 .. image:: ./img/producttracking/t1.jpg
     :align: center
     :alt: انبار.
+
+
+پیکربندی
+--------------------------------------------------
+
+برای اختصاص شماره سریال به محصولات، ویژگی Lots and Serial Numbers را در برنامه  :menuselection:`انبار --> پیکربندی --> تنظیمات`فعال کنید.
+
+سپس، در برگه انبار فرم محصول یک کالا، قسمت پیگیری را روی By Unique Serial Number تنظیم کنید.
+
+
+.. image:: ./img/producttracking/t2.jpg
+    :align: center
+    :alt: انبار.
+
+
+
+.. seealso::
+   - :doc:`use serial numbers to track products`
 
