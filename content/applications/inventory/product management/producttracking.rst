@@ -12,11 +12,11 @@
 .. toctree::
    :titlesonly:
    
-   ./product tracking/product type
-   ./product tracking/difference between lots and serial numbers
-   ./product tracking/assign serial numbers
-   ./product tracking/use serial numbers to track products
-   ./product tracking/use lots to manage groups of products
-   ./product tracking/expiration dates
-   ./product tracking/packages
-   ./product tracking/packaging
+   ./producttracking/product type
+   ./producttracking/difference between lots and serial numbers
+   ./producttracking/assign serial numbers
+   ./producttracking/use serial numbers to track products
+   ./producttracking/use lots to manage groups of products
+   ./producttracking/expiration dates
+   ./producttracking/packages
+   ./producttracking/packaging

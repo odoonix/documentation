@@ -12,7 +12,7 @@
 .. toctree::
    :titlesonly:
    
-   ./product replenishment/selecting a replenishment strategy
-   ./product replenishment/replenish on order
-   ./product replenishment/reordering rules
-   ./product replenishment/units of measure
+   ./productreplenishment/selecting a replenishment strategy
+   ./productreplenishment/replenish on order
+   ./productreplenishment/reordering rules
+   ./productreplenishment/units of measure
