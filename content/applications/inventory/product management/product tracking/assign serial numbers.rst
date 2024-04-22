@@ -46,3 +46,28 @@
 .. seealso::
    - :doc:`use serial numbers to track products`
 
+
+
+در مرحله بعد، با رفتن به برنامه  :menuselection:`انبار --> پیکربندی --> انواع عملیات`، ایجاد شماره سریال جدید را فعال کنید.
+
+از صفحه انواع عملیات، نوع عملیات مورد نظر (به عنوان مثال رسید، سفارشات تحویل، یا ساخت) را انتخاب کنید و گزینه ایجاد جدید را در بخش سری ساخت/سریال صفحه پیکربندی نوع عملیات انتخاب کنید.
+
+
+
+.. image:: ./img/producttracking/t3.jpg
+    :align: center
+    :alt: انبار.
+
+
+
+.. image:: ./img/producttracking/t4.jpg
+    :align: center
+    :alt: انبار.
+
+
+
+.. image:: ./img/producttracking/t5.jpg
+    :align: center
+    :alt: انبار.
+
+
