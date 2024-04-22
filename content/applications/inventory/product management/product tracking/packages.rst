@@ -130,3 +130,14 @@
 - حامل: حامل حمل و نقل مورد نظر را برای این نوع بسته مشخص کنید.
 
 - کد حامل: کدی را تعریف کنید که به نوع بسته مرتبط است.
+
+
+.. image:: ./img/producttracking/t24.jpg
+    :align: center
+    :alt: انبار
+
+
+
+.. image:: ./img/producttracking/t25.jpg
+    :align: center
+    :alt: انبار
