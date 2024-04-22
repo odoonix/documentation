@@ -12,7 +12,7 @@
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     applications/iot
     applications/gym
