@@ -25,7 +25,7 @@ Odoo را می توان برای استفاده از واحدهای اندازه
 
 .. image:: ./img/productreplenishment/s29.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 دسته بندی واحدهای اندازه گیری
@@ -35,12 +35,12 @@ Odoo را می توان برای استفاده از واحدهای اندازه
 
 .. image:: ./img/productreplenishment/s30.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 .. image:: ./img/productreplenishment/s31.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
@@ -51,7 +51,7 @@ Odoo را می توان برای استفاده از واحدهای اندازه
 
 .. image:: ./img/productreplenishment/s32.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
@@ -93,7 +93,7 @@ Odoo به طور خودکار واحد اندازه گیری خرید را به 
 
 .. image:: ./img/productreplenishment/s33.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
