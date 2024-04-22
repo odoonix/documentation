@@ -12,7 +12,7 @@
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     applications/iot
     applications/gym
@@ -31,7 +31,7 @@
     applications/chat/online_chat
     applications/reporting
     applications/productivity
-    applications/productivity/to-do
+    applications/productivity/to-do/to-do
 
 
 
