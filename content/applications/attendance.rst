@@ -1,7 +1,7 @@
 ماژول حضور وغیاب  
 =============
 
-.. image:: ./pos/pos-background.png
+.. image:: ./attendance/attendance.png
     :alt: باشگاه ویراوب123 
     :align: center
 
