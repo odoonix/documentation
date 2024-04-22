@@ -105,3 +105,58 @@
     :align: center
 
 نحوه نمایش یادداشت(To-do) ها را  نیز میتوان از نوار بالای صفحه انتخاب کرد.
+
+تگ ها
+---------------
+
+:guilabel:`#todo`
+
+:guilabel:`#task`
+
+:guilabel:`#reminder`
+
+:guilabel:`#checklist`
+
+:guilabel:`#agenda`
+
+:guilabel:`#action_item`
+
+:guilabel:`#to_do_list`
+
+:guilabel:`#pending`
+
+:guilabel:`#priority`
+
+:guilabel:`#schedule`
+
+:guilabel:`#کاربرد`
+
+:guilabel:`#انجام_پذیر`
+
+:guilabel:`#کارهای_باقیمانده`
+
+:guilabel:`#یادداشت_انجام`
+
+:guilabel:`#فهرست_وظایف`
+
+:guilabel:`#برنامه_کاری`
+
+:guilabel:`#اولویت_ها`
+
+:guilabel:`#اقدامات`
+
+:guilabel:`#کارهای_پیش_رو`
+
+:guilabel:`#اطلاع_رسانی`
+
+رفرنس ها
+--------------------
+
+1. https://www.cybrosys.com/odoo/odoo#books/v17
+   
+2. https://www.tashilgostar.com/documentation/16.0/applications
+   
+3. https://www.odoo.com/documentation/17.0/applications
+   
+4. https://oxydoo.com/blog/guide-28/to-do-243
+
