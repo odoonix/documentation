@@ -26,7 +26,7 @@
 
 .. image:: ./img/producttracking/t1.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 پیکربندی
@@ -39,7 +39,7 @@
 
 .. image:: ./img/producttracking/t2.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
@@ -56,19 +56,19 @@
 
 .. image:: ./img/producttracking/t3.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
 .. image:: ./img/producttracking/t4.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
 .. image:: ./img/producttracking/t5.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 
@@ -79,7 +79,7 @@
 
 .. image:: ./img/producttracking/t6.jpg
     :align: center
-    :alt: انبار.
+    :alt: انبار
 
 
 .. important::
@@ -88,7 +88,7 @@
 
   .. image:: ./img/producttracking/t7.jpg
       :align: center
-      :alt: انبار.
+      :alt: انبار
 
   برای ثبت شماره سریال یک کالا قبل از دریافت کالا، مراحل بخش های بعدی را برای اختصاص شماره سریال دنبال کنید، اما تا زمانی که محصولات از فروشنده دریافت نشده اند، روی دکمه اعتبارسنجی رسید کلیک نکنید.
 
@@ -97,4 +97,13 @@
 
 
 در ستون سری و سریال ساخت، شماره سریال یک محصول را به صورت دستی تایپ کنید.
+
+
+.. image:: ./img/producttracking/t8.jpg
+    :align: center
+    :alt: انبار
+
+پس از اتمام، روی  رسید کلیک کنید و شماره سریال های اختصاص داده شده به طور خودکار ذخیره می شوند.
+
+
 
