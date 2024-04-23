@@ -228,3 +228,8 @@
 .. image:: ./img/producttracking/t55.jpg
     :align: center
     :alt: انبار 
+
+
+
+.. seealso::
+   - :doc:`difference between lots and serial numbers`
