@@ -262,5 +262,6 @@
 
 
 .. seealso::
-   - :doc:` difference between lots and serial numbers`
+   - :doc:`difference between lots and serial numbers`
 
+`
