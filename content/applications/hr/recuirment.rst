@@ -76,15 +76,47 @@ o	**روزهای دریافت پیشنهاد** : تعداد روزهایی را 
 
 
 
-
-
-
-
 .. toctree::
    :titlesonly:
 
     ./recuirment/addempl
-    ./recuirment/Interview
+    ./recuirment/interview
+
 
 لینک های مرتبط:
-1. 
+
+1. https://oxydoo.com/blog/guide-28/recruitment-263
+2. https://www.odoo.com/documentation/17.0/applications/hr/employees.html
+3. https://www.tashilgostar.com/documentation/16.0/applications/hr/recruitment.html
+
+تگ ها
+--------- 
+1.  :guilabel:`#فرصت_شغل`
+2.  :guilabel:`# کاریابی`
+3.  :guilabel:`#کارجو``
+4.  :guilabel:`#استخدام_فارس`
+5.  :guilabel:`#استخدام_ایران`
+6.  :guilabel:`#استخدام_تهران`
+7.  :guilabel:`# همکاری`
+8.  :guilabel:`# شغل`
+9.  :guilabel:`# مصاحبه_کاری`
+10. :guilabel:`# رزومه`
+11. :guilabel:`# کاریابی_تهران`
+12. :guilabel:`# کار_پاره_وقت`
+13. :guilabel:`# کار_تمام_وقت`
+14. :guilabel:`# استخدام_به_صورت_رسمی`
+15. :guilabel:`#jobsearch`
+16. :guilabel:`#hiring`
+17. :guilabel:`#jobhunt`
+18. :guilabel:`#employment`
+19. :guilabel:`#jobopening`
+20. :guilabel:`#careeropportunity`
+21. :guilabel:`#joblisting`
+22. :guilabel:`#recruitment`
+23. :guilabel:`#jobvacancy`
+24. :guilabel:`#nowhiring`
+25. :guilabel:`#jobposting`
+26. :guilabel:`#careersearch`
+27. :guilabel:`#jobopportunity`
+28. :guilabel:`#jobseekers`
+29. :guilabel:`#jobmarket`
