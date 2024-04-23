@@ -17,7 +17,7 @@
 
 
 .. seealso::
-   - :doc:`use serial numbers to track products </producttracking/use serial numbers to track products>`_
+   - :doc:`use serial numbers to track products `
 
 شناسه(سری) و شماره سریال را فعال کنید
 ----------------------------------------------------------------------
