@@ -58,5 +58,42 @@
    ./channels_team_communication
 
 
+رفرنس ها
+-------------------
 
+1. https://oxydoo.com/blog/guide-28/discuss-215
+   
+2. https://www.odoo.com/documentation/17.0/applications
+   
+3. https://www.tashilgostar.com/documentation/16.0/applications
 
+تگ ها
+-----------
+
+1.  :guilabel:`#بحث`
+   
+2.  :guilabel:`#بحث_و_گفتگو`
+   
+3.  :guilabel:`#گفتگو`
+   
+4.  :guilabel:`#کانال`
+   
+5.  :guilabel:`#چت`
+   
+6.  :guilabel:`#خصوصی`
+   
+7.  :guilabel:`#گفتگو_عمومی`
+   
+8.  :guilabel:`#گفتگو_خصوصی`
+   
+9.  :guilabel:`#chat`
+
+10. :guilabel:`#discuss`
+
+11. :guilabel:`#online_chat`
+
+12. :guilabel:`#public_chat`
+
+13. :guilabel:`#private_chat`
+
+14. :guilabel:`#channel`
