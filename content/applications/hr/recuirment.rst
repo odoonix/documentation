@@ -75,6 +75,6 @@ o	**روزهای دریافت پیشنهاد** : تعداد روزهایی را 
 .. toctree::
    :titlesonly:
 
-    ./addempl
-    ./interview
+    ./recuirment/addempl
+    ./recuirment/interview
 
