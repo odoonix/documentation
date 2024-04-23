@@ -1,4 +1,9 @@
+:nosearch:
+:show-content:
+:hide-page-toc:
+:show-toc:
 
+==========================
 مدیریت مرخصی
 ==============================
 
@@ -26,4 +31,4 @@
    :titlesonly:
 
    ./timesoff/newtimesoff
-   ./timesoff/
+
