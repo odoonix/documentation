@@ -1,4 +1,3 @@
-
 :nosearch:
 :show-content:
 :hide-page-toc:
