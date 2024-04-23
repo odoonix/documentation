@@ -47,16 +47,3 @@
 در زیر خلاصه ای از نحوه تأثیر هر نوع محصول بر عملیات موجودی مشترک، مانند نقل و انتقالات، قوانین سفارش مجدد، و گزارش پیش بینی شده، آمده است. 
 
 
-.. list-table::
-    :header-rows: 1
-    :stub-columns: 1
-
-  * - Name
-    - Country
-    - Favorite colour
-  * - Raúl
-    - Montenegro
-    - Purple
-  * - Mélanie
-    - France
-    - Turquoise
