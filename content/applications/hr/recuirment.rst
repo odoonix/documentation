@@ -84,7 +84,7 @@ o	**روزهای دریافت پیشنهاد** : تعداد روزهایی را 
    :titlesonly:
 
     ./recuirment/addempl
-    ./recuirment/Interview
+    ./recuirment/interview
 
 لینک های مرتبط:
 
