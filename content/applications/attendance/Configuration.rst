@@ -1,7 +1,7 @@
 پیکربندی
 =============
 
-.. image:: ./configuration.png
+.. image:: ./attendacemanually.png
     :alt: باشگاه ویراوب123 
     :align: center
 
