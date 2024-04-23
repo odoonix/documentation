@@ -1,7 +1,7 @@
 پیکربندی
 =============
 
-.. image:: ./pos/pos-background.png
+.. image:: ./Configuration.png
     :alt: باشگاه ویراوب123 
     :align: center
 
