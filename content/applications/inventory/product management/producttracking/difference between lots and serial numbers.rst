@@ -17,3 +17,4 @@
 
 .. seealso::
    - :doc:`use lots to manage groups of products`
+   - :doc:`use serial numbers to track products`
