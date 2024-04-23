@@ -1,7 +1,7 @@
 حق دسترسی های کاربران دراین برنامه
 =============
 
-.. image:: ./pos/pos-background.png
+.. image:: ./accessright.png
     :alt: باشگاه ویراوب123 
     :align: center
 
