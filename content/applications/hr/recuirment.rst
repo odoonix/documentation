@@ -73,13 +73,10 @@ o	**روزهای دریافت پیشنهاد** : تعداد روزهایی را 
 
 همانطور که در عکس فوق مشاهده میکنید. تب دوم مربوط به خلاصه ایی موقعیت شغلی می باشد. 
 
-
-
-
 .. toctree::
    :titlesonly:
 
-    ./recuirment/interview
     ./recuirment/addempl
+    ./recuirment/interview
 
 
