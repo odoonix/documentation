@@ -55,7 +55,7 @@
 .. toctree::
    :titlesonly:
 
-   ./discuss
+   ./channels_team_communication
 
 
 
