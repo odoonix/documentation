@@ -21,6 +21,7 @@
     applications/lunch/lunch
     applications/hr/fleet
     applications/hr/employees
+    applications/hr/recuirment
     applications/purchase
     applications/website
     applications/website/website
