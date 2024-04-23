@@ -1,4 +1,3 @@
-
 :nosearch:
 :show-content:
 :hide-page-toc:
@@ -66,20 +65,16 @@ o	**روزهای دریافت پیشنهاد** : تعداد روزهایی را 
     قسمت Process Details یک فیلد متنی است. همه پاسخ ها به جای انتخاب از یک منوی کشویی تایپ می شوند. متن دقیقاً همانطور که در این تب ظاهر می شود در وب سایت نمایش داده می شود.
 -----------------------------
 
-
 .. image:: ./recuirment/img/rcm5.png
     :alt: ماژول استخدام
     :align: center
 
 همانطور که در عکس فوق مشاهده میکنید. تب دوم مربوط به خلاصه ایی موقعیت شغلی می باشد. 
 
-
-
-
 .. toctree::
    :titlesonly:
 
-    ./recuirment/interview
     ./recuirment/addempl
+    ./recuirment/interview
 
 
