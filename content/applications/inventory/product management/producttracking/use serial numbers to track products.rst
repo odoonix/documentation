@@ -100,7 +100,7 @@
 
 
 .. seealso::
-    - :doc:`assign serial numbers`
+   - :doc:`assign serial numbers`
 
 
 .. image:: ./img/producttracking/t33.jpg
@@ -262,5 +262,5 @@
 
 
 .. seealso::
-    - :doc:` difference between lots and serial numbers`
+   - :doc:` difference between lots and serial numbers`
 
