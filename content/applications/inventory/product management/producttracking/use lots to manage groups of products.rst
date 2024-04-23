@@ -200,3 +200,8 @@
 .. image:: ./img/producttracking/t53.jpg
     :align: center
     :alt: انبار 
+
+
+
+.. tip::
+    برای نقل و انتقالات بین انباری که شامل محصولات ردیابی شده توسط لات ها می شود، فعال کردن گزینه Use Existing Lots/Serial Numbers برای رسیدهای انبار می تواند مفید باشد.
