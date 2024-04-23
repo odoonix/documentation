@@ -17,7 +17,7 @@
 
 
 .. seealso::
-   - :doc:`use serial numbers to track products `
+    - :doc:`use serial numbers to track products `
 
 شناسه(سری) و شماره سریال را فعال کنید
 ----------------------------------------------------------------------
@@ -170,7 +170,7 @@
 
 
 .. seealso::
-   - :doc:`Removal strategies`
+    - :doc:`Removal strategies`
 
 
 سپس روی **افزودن یک خط** کلیک کنید، یک سری/ شماره سریال اضافی (متفاوت) را انتخاب کنید، بقیه مقادیر انجام شده را اعمال کنید و روی تایید کلیک کنید تا پنجره بازشو بسته شود. در آخر برای تحویل محصولات روی دکمه تاییداعتبار کلیک کنید.
@@ -232,4 +232,4 @@
 
 
 .. seealso::
-   - :doc:`difference between lots and serial numbers`
+    - :doc:`difference between lots and serial numbers`
