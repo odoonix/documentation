@@ -86,6 +86,7 @@ o	**روزهای دریافت پیشنهاد** : تعداد روزهایی را 
     ./recuirment/addempl
     ./recuirment/interview
 
+
 لینک های مرتبط:
 
 1. https://oxydoo.com/blog/guide-28/recruitment-263
