@@ -1,7 +1,7 @@
 ماژول فروش 
 =============
 
-.. image:: ./sales/sales1.jpg
+.. image:: ./sales/sales_one.jpg
     :alt: باشگاه ویراوب123 
     :align: center
 
