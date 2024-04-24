@@ -13,3 +13,4 @@
 .. toctree::
 
     margin.rst
+    active_margin.rst
