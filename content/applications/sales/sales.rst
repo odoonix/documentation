@@ -1,7 +1,7 @@
 ماژول فروش 
 =============
 
-.. image:: ./attendance/attendance.png
+.. image:: ./sales.jpg
     :alt: باشگاه ویراوب123 
     :align: center
 
@@ -12,4 +12,4 @@
 
 .. toctree::
 
-    sales/margin.rst
+    applications/sales/margin.rst

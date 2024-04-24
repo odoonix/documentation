@@ -1,7 +1,7 @@
 حاشیه سود  
 =============
 
-.. image:: ./attendance/attendance.png
+.. image:: ./margin/margin.png
     :alt: باشگاه ویراوب123 
     :align: center
 
