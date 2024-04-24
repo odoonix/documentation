@@ -12,4 +12,4 @@
 
 .. toctree::
 
-    sales/margin/margin.rst
+    sales/margin.rst
