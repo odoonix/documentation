@@ -11,7 +11,7 @@
 
 با نصب ماژول مرخصی وارد محیط زیر می شود.
 
-.. image:: ./timesoff/img/times1.png
+.. image:: ./img/times1.png
     :alt: ماژول استخدام
     :align: center
 
