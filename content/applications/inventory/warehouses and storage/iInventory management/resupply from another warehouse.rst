@@ -17,7 +17,7 @@
 ----------------------------------------
 برای تامین(شارژ) مجدد از یک انبار دیگر، ابتدا به  :menuselection:`انبار --> پیکربندی --> تنظیمات --> انبار` رفته و مسیرهای چند مرحله ای را فعال کنید. سپس روی ذخیره کلیک کنید تا تنظیمات اعمال شود
 
-.. image:: ./img/inventoryvaluation/m1.jpg
+.. image:: ./img/inventorymanagement/m1.jpg
     :align: center
     :alt: انبار
 
@@ -29,17 +29,17 @@
 پس از آن به صفحه انبارها برگردید و انباری را که توسط انبار دوم تامین می شود را باز کنید. سپس، روی ویرایش کلیک کنید. در تب پیکربندی، قسمت **تامین مجدداز** را پیدا کرده و کادر کنار نام انبار دوم را علامت بزنید. اگر انبار را می توان توسط بیش از یک انبار دوباره تامین کرد، حتما جعبه های آن انبارها را نیز بررسی کنید. در نهایت روی ذخیره کلیک کنید تا تنظیمات اعمال شود. اکنون، Odoo می داند که کدام انبارها می توانند این انبار را دوباره تامین کنند.
 
 
-.. image:: ./img/inventoryvaluation/m2.jpg
+.. image:: ./img/inventorymanagement/m2.jpg
     :align: center
     :alt: انبار
 
 
-.. image:: ./img/inventoryvaluation/m3.jpg
+.. image:: ./img/inventorymanagement/m3.jpg
     :align: center
     :alt: انبار
 
 
-.. image:: ./img/inventoryvaluation/m4.jpg
+.. image:: ./img/inventorymanagement/m4.jpg
     :align: center
     :alt: انبار
 
@@ -49,7 +49,7 @@
 پس از پیکربندی انبار(ها) برای **تامین مجدد**، اکنون یک مسیر جدید در تمام فرم های محصول موجود است. مسیر جدید به عنوان محصول تامین از **[نام انبار]** در زیر برگه موجودی در فرم محصول ظاهر می شود. برای تکمیل موجودی با انتقال محصول از یک انبار به انبار دیگر، از محصول عرضه از مسیر [نام انبار] با قانون سفارش مجدد یا مسیر ساخت به سفارش (MTO) استفاده کنید.
 
 
-.. image:: ./img/inventoryvaluation/m5.jpg
+.. image:: ./img/inventorymanagement/m5.jpg
     :align: center
     :alt: انبار
 
@@ -58,12 +58,12 @@
 در سوابق انتخاب/انتقال ایجاد شده توسط Odoo، سند منبع قانون سفارش مجدد محصول است. محل بین سفارش تحویل و رسید یک مکان حمل و نقل است.
 
 
-.. image:: ./img/inventoryvaluation/m6.jpg
+.. image:: ./img/inventorymanagement/m6.jpg
     :align: center
     :alt: انبار
 
 
-.. image:: ./img/inventoryvaluation/m7.jpg
+.. image:: ./img/inventorymanagement/m7.jpg
     :align: center
     :alt: انبار
 
