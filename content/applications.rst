@@ -22,6 +22,8 @@
     applications/hr/fleet
     applications/hr/employees
     applications/hr/recuirment
+    applications/hr/timesoff
+    applications/hr/timesoff/timesoff
     applications/purchase
     applications/website
     applications/website/website
@@ -34,6 +36,10 @@
     applications/productivity
     applications/productivity/to-do/to-do
     applications/sales/sales
+    applications/productivity/discuss/discuss
+    applications/productivity/calendar/calendar
+
+
 
 
 

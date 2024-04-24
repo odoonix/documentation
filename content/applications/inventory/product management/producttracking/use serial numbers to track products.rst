@@ -15,7 +15,7 @@
 
 
 .. seealso::
-   - :doc:`Use lots to manage groups of products`
+   - :doc:`use lots to manage groups of products`
 
 
 سری ساخت/ سریال را فعال کنید
@@ -262,5 +262,6 @@
 
 
 .. seealso::
-   - :doc:` difference between lots and serial numbers`
+   - :doc:`difference between lots and serial numbers`
 
+`
