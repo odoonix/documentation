@@ -11,15 +11,13 @@
 
 با نصب ماژول مرخصی وارد محیط زیر می شود.
 
-.. image:: ./img/times1.png
+.. image:: ./timesoff/img/times1.png
     :alt: ماژول استخدام
     :align: center
-
-..............................
 
 .. toctree::
    :titlesonly:
 
-   ./newtimesoff
+   ./timesoff/newtimesoff
 
 
