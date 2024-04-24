@@ -16,11 +16,8 @@
     :align: center
 
 
-
-
-
 .. toctree::
    :titlesonly:
 
-   ./timesoff/newtimesoff
+   ./newtimesoff
 
