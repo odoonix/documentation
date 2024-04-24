@@ -12,4 +12,4 @@
 
 .. toctree::
 
-    margin.rst
+    applications/sales/margin.rst
