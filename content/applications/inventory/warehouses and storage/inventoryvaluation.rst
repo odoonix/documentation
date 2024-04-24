@@ -12,6 +12,6 @@
 .. toctree::
    :titlesonly:
    
-   ./inventory valuation/inventory valuation configuration
-   ./inventory valuation/using inventory valuation
-   ./inventory valuation/landed costs
+   ./inventoryvaluation/inventory valuation configuration
+   ./inventoryvaluation/using inventory valuation
+   ./inventoryvaluation/landed costs
