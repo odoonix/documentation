@@ -71,3 +71,7 @@
 .. image:: ./img/inventoryvaluation/v8.jpg
     :align: center
     :alt: انبار
+
+
+.. important::
+    حالت توسعه دهنده باید فعال باشد تا گزینه ارزش گذاری را در قسمت گزارش دهی ببینید
