@@ -15,7 +15,6 @@
     :alt: ماژول استخدام
     :align: center
 
-
 .. toctree::
    :titlesonly:
 
