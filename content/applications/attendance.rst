@@ -1,4 +1,4 @@
-ماژول حضور وغیاب  
+حضور وغیاب  
 =============
 
 .. image:: ./attendance/attendance.png
