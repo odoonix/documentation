@@ -42,7 +42,7 @@
 .. tip::
     برای بررسی موجودی موجود در هر مکان ذخیره سازی، به فرم محصول بروید و روی دکمه هوشمند On Hand کلیک کنید.
 
-    .. image:: ./img/removalstrategies/r5.jpg
+    .. image:: ./img/removalstrategies/r6.jpg
         :align: center
         :alt: انبار
 
