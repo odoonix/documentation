@@ -39,8 +39,12 @@
     :align: center
     :alt: انبار
 
-    
+
 
 .. image:: ./img/inventorymanagement/m25.jpg
     :align: center
     :alt: انبار
+
+
+.. example::
+    مکانی که هر 30 روز یک بار به شمارش موجودی نیاز دارد، باید فرکانس موجودی (روز) روی 30 تنظیم شود.
