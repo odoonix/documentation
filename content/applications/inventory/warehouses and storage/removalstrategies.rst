@@ -12,8 +12,8 @@
 .. toctree::
    :titlesonly:
    
-   ./removalstrategies/fIFO removal
-   ./removalstrategies/lIFO removal
-   ./removalstrategies/fEFO removal
-   ./removalstrategies/closest location removal
-   ./removalstrategies/least packages removal
+   ./removal strategies/fIFO removal
+   ./removal strategies/lIFO removal
+   ./removal strategies/fEFO removal
+   ./removal strategies/closest location removal
+   ./removal strategies/least packages removal
