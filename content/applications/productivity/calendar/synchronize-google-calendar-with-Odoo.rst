@@ -43,13 +43,21 @@ o	تنظیمات در اودو
 
 در مرحله بعدی، در صفحه OAuth Consent Screen، در فیلد App name نام برنامه، Odoo  را تایپ کنید، آدرس ایمیلی را برای فیلد (ایمیل پشتیبان کاربر)  و آدرس ایمیل Developer contact information (اطلاعات تماس توسعه‌دهنده) را وارد نمایید. سپس بر روی ذخیره و ادامه کلیک کنید.حدود را با دکمه Save and Continue  رد کنید.
 در ادامه، اگر در حالت external فعالیت می‌کنید آدرس ایمیلی که در حال پیکربندی است را در مرحله Test users (کاربران تست) وارد کنید. این کار با کلیک بر روی Add Users (افزودن کاربران) و سپس Save and Continue (ذخیره و ادامه) انجام می‌شود. در نهایت Back to Dashboard (برگشت به داشبورد) را کلیک کنید.
+
 اطلاعات احراز
+-----------------
+
 این مرحله برای بدست اوردن Client ID و Client Secret و استفاده از آن در اودوو میباشد.
-ابتدا در منوی چپ Credentials > Create Credentials را انتخاب کنید و OAuth client ID را انتخاب نمایید. 
-در بخش Create OAuth Client ID گزینه Website application را در فیلد Application Type وارد نمایید، و در فیلد Name عبارت My Odoo Database را وارد نمایید.
-در بخش Authorized JavaScript Origins بر روی + Add URI کلیک کرده و آدرس URL کامل اودوو را وارد کنید.
-در بخش Authorized redirect URIs، روی + Add URI کلیک کرده و آدرس URL کامل اودوو را وارد کرده و در ادامه /google_account/authentication را تایپ کنید. 
-در آخر Create را بزنید. و Client ID و Client Secret نمایش داده میشود و میتوانید آن را دریافت کنید.
+
+- ابتدا در منوی چپ Credentials > Create Credentials را انتخاب کنید و OAuth client ID را انتخاب نمایید. 
+
+- در بخش Create OAuth Client ID گزینه Website application را در فیلد Application Type وارد نمایید، و در فیلد Name عبارت My Odoo Database را وارد نمایید.
+
+- در بخش Authorized JavaScript Origins بر روی + Add URI کلیک کرده و آدرس URL کامل اودوو را وارد کنید.
+
+- در بخش Authorized redirect URIs، روی + Add URI کلیک کرده و آدرس URL کامل اودوو را وارد کرده و در ادامه /google_account/authentication را تایپ کنید. 
+
+- در آخر Create را بزنید. و Client ID و Client Secret نمایش داده میشود و میتوانید آن را دریافت کنید.
 
 
 تنظیمات اودوو
@@ -71,14 +79,19 @@ o	تنظیمات در اودو
     :align: center
 
 گزینه هایی برای ریست وجود دارد:
-User’s Existing Events
-•	Leave them untouched: تغییری در رویداد ها وجود نداشته باشد
-•	Delete from the current Google Calendar account: حذف رویداد از  تقویم گوگل
-•	Delete from Odoo: حذف رویداد از تقویم اودوو
-•	Delete from both: حذف رویداد از هر دو تقویم اودوو و گوگل 
-Next Synchronization:
-•	Synchronize only new events:همگام کردن رویدادهای جدید در اودو یا گوگل  
-•	Synchronize all existing events: همگام کردن تمام رویداد ها در اودوو یا گوگل
+
+1. User’s Existing Events:
+
+- Leave them untouched: تغییری در رویداد ها وجود نداشته باشد
+- Delete from the current Google Calendar account: حذف رویداد از  تقویم گوگل
+- Delete from Odoo: حذف رویداد از تقویم اودوو
+- Delete from both: حذف رویداد از هر دو تقویم اودوو و گوگل 
+  
+2. Next Synchronization:
+
+- Synchronize only new events:همگام کردن رویدادهای جدید در اودو یا گوگل  
+- Synchronize all existing events: همگام کردن تمام رویداد ها در اودوو یا گوگل
+  
 سپس بر روی confirm کلیک کنید.
 
 .. image:: ./img/calendar12.png
@@ -92,8 +105,16 @@ Next Synchronization:
 حال به رایج ترین خطاهایی که ممکن است هنگام پیکربندی Google Calendar برای استفاده با Odoo رخ دهد، میپردازیم:
 
 Production vs. testing publishing status
+----------------------------------------
+
 اگر برای وضعیت محصولات حالت Publishing Status   را بجای تست قرار دهیم.برای رفع این مشکل میتوان به ادرس https://console.cloud.google.com/apis/credentials/consent مراجعه کرده و حالت تست را انتخاب کنیم.
+
 No test users added
+--------------------
+
 اگر test user  در OAuth consent screen وجود نداشته باشد با Error 403 مواجه میشویم. برای رفع این مشکل به OAuth consent screen > APIs & Services رفته و کاربر تست را انتخاب و ایمیل آن را اضافه میکنیم.
+
 Application Type
+---------------------
+
 اگر هنگام دریافت OAuth Client ID و Client Secret،  Desktop App را برای حالت اپلیکیشن انتخاب کرده باشیم با Error 400:redirect_uri_mismatch  مواجه میشویم. برای رفع این مشکل اعتبارنامه فعلی را حذف کرده و با رفتن به بخش Web Application> Application Type. اعتبار نامه جدیدی بسازید.
