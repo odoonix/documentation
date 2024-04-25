@@ -71,14 +71,19 @@ o	تنظیمات در اودو
     :align: center
 
 گزینه هایی برای ریست وجود دارد:
-User’s Existing Events
-•	Leave them untouched: تغییری در رویداد ها وجود نداشته باشد
-•	Delete from the current Google Calendar account: حذف رویداد از  تقویم گوگل
-•	Delete from Odoo: حذف رویداد از تقویم اودوو
-•	Delete from both: حذف رویداد از هر دو تقویم اودوو و گوگل 
-Next Synchronization:
-•	Synchronize only new events:همگام کردن رویدادهای جدید در اودو یا گوگل  
-•	Synchronize all existing events: همگام کردن تمام رویداد ها در اودوو یا گوگل
+
+1. User’s Existing Events:
+
+- Leave them untouched: تغییری در رویداد ها وجود نداشته باشد
+- Delete from the current Google Calendar account: حذف رویداد از  تقویم گوگل
+- Delete from Odoo: حذف رویداد از تقویم اودوو
+- Delete from both: حذف رویداد از هر دو تقویم اودوو و گوگل 
+  
+2. Next Synchronization:
+
+- Synchronize only new events:همگام کردن رویدادهای جدید در اودو یا گوگل  
+- Synchronize all existing events: همگام کردن تمام رویداد ها در اودوو یا گوگل
+  
 سپس بر روی confirm کلیک کنید.
 
 .. image:: ./img/calendar12.png
@@ -92,8 +97,16 @@ Next Synchronization:
 حال به رایج ترین خطاهایی که ممکن است هنگام پیکربندی Google Calendar برای استفاده با Odoo رخ دهد، میپردازیم:
 
 Production vs. testing publishing status
+----------------------------------------
+
 اگر برای وضعیت محصولات حالت Publishing Status   را بجای تست قرار دهیم.برای رفع این مشکل میتوان به ادرس https://console.cloud.google.com/apis/credentials/consent مراجعه کرده و حالت تست را انتخاب کنیم.
+
 No test users added
+--------------------
+
 اگر test user  در OAuth consent screen وجود نداشته باشد با Error 403 مواجه میشویم. برای رفع این مشکل به OAuth consent screen > APIs & Services رفته و کاربر تست را انتخاب و ایمیل آن را اضافه میکنیم.
+
 Application Type
+---------------------
+
 اگر هنگام دریافت OAuth Client ID و Client Secret،  Desktop App را برای حالت اپلیکیشن انتخاب کرده باشیم با Error 400:redirect_uri_mismatch  مواجه میشویم. برای رفع این مشکل اعتبارنامه فعلی را حذف کرده و با رفتن به بخش Web Application> Application Type. اعتبار نامه جدیدی بسازید.
