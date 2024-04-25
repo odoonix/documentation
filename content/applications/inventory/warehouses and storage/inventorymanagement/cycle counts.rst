@@ -116,7 +116,6 @@
 
 
 .. seealso::
-   - :doc:`inventory adjustments`
    - :doc:`locations`
 
 
