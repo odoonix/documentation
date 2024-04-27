@@ -89,9 +89,9 @@
     انبارها: انبار A و انبار B
     مکان: Wh1 و Wh2
 
-.. image:: ./img/advancedoperations/o22.jpg
-    :align: center
-    :alt: انبار 
+    .. image:: ./img/advancedoperations/o22.jpg
+        :align: center
+        :alt: انبار 
 
 
 .. important::
