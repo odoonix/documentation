@@ -12,7 +12,7 @@
 .. toctree::
    :titlesonly:
    
-   ./warehouses and storage/inventory management
-   ./warehouses and storage/inventory valuation
+   ./warehouses and storage/inventorymanagement
+   ./warehouses and storage/inventoryvaluation
    ./warehouses and storage/removal strategies
    ./warehouses and storage/advanced operations

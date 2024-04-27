@@ -28,13 +28,13 @@
     applications/website
     applications/website/website
     applications/dashbord
-    applications/pos
     applications/attendance
     applications/inventory
     applications/chat/online_chat
     applications/reporting
     applications/productivity
     applications/productivity/to-do/to-do
+    applications/sales/sales
     applications/productivity/discuss/discuss
     applications/productivity/calendar/calendar
 
