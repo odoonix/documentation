@@ -12,7 +12,7 @@
 .. toctree::
    :titlesonly:
    
-   ./shipping and receiving/setup and configuration
-   ./shipping and receiving/daily operations
-   ./shipping and receiving/reservation methods
-   ./shipping and receiving/advanced operations
+   ./shippingandreceiving/setup and configuration
+   ./shippingandreceiving/daily operations
+   ./shippingandreceiving/reservation methods
+   ./shippingandreceiving/advanced operations
