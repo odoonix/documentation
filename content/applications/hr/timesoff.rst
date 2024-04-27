@@ -19,5 +19,6 @@
    :titlesonly:
 
    ./timesoff/newtimesoff
+   ./timesoff/config
 
 
