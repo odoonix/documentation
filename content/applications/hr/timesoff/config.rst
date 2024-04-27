@@ -70,3 +70,47 @@ o	سایر : اگر هیچ یک از دو گزینه دیگر قابل اجرا 
 بررسی اجمالی
 --------------
 این منو به شما یک نگاه کلی از مرخصی ها در تقویم نمایش میدهد.
+
+
+تگ ها:
+
+:guilabel:`#Employees_timesoff`
+
+:guilabel:`#AnnualLeave`
+
+:guilabel:`#SickLeave `
+
+:guilabel:`#TimeOff`
+
+:guilabel:`#LeaveManagement
+
+:guilabel:`#LeaveRequest`
+
+:guilabel:`#Vacation`
+
+:guilabel:`# مرخصی`
+
+:guilabel:`# مرخصی_کارمندان`
+
+:guilabel:`# مرخصی_سالیانه`
+
+:guilabel:`# مرخصی_مریضی`
+
+:guilabel:`# مدیریت_مرخص`
+
+:guilabel:`# درخواست_مرخصی`
+
+:guilabel:`# مزایای_مرخصی`
+
+:guilabel:`#مرخصی_اضطراری`
+
+:guilabel:`# مرخصی_با_حقوق`
+
+
+لینک ها:
+
+
+1. https://www.cybrosys.com/odoo/odoo-books/v17-ce/time-off/reporting/
+2. https://www.cybrosys.com/odoo/odoo-books/v17-ce/time-off/configuration/
+3. https://www.tashilgostar.com/documentation/16.0/applications/hr/time_off.html
+4. https://oxydoo.com/blog/guide-28/time-off-246
