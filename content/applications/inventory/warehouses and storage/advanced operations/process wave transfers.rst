@@ -38,3 +38,10 @@
 .. image:: ./img/advancedoperations/o2.jpg
     :align: center
     :alt: انبار
+
+
+در صفحه عملیات، خطوط محصولی را که می‌خواهید در موج جدید یا موجود **اضافه** کنید، انتخاب کنید. سپس روی **اضافه کردن به موج** کلیک کنید.
+
+.. image:: ./img/advancedoperations/o3.jpg
+    :align: center
+    :alt: انبار
