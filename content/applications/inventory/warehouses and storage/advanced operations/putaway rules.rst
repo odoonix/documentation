@@ -144,3 +144,12 @@ Odoo یک قانون putaway را بر اساس لیست اولویت زیر (ا
     :align: center
     :alt: انبار 
 
+
+.. example::
+    دسته ذخیره سازی پالت های فرکانس بالا را به مکان فرعی WH2/ موجودی کالاLOT1 / اختصاص دهید.
+
+    .. image:: ./img/advancedoperations/o19.jpg
+        :align: center
+        :alt: انبار 
+
+
