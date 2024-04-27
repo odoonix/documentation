@@ -82,7 +82,7 @@ o	سایر : اگر هیچ یک از دو گزینه دیگر قابل اجرا 
 
 :guilabel:`#TimeOff`
 
-:guilabel:`#LeaveManagement
+:guilabel:`#LeaveManagement`
 
 :guilabel:`#LeaveRequest`
 
