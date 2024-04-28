@@ -24,4 +24,6 @@
 
     gym/analysis_iot
     gym/gym_guide
+    gym/Membership
+    gym/exrcise
  

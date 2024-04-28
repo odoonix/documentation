@@ -53,7 +53,7 @@
 
 
 .. seealso::
-   - :doc:`Process receipts and deliveries in one step`
+   - :doc:`process receipts and deliveries in one step`
 
 
 
@@ -74,7 +74,7 @@
 
 
 .. seealso::
-   - :doc:`Process receipts and deliveries in two steps`
+   - :doc:`process receipts and deliveries in two steps`
 
 
 جریان سه مرحله ای
@@ -95,4 +95,4 @@
 
 
 .. seealso::
-   - :doc:`Process receipts and deliveries in two steps`
+   - :doc:`process receipts in three steps`
