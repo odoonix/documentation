@@ -26,4 +26,5 @@
     gym/gym_guide
     gym/Membership
     gym/exrcise
+    gym/diet
  
