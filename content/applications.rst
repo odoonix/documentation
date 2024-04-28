@@ -39,6 +39,8 @@
     applications/sales/sales
     applications/productivity/discuss/discuss
     applications/productivity/calendar/calendar
+    applications/faq
+    applications/faq/filter
 
 
 
