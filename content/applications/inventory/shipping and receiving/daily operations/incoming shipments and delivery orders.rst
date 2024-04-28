@@ -95,4 +95,4 @@
 
 
 .. seealso::
-   - :doc:`process receipts and deliveries in two steps`
+   - :doc:`process receipts in three steps`
