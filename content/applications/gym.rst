@@ -27,4 +27,5 @@
     gym/Membership
     gym/exrcise
     gym/diet
+    gym/analysis
  
