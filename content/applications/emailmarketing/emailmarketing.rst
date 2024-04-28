@@ -12,5 +12,5 @@
 .. toctree::
    :titlesonly:
 
-   ./emailliat/emailliat
+   ./emaillist/emaillist
    ./confi/config
