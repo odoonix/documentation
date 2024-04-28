@@ -59,3 +59,11 @@
 .. image:: ./img/contract1.png
     :alt: کارمندان
     :align: center
+
+.. image:: ./img/contract2.png
+    :alt: کارمندان
+    :align: center
+
+.. image:: ./img/contract3.png
+    :alt: کارمندان
+    :align: center
