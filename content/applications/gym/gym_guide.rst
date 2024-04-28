@@ -1,7 +1,7 @@
 :show-content:
 :show-content:
 
-آموزش ماژول باشگاه
+باشگاه
 =============
 
 .. image:: ./src/img/gym-1.png

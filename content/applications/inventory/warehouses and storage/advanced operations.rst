@@ -16,7 +16,7 @@
    ./advanced operations/batch picking
    ./advanced operations/process wave transfers
    ./advanced operations/organize a cross-dock in a warehouse
-   ./advanced operations/sell stock 
+   ./advanced operations/Sell stock from multiple warehouses using virtual locations
    ./advanced operations/putaway rules
    ./advanced operations/cluster picking
    

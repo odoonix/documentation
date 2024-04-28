@@ -27,8 +27,9 @@
     applications/purchase
     applications/website
     applications/website/website
+    applications/emailmarketing
+    applications/emailmarketing/emailmarketing
     applications/dashbord
-    applications/pos
     applications/attendance
     applications/inventory
     applications/chat/online_chat

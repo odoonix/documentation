@@ -25,6 +25,5 @@
     iot/device
     iot/gateway
     iot/edge
-    iot/authentication
     iot/other
 
