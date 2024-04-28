@@ -13,4 +13,4 @@
    :titlesonly:
 
    ./emaillist/emaillist
-   ./confi/config
+   ./config/config
