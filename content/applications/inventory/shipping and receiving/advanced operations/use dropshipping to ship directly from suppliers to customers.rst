@@ -62,3 +62,9 @@
 .. image:: ./img/advancedoperations/a16.jpg
     :align: center
     :alt: انبار
+
+برای مشاهده همه سفارش‌های dropship، به سادگی به داشبورد بررسی اجمالی انبار بروید و روی دکمه  **برای پردازش** در کارت **Dropship** کلیک کنید.
+
+.. image:: ./img/advancedoperations/a17.jpg
+    :align: center
+    :alt: انبار
