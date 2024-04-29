@@ -13,13 +13,13 @@
 
 برای ایجاد مخاطبین پستی میتوانید مطابق عکس زیر عمل کنید.
 
-.. image:: emailmarketing/emaillist/img/email6.png
+.. image:: ./emaillist/img/email6.png
     :alt: ایمیل
     :align: center
 
 بعد از زدین گزینه **جدید** صفحه ی زیر باشده که شما می توانید لیستی از ایمیل ها را برای یک نفر ساخته و یا ویرایش کنید.برای این کار از *افزودن سطر* استفاده کنید.تا پنجره ایی باز شود و در نهایت *ذخیره و بستن* را فشار دهید.
 
-.. image:: emailmarketing/emaillist/img/email7.png
+.. image:: ./emaillist/img/email7.png
     :alt: ایمیل
     :align: center
 
