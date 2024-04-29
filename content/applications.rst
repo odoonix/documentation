@@ -41,6 +41,9 @@
     applications/productivity/calendar/calendar
     applications/faq
     applications/faq/faq
+    applications/marketing
+    applications/marketing/survey/survey
+    applications/marketing/survey
 
 
 
