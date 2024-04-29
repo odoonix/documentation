@@ -210,19 +210,30 @@ o	اگر سرنخ روی ایمیل هفته اول کلیک کرد: «هنوز 
 لینک ها:
 
 1.	https://www.odoo.com/documentation/17.0/applications/marketing/email_marketing/lost_leads_email.html#email-marketing-recipients-field
+
 2.	https://oxydoo.com/blog/guide-28/email-marketing-270
 
 تگ ها:
 
 1.  :guuilable:`#بازاریابی_ایمیلی`
+   
 2.  :guilabel:`#محتوا_بازاریابی`
-4.  :guilabel:`#تبلیغات_ایمیلی`
-5.  :guilabel:`#طراحی_ایمیل`
-6.  :guilabel:`#سیستم_مدیریت_ایمیل`
-7.  :guilabel:`#فروش_ایمیلی`
-8.  :guilabel:`#EmailMarketing`
-9.  :guilabel:`#ContentMarketing`
-10. :guilabel:`#EmailStrategy`
-11. :guilabel:`#EmailDesign`
-12. :guilabel:`#A/BTesting`
+   
+3.  :guilabel:`#تبلیغات_ایمیلی`
+   
+4.  :guilabel:`#طراحی_ایمیل`
+   
+5.  :guilabel:`#سیستم_مدیریت_ایمیل`
+    
+6.  :guilabel:`#فروش_ایمیلی`
+    
+7.  :guilabel:`#EmailMarketing`
+    
+8.  :guilabel:`#ContentMarketing`
+    
+9.  :guilabel:`#EmailStrategy`
+    
+10. :guilabel:`#EmailDesign`
+    
+11. :guilabel:`#A/BTesting`
 
