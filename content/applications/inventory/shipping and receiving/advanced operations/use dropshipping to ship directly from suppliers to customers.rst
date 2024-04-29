@@ -56,3 +56,9 @@
 .. image:: ./img/advancedoperations/a15.jpg
     :align: center
     :alt: انبار
+
+رسید dropship، تامین کننده را در بخش **دریافت از** و مشتری را در قسمت **مکان مقصد** فهرست می کند. پس از تحویل محصول به مشتری، روی دکمه تاییداعتبار در سمت چپ بالای رسید **dropship** کلیک کنید تا تعداد تحویل شده را تایید کنید.
+
+.. image:: ./img/advancedoperations/a16.jpg
+    :align: center
+    :alt: انبار
