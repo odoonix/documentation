@@ -13,37 +13,37 @@
 
 برای ایجاد مخاطبین پستی میتوانید مطابق عکس زیر عمل کنید.
 
-.. image:: ./emaillist/img/email6.png
+.. image:: ./img/email6.png
     :alt: ایمیل
     :align: center
 
 بعد از زدین گزینه **جدید** صفحه ی زیر باشده که شما می توانید لیستی از ایمیل ها را برای یک نفر ساخته و یا ویرایش کنید.برای این کار از *افزودن سطر* استفاده کنید.تا پنجره ایی باز شود و در نهایت *ذخیره و بستن* را فشار دهید.
 
-.. image:: ./emaillist/img/email7.png
+.. image:: ./img/email7.png
     :alt: ایمیل
     :align: center
 
 در صورت ورود مخاطبین به صورت انبوه به لیست ارسال ایمیلی مطابق عکس زیر روی چرخ دنده کلیک کنید،
 
-.. image:: ./emaillist/img/email8.png
+.. image:: ./img/email8.png
     :alt: ایمیل
     :align: center
 
 ورود رکورد > دریافت نمونه فایل اکسل به صورت پیش فرض و سپس آن فایل را در سایت بارگذاری کنید.
 
-.. image:: ./emaillist/img/email9.png
+.. image:: ./img/email9.png
     :alt: ایمیل
     :align: center
 
 بعد از تکمیل فرم اکسل و آپلود فایل به ترتیب با صفحات زیر روبه رو می شود. 
 
-.. image:: ./emaillist/img/email10.png
+.. image:: ./img/email10.png
     :alt: ایمیل
     :align: center
 
 ابتدا روی گزینه **تست** تا مطمعن شویم همه چیز درست عمل میکند. سپس پس از آن **ورود** را انتخاب میکنیم تا فرم به سایت بارگذاری شود. در نهایت باید اطلاعات ایمیل افراد به صورت زیر نمایش داده شود. (علاوه بر درج ایمیل در فایل اکسل باید بگوییم در کدام عنوان وارد شوند، مثلا خبرنامه)
 
-.. image:: ./emaillist/img/email11.png
+.. image:: ./img/email11.png
     :alt: ایمیل
     :align: center
 
@@ -52,7 +52,7 @@
 
 در صفحه تنظیمات ، چهار ویژگی در دسترس است.      .png                             
 
-.. image:: ./emaillist/img/Emailconfig1.png
+.. image:: ./img/emailconfig1.png
     :alt: ایمیل
     :align: center
 
