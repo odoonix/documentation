@@ -40,8 +40,10 @@
     applications/productivity/discuss/discuss
     applications/productivity/calendar/calendar
     applications/faq
-    applications/faq/filter
-    applications/faq/myTaskMainMenu/mytaskmenu
+    applications/faq/faq
+    applications/marketing
+    applications/marketing/survey/survey
+    applications/marketing/survey
 
 
 
