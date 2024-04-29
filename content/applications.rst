@@ -12,7 +12,7 @@
 
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
 
     applications/iot
     applications/gym
@@ -41,6 +41,7 @@
     applications/productivity/calendar/calendar
     applications/faq
     applications/faq/filter
+    applications/faq/myTaskMainMenu/mytaskmenu
 
 
 
