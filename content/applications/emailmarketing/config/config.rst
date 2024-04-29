@@ -13,6 +13,6 @@
 
 برای ایجاد مخاطبین پستی میتوانید مطابق عکس زیر عمل کنید.
 
-.. image:: ./emallist/img/email6.png
+.. image:: ./emailmarketing/emallist/img/email6.png
     :alt: ایمیل
     :align: center
