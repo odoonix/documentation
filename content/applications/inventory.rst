@@ -20,6 +20,7 @@
    ./inventory/product management
    ./inventory/warehouses and storage
    ./inventory/shipping and receiving
+   ./inventory/additional feature in product
 
 
 
