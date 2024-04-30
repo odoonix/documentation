@@ -44,6 +44,10 @@
     applications/marketing
     applications/marketing/survey/survey
     applications/marketing/survey
+    applications/marketing/event
+    applications/marketing/event/event
+
+
 
 
 
