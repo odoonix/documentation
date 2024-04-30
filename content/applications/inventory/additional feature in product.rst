@@ -16,4 +16,4 @@
    
    ./additional feature/product_dimension.rst
    ./additional feature/pruduct_state.rst
-   ./additional feature/product_set.rst
+   ./additional feature/pruduct_set.rst
