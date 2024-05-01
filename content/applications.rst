@@ -47,7 +47,7 @@
     applications/marketing/event
     applications/marketing/event/event
     applications/project
-    applications/management system
+    applications/managment system
 
 
 
