@@ -25,7 +25,6 @@
     applications/hr/timesoff
     applications/hr/timesoff/timesoff
     applications/hr/skill
-    applications/hr/skill/skill
     applications/purchase
     applications/website
     applications/website/website
