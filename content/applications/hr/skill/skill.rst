@@ -117,3 +117,17 @@
    :titlesonly:
 
    ./skill
+
+   1.	:guilabel:`#مهارت_فنی`
+   2.	:guilabel:`#مهارت_مذاکره`
+   3.	:guilabel:`#بهبود_عملکرد`
+   4.	:guilabel:`#مهارت_ارتباطی`
+   5.	:guilabel:`#گواهینامه`
+   6.	:guilabel:`#SoftwareSkills`
+   7.	:guilabel:`#TechnicalSkills`
+   8.	:guilabel:`#SalesSkills`
+   9.	:guilabel:`#CommunicationSkills`
+
+
+
+
