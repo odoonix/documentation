@@ -116,3 +116,4 @@ o	سایر : اگر هیچ یک از دو گزینه دیگر قابل اجرا 
 2. https://www.cybrosys.com/odoo/odoo-books/v17-ce/time-off/configuration/
 3. https://www.tashilgostar.com/documentation/16.0/applications/hr/time_off.html
 4. https://oxydoo.com/blog/guide-28/time-off-246
+5. https://oxydoo.com/forum/human-resources-37/dr-mjwl-mrkhsy-frq-byn-mrkhsy-w-tkhsys-chyh-718

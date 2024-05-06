@@ -24,6 +24,7 @@
     applications/hr/recuirment
     applications/hr/timesoff
     applications/hr/timesoff/timesoff
+    applications/hr/skill/skill
     applications/purchase
     applications/website
     applications/website/website
@@ -46,6 +47,8 @@
     applications/marketing/survey
     applications/marketing/event
     applications/marketing/event/event
+    applications/project
+    applications/managment system
 
 
 
