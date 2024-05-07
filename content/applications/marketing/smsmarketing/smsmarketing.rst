@@ -13,6 +13,10 @@
     :alt: بازاریابی پیامکی
     :align: center
 
+.. toctree::
+   :titlesonly:
+
+   ./sms-essentiol
 
    
    
