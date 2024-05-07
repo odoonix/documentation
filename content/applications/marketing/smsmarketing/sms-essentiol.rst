@@ -116,7 +116,8 @@
     :alt: بازاریابی پیامکی
     :align: center
 
-
-برای اطلاعات بیشتر می توانید\ `بازاریابی_ایمیلی <https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html`_\ را بخوانید
-
 برای اطلاعات بیشتر ماژول بازایابی ایمیلی را بخوانید `<https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html>`_.
+
+.. _proof-of-concept: https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html
+
+   یک proof-of-concept_ is a simplified version,
