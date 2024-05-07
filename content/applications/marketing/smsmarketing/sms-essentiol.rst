@@ -121,10 +121,66 @@
 
 دقت داشته باشید باید در تنظیمات عمومی گزینه مطابق عکس فعال باشد.
 
-.. image:: ./img/sms16.png
+.. image:: ./img/sms17.png
     :alt: بازاریابی پیامکی
     :align: center
 
 برای اطلاعات بیشتر ماژول بازایابی ایمیلی را بخوانید `<https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html>`_.
 
-.. _ماژول بازاریابی ایمیلی : https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html
+گزارش ها
+----------------------
+از این بخش می توانید تبلیغات پیماکی خود را در نمودارهای متفاوت و با حالت مختلف تحلیلی و بررسی کنید.
+
+.. image:: ./img/sms18.png
+    :alt: بازاریابی پیامکی
+    :align: center
+
+
+پیگیری لینک ها
+--------------------
+بر اساس شکل زیر شما می توانید لینک هایی که ممکن است از آن ها سرنخ ها و فرصت هایی برای ارسال پیامک و یا حتی فروش بدست آورید و کمپین های خاصی را روی آنها اعمال کنید تعریف نمایید. و از گزینه ای بالا به همان صفحه رفته و یا تعداد کلیلک هایی که روی آنها اجام شده را مشاهده کنید.
+
+.. image:: ./img/sms19.png
+    :alt: بازاریابی پیامکی
+    :align: center
+
+برای حذف یک لینک، کافیست از چرخ دنده گزینه **حذف** را بزنیم.
+
+
+لینک ها:
+
+
+1. https://www.odoo.com/documentation/17.0/applications/marketing/sms_marketing.html
+
+2. https://www.cybrosys.com/odoo/odoo-books/v17-ce/sms-marketing/
+
+
+تگ ها: 
+
+1.  :guilabel:`#بازاریابی_پیامکی`
+   
+2.  :guilabel:`#محتوا_بازاریابی`
+   
+3.  :guilabel:`#تبلیغات_پیامکی`
+   
+4.  :guilabel:`#طراحی_پیامک`
+   
+5.  :guilabel:`#سیستم_مدیریتت_پیامک`
+    
+6.  :guilabel:`#فروش_پیامکی`
+    
+7.  :guilabel:`#SmsMarketing`
+    
+8. :guilabel:`#ContentMarketing`
+    
+9. :guilabel:`#SmsStrategy`
+    
+10. :guilabel:`#SmsDesign`
+    
+11. :guilabel:`#A/BTesting`
+ 
+12. :guilabel:`#oldsms`
+
+13. :guilabel:`#blockedsms`
+
+14. :guilabel:`#reporting`
