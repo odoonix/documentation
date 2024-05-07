@@ -154,6 +154,8 @@
 
 2. https://www.cybrosys.com/odoo/odoo-books/v17-ce/sms-marketing/
 
+3. https://oxydoo.com/blog/guide-28/sms-marketing-266
+
 
 تگ ها: 
 
