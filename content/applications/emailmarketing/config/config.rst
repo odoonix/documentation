@@ -213,6 +213,8 @@ o	اگر سرنخ روی ایمیل هفته اول کلیک کرد: «هنوز 
 
 2.	https://oxydoo.com/blog/guide-28/email-marketing-270
 
+3. https://www.odoo.com/documentation/17.0/applications/general/email_communication/email_servers.html
+
 تگ ها:
 
 1.  :guilabel:`#بازاریابی_ایمیلی`
