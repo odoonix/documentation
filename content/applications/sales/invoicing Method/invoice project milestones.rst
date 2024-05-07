@@ -175,3 +175,9 @@
 
 
 این روند را ادامه دهید تا کل پروژه تکمیل شود، هر نقطه عطف فاکتور شود و کل سفارش به طور کامل پرداخت شود.
+
+
+.. seealso::
+   - :doc:`pro-forma invoices`
+   - :doc:`invoicing based on time and materials`
+   - :doc:`invoice based on delivered or ordered quantities`
