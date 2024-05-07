@@ -118,3 +118,5 @@
 
 
 برای اطلاعات بیشتر می توانید\ `بازاریابی_ایمیلی <https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html`_\ را بخوانید
+
+برای اطلاعات بیشتر ماژول بازایابی ایمیلی را بخوانید `<https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html>`_.
