@@ -49,6 +49,7 @@
     applications/marketing/event
     applications/marketing/event/event
     applications/marketing/smsmarketing
+    applications/marketing/smsmarketing/smsmarketing
     applications/project
     applications/managment system
 
