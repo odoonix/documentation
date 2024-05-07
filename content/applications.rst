@@ -34,6 +34,7 @@
     applications/dashbord
     applications/attendance
     applications/inventory
+    applications/inventory/repair/repair
     applications/chat/online_chat
     applications/reporting
     applications/productivity
