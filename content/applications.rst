@@ -28,7 +28,7 @@
     applications/purchase
     applications/website
     applications/website/website
-    applications/website/eLearning
+    applications/website/e-learning//eLearning
     applications/emailmarketing
     applications/emailmarketing/emailmarketing
     applications/dashbord
