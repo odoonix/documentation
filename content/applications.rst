@@ -31,7 +31,7 @@
     applications/website/e-learning//eLearning
     applications/emailmarketing
     applications/emailmarketing/emailmarketing
-    applications/smsmarketing
+    applications/marketing/smsmarketing
     applications/dashbord
     applications/attendance
     applications/inventory
