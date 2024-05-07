@@ -42,7 +42,7 @@
 - 	گزینه‌ها 
 - 	امتیاز
 
-.. image:: ./img/elearning4.png
+.. image:: ./img/elearning4-1.png
     :alt:  آموزش الکترونیکی
     :align: center
 
