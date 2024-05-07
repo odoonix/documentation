@@ -120,4 +120,6 @@
 
 می توانید برای درک بیشتر ماژول بازاریابی ایمیلی را هم بخواهنید
 
-برای اطلاعات بیشتر \ `بازاریابی ایمیلی را بخوانید <https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html`_\ می توانید
+برای اطلاعات بیشتر \ `بازاریابی ایمیلی را بخوانید <https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html`>_\ می توانید
+
+ImInThe\ `Middel <http://foo.com>`_\ OfAString
