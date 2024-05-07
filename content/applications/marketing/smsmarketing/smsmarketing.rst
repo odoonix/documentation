@@ -12,10 +12,8 @@
 .. image:: ./img/sms.png
     :alt: بازاریابی پیامکی
     :align: center
-.. toctree::
-   :titlesonly:
 
-   ./smsmarketing
+
    
    
    
