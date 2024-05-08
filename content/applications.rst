@@ -35,6 +35,7 @@
     applications/attendance
     applications/inventory
     applications/inventory/repair/repair
+    applications/inventory/maintenance/maintenance
     applications/chat/online_chat
     applications/reporting
     applications/productivity
@@ -55,6 +56,7 @@
     applications/emailmarketing/emailmarketing
     applications/project
     applications/managment system
+    applications/point of Sale
 
 
 
