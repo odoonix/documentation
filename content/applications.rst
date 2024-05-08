@@ -33,6 +33,7 @@
     applications/attendance
     applications/inventory
     applications/inventory/repair/repair
+    applications/inventory/maintenance/maintenance
     applications/chat/online_chat
     applications/reporting
     applications/productivity
