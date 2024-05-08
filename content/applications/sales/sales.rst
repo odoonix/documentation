@@ -17,3 +17,4 @@
     send Quotations.rst
     invoicing Method.rst
     eBay Connector.rst
+    products & Prices.rst
