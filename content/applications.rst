@@ -54,6 +54,7 @@
     applications/emailmarketing/emailmarketing
     applications/project
     applications/managment system
+    applications/point of Sale
 
 
 
