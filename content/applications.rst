@@ -29,8 +29,6 @@
     applications/website
     applications/website/website
     applications/website/e-learning//eLearning
-    applications/emailmarketing
-    applications/emailmarketing/emailmarketing
     applications/dashbord
     applications/attendance
     applications/inventory
@@ -51,6 +49,8 @@
     applications/marketing/event/event
     applications/marketing/smsmarketing
     applications/marketing/smsmarketing/smsmarketing
+     applications/emailmarketing
+    applications/emailmarketing/emailmarketing
     applications/project
     applications/managment system
 
