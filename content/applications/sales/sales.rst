@@ -18,3 +18,4 @@
     invoicing Method.rst
     eBay Connector.rst
     products & Prices.rst
+    amazon Connector.rst
