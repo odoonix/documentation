@@ -24,6 +24,8 @@
     applications/hr/recuirment
     applications/hr/timesoff
     applications/hr/timesoff/timesoff
+    applications/hr/expense
+    applications/hr/expense/expense
     applications/hr/skill/skill
     applications/purchase
     applications/website
