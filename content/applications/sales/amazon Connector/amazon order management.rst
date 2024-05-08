@@ -136,5 +136,7 @@
 
 
 
-
+.. seealso::
+   - :doc:`amazon Connector configuration`
+   - :doc:`amazon Connector features`
 
