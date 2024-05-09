@@ -34,3 +34,7 @@
 .. image:: ./img/shopfeature/p8.jpg
     :align: center
     :alt: پایانه فروش 
+
+
+.. note::
+    هر دو دستگاه باید به یک شبکه محلی متصل شوند.
