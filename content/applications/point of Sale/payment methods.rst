@@ -27,5 +27,5 @@
    :titlesonly:
 
    ./payment methods/adyen
-   ./payment methods/ingenico
-   ./payment methods/worldline
+   ./payment methods/stripe
+   ./payment methods/sIX
