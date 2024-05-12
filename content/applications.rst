@@ -57,6 +57,7 @@
     applications/project
     applications/managment system
     applications/point of Sale
+    applications/invoicing
 
 
 
