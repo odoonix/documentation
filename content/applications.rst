@@ -52,7 +52,7 @@
     applications/marketing/event/event
     applications/marketing/smsmarketing
     applications/marketing/smsmarketing/smsmarketing
-     applications/emailmarketing
+    applications/emailmarketing
     applications/emailmarketing/emailmarketing
     applications/project
     applications/managment system
