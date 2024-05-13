@@ -31,6 +31,8 @@
     applications/website
     applications/website/website
     applications/website/e-learning//eLearning
+    applications/website/eCommerce
+    applications/website/eCommerce/eCommerce
     applications/dashbord
     applications/attendance
     applications/inventory
