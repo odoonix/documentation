@@ -206,18 +206,7 @@ Odoo  راه حل های زیادی را برای ارتباط  وتعامل ب�
 
 تگ ها:
 
-1.	:guilabel:`#تجارت_الکترونیک`
-2.	:guilabel:`#فروش`
-3.	:guilabel:`#خرید`
-4.	:guilabel:`#فروش_آنلاین`
-5.	:guilabel:`#پرداخت_آنلاین`
-6.	:guilabel:`#فروش_آنلاین`
-7.	:guilabel:`#فروشگاه_آنلاین`
-8.	:guilabel:`#eCommerce`
-9.	:guilabel:`#OnlineBusiness`
-10.	:guilabel:`#DigitalCommerce`
-10.	:guilabel:`#eMarketing`
-11.	:guilabel:`#ePayment`
+	:guilabel:`#تجارت_الکترونیک` :guilabel:`#فروش` :guilabel:`#خرید` :guilabel:`#فروش_آنلاین` :guilabel:`#پرداخت_آنلاین` :guilabel:`#فروش_آنلاین` :guilabel:`#فروشگاه_آنلاین` :guilabel:`#OnlineBusiness` :guilabel:`#DigitalCommerce` :guilabel:`#eMarketing` :guilabel:`#ePayment`
 
 
 
