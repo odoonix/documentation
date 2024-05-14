@@ -27,7 +27,7 @@
 
 .. image:: ./img/taxes/t7.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
   - برای حذف مالیات، فیلد مالیات قابل اعمال را خالی بگذارید.
 
@@ -48,7 +48,7 @@
 
 .. image:: ./img/taxes/t8.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
 
 .. note::
@@ -69,7 +69,7 @@
 
 .. image:: ./img/taxes/t9.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
 
 
@@ -79,7 +79,7 @@
 
 .. image:: ./img/taxes/t10.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
 
 .. seealso::

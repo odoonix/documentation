@@ -16,7 +16,7 @@
 
 .. image:: ./img/reporting/r1.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
 
 حساب های تحلیلی
@@ -47,7 +47,7 @@
 
 .. image:: ./img/reporting/r2.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
 توزیع تحلیلی
 --------------------------
@@ -56,7 +56,7 @@
 
 .. image:: ./img/reporting/r3.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
 
 

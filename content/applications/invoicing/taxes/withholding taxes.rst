@@ -17,13 +17,13 @@
 
 .. image:: ./img/taxes/t4.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
 سپس به تب تنظیمات پیشرفته رفته و یک 10% گروه مالیات ایجاد کنید.
 
 .. image:: ./img/taxes/t5.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
 
 
 مالیات نگهداری بر روی فاکتورها
@@ -32,4 +32,4 @@
 
 .. image:: ./img/taxes/t6.jpg
     :align: center
-    :alt: پایانه فروش
+    :alt: حسابداری
