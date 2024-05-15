@@ -88,3 +88,6 @@
     :alt:  آموزش مشاغل آنلاین 
     :align: center
 
+    تگ ها
+
+ 	:guilabel:`#شغل_اینترنتی` :guilabel:`#استخدام_آنلاین` :guilabel:`#شغل_اینترنتی` :guilabel:`#OnlineJob` :guilabel:`#OnlineCareer`
