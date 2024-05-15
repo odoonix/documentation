@@ -33,6 +33,8 @@
     applications/website/e-learning//eLearning
     applications/website/eCommerce
     applications/website/eCommerce/eCommerce
+    applications/website/hr-onlinejob
+    applications/website/hr-onlinejob/hr-onlinejob
     applications/dashbord
     applications/attendance
     applications/inventory
