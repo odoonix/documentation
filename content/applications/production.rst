@@ -19,3 +19,4 @@
    ./production/workflows
    ./production/shop Floor
    ./production/subcontracting
+   ./production/mrp and mop
