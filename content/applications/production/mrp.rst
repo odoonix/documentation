@@ -115,7 +115,7 @@ DDMop: برنامه ریزی عملیات تولیدی بر اساس تقاضا(
     :alt: تولید
 
 
-تفاوت  Mrpو DDMO
+                                                                         تفاوت  Mrpو DDMO
 
 
 .. image:: ./img/Mrp/m2.jpg
