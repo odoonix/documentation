@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+
+<html lang="انگلیسی" data-content_root="../../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>تاریخ انقضا &#8212; odoonix 16.0 documentation</title>
+    
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=4cfa33a6" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/style.css?v=291d85cb" />
+    
+    <script src="../../../../_static/documentation_options.js?v=79c0efb0"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/js/utils.js?v=ff39eecb"></script>
+    <script src="../../../../_static/js/layout.js?v=1e180e17"></script>
+    <script src="../../../../_static/js/menu.js?v=545d0e60"></script>
+    <script src="../../../../_static/js/page_toc.js?v=6e8e6baa"></script>
+    <script src="../../../../_static/js/switchers.js?v=c1563c29"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link rel="icon" href="../../../../_static/favicon.ico"/>
+    <link rel="canonical" href="/applications/inventory/product management/producttracking/expiration dates.html" />
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="بسته ها" href="packages.html" />
+    <link rel="prev" title="از شناسه محصول برای مدیریت گروه های محصولات استفاده کنید" href="use%20lots%20to%20manage%20groups%20of%20products.html" /> 
+  </head><body>
+    <noscript>
+        <nav class="o_side_nav border-end">
+
+
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../applications.html">راهنمای کاربری</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../gym.html">مدیریت باشگاه</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/analysis_iot.html">اپ آنالیز بدن</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/gym_guide.html">باشگاه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/Membership.html">عضویت ها</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/exrcise.html">تمرینات</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/diet.html">برنامه غذایی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/analysis.html">آنالیز بدن باشگاه</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../contacts/contacts.html">مخاطبین</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../contacts/config.html">پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../sales/crm.html">مدیریت ارتباط با مشتریان</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/leads.html">ایجاد سرنخ/فرصت</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/leads.html#id2">تولید سرنخ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html">فروش</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id2">تیم های فروش متعدد</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id3">سرنخ ها و فرصت های مشابه را ادغام کنید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id4">سرنخ ها را به فرصت تبدیل کنید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id5">توضیحات تکمیلی سرنخ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id6">سرنخ ها</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/config.html">پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lunch/lunch.html">ناهار</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../lunch/config.html">اخطارها</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/fleet.html">ناوگان</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/fleet/configuration.html">شروع کار با ناوگان</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/fleet/new_vehicle.html">وسایل نقلیه جدید</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/employees.html">کارمندان</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/employees/howtostart.html">تب های کارمندان</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/employees/config.html">گزارش/پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/recuirment.html">استخدام</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/addempl.html">مراحل روند یک استخدام</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/addempl.html#id2">حذف مرحله</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/addempl.html#id3">قالب های ایمیل</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/addempl.html#id4">چگونه یک فرد را به موقعیت های استخدام اضافه کنیم؟</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html">ارسال مصاحبه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html#id2">گزارش</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html#id3">ساخت نظر سنجی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html#id4">نمایش صفحه شغل</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html#id6">تگ ها</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/timesoff.html">مدیریت مرخصی</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/timesoff/newtimesoff.html">ثبت مرخصی جدید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/timesoff/config.html">پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/expense/expense.html">مدیریت هزینه ها</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/expense/startexpense.html">ایجاد هزینه جدید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/expense/startexpense.html#id2">داشبورد اصلی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/expense/startexpense.html#id3">گزارش هزینه ها</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/expense/startexpense.html#id4">دسته بندی هزینه ها</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/skill/skill.html">مهارت کارمندان</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../purchase.html">خرید</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../purchase/advanced.html">پیشرفته</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/Advanced/Analyze%20the%20performance%20of%20your%20purchases.html">عملکرد خریدهای خود را تجزیه و تحلیل کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../purchase/manage%20deals.html">مدیریت معاملات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/manage%20deals/Blanket%20orders.html">سفارشات عمده</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/manage%20deals/Alternative%20RfQs.html">درخواست پیش فاکتورهای جایگزین(RFQ)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/manage%20deals/Bill%20control%20policies.html">سیاست های کنترل صورتحساب</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/manage%20deals/Manage%20vendor%20bills.html">صورتحساب های فروشنده را مدیریت کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../purchase/products.html">محصولات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/products/Configure%20reordering%20rules.html">قوانین مرتب سازی مجدد را پیکربندی کنید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/products/Temporary%20reordering%20rules.html">خرید در واحدهای اندازه گیری متفاوت از فروش</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/products/Purchase%20in%20different%20units%20of%20measure%20than%20sales.html">قوانین سفارش مجدد موقت</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../website/website.html">وبسایت</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/pages/pages.html">صفحات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/pages/menu.html">منو</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/pages/seo.html">بهینه سازی وبسایت</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/configuration/config.html">پیکربندی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/configuration/cookies-bar.html">نوار کوکی‌ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/configuration/manage-multiple-websites.html">مدیریت چند وب‌سایت</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/configuration/translations.html">ترجمه‌ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/configuration/domain-name.html">نام دامنه</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/web-design/web-design.html">طراحی وب سایت</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/web-design/website-themes/website-themes.html">تم های وب سایت</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/web-design/building-blocks/building-blocks.html">بلوک های ساختمان</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../website/web-design/building-blocks/dynamic-content.html">محتوای پویا</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../website/web-design/building-blocks/inner-content.html">محتوای درونی</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../website/web-design/building-blocks/structure.html">ساختار</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../website/e-learning/eLearning.html">آموزش الکترونیکی</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../website/eCommerce/eCommerce.html">تجارت الکترونیک</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/start.html">مدیریت محصول</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/start.html#id6">تجربه مشتری</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html">پرفروش</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id2">محصولات جایگزین</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id3">سفارشی سازی عمل “افزودن به سبد خرید”.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id4">سفارش مجدد از پورتال</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id5">پرداخت</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id6">روش های پرداخت حمل و نقل</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id7">روش حمل و نقل خود</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id10">روش های پرداخت</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id11">مدیریت فروش الکترونیکی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id12">سفارش های فروش</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id13">سبد خرید رها شده</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id15">حساب چند وب سایتی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id16">تعامل با مشتری</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id17">بررسی محصول</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id18">چت زنده</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id19">با ما تماس بگیرید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id20">خبرنامه</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../website/hr-onlinejob/hr-onlinejob.html">مشاغل آنلاین</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../dashbord.html">داشبورد</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../attendance.html">حضور وغیاب</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../attendance/Access_rights.html">حق دسترسی های کاربران دراین برنامه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../attendance/Configuration.html">پیکربندی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../attendance/checkin_out.html">ورود و خروج بصورت دستی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../attendance/reporting.html">گزارشات</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../inventory.html">انبار</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../product%20management.html">مدیریت محصول</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../productreplenishment.html">شارژکردن محصول</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../productreplenishment/selecting%20a%20replenishment%20strategy.html">انتخاب استراتژی شارژمجدد</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../productreplenishment/reordering%20rules.html">قوانین سفارش مجدد</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../productreplenishment/units%20of%20measure.html">واحدهای اندازه گیری</a></li>
+</ul>
+</li>
+<li class="toctree-l4 current"><a class="reference internal" href="../producttracking.html">پیگیری محصول</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="product%20type.html">نوع محصول</a></li>
+<li class="toctree-l5"><a class="reference internal" href="difference%20between%20lots%20and%20serial%20numbers.html">تفاوت بین شناسه محصول(سری) و شماره سریال</a></li>
+<li class="toctree-l5"><a class="reference internal" href="assign%20serial%20numbers.html">شماره سریال را تعیین کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="use%20serial%20numbers%20to%20track%20products.html">از شماره سریال برای پیگیری محصولات استفاده کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="use%20lots%20to%20manage%20groups%20of%20products.html">از شناسه محصول برای مدیریت گروه های محصولات استفاده کنید</a></li>
+<li class="toctree-l5 current"><a class="current reference internal" href="#">تاریخ انقضا</a></li>
+<li class="toctree-l5"><a class="reference internal" href="packages.html">بسته ها</a></li>
+<li class="toctree-l5"><a class="reference internal" href="packaging.html">بسته بندی</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../warehouses%20and%20storage.html">انبارها وذخیره سازی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement.html">مدیریت انبار</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/resupply%20from%20another%20warehouse.html">تامین مجدد از یک انبار دیگر</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/transfer%20products%20between%20warehouses%20using%20replenishment.html">انتقال محصولات بین انبارها با استفاده از شارژکردن</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/manage%20Warehouses%20and%20Locations.html">انبارها و مکان ها را مدیریت کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/locations.html">مکان ها</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/cycle%20counts.html">تعداد دوره ها</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/scrap%20inventory.html">اقلام اسقاطی انبار</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../warehouses%20and%20storage/inventoryvaluation.html">ارزیابی موجودی انبار</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventoryvaluation/inventory%20valuation%20configuration.html">پیکربندی ارزشیابی انبار</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventoryvaluation/using%20inventory%20valuation.html">استفاده از ارزش گذاری موجودی</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies.html">استراتژی های حذف</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies/fIFO%20removal.html">حذف FIFO</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies/lIFO%20removal.html">حذف LIFO</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies/closest%20location%20removal.html">حذف نزدیکترین مکان</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies/least%20packages%20removal.html">حداقل حذف بسته ها</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations.html">عملیات پیشرفته</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations/consignment.html">فروش امانی: خرید و فروش سهام/ موجودی / کالای موجود/ بدون آنکه مالک آن باشید.</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations/process%20wave%20transfers.html">فرآیند انتقال امواج</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations/Sell%20stock%20from%20multiple%20warehouses%20using%20virtual%20locations.html">فروش سهام از چندین انبار با استفاده از مکان های مجازی</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations/putaway%20rules.html">putaway قوانین</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../shipping%20and%20receiving.html">ارسال و دریافت</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration.html">راه اندازی و پیکربندی</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration/delivery%20methods.html">روش های تحویل</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration/set%20up%20Sendcloud%20shipping%20services%20in%20Odoo.html">راه اندازی در Sendcloud</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration/set%20up%20Sendcloud%20shipping%20services%20in%20Odoo.html#id1">پیکربندی انبار</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration/set%20up%20Sendcloud%20shipping%20services%20in%20Odoo.html#id2">اعتبارنامه Sendcloud را ایجاد کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../shipping%20and%20receiving/daily%20operations.html">عملیات روزانه</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/daily%20operations/incoming%20shipments%20and%20delivery%20orders.html">محموله های دریافتی و سفارشات تحویل</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/daily%20operations/process%20receipts%20and%20deliveries%20in%20one%20step.html">دریافت و تحویل را در یک مرحله پردازش کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/daily%20operations/process%20receipts%20and%20deliveries%20in%20two%20steps.html">دریافت و تحویل را در دو مرحله پردازش کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../shipping%20and%20receiving/reservation%20methods.html">روش های رزرو</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/reservation%20methods/at%20confirmation%20reservation.html">شیوه ی تایید اندوخته</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/reservation%20methods/manual%20reservation.html">رزرو دستی</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/reservation%20methods/before%20scheduled%20date%20reservation.html">قبل از رزرو تاریخ برنامه ریزی شده</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../shipping%20and%20receiving/advanced%20operations.html">عملیات پیشرفته</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/advanced%20operations/shipping%20cost%20invoicing.html">صورتحساب هزینه حمل و نقل</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/advanced%20operations/use%20dropshipping%20to%20ship%20directly%20from%20suppliers%20to%20customers.html">از dropshipping برای ارسال مستقیم از تامین کنندگان به مشتریان استفاده کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/advanced%20operations/how%20to%20cancel%20a%20shipping%20request%20to%20a%20shipper.html">چگونه درخواست حمل و نقل به فرستنده را لغو کنیم؟</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../additional%20feature%20in%20product.html">ویژگی های اضافی محصولات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/product_dimension.html">ابعاد محصول</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/pruduct_state.html">حالتهای محصول</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/pruduct_set.html">مجموعه محصولات</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/Product%20Supplier%20Info%20Archive.html">آرشیو اطلاعات تامین کننده محصول</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/pruduct_sequence.html">افزودن sequence code  به دسته بندی</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../repair/repair.html">تعمیرات</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../maintenance/maintenance.html">نگهداری</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../chat/online_chat.html">چت آنلاین</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../productivity/to-do/to-do.html">یادداشت(To-do)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../sales/sales.html">فروش</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/margin.html">حاشیه سود</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/active_margin.html">فعال کردن حاشیه سود</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/send%20Quotations.html">ارسال پیش فاکتور</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/quotation%20templates.html">قالب های پیش فاکتور</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/optional%20products.html">محصولات اختیاری</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/online%20signatures%20for%20order%20confirmations.html">امضای آنلاین برای تایید سفارش</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/online%20payment%20order%20confirmation.html">تایید سفارش پرداخت آنلاین</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/quotation%20deadlines.html">مهلت های پیش فاکتور</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/deliveries%20and%20invoices%20to%20different%20addresses.html">تحویل و فاکتور به آدرس های مختلف</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/product%20variants%20on%20quotations%20and%20sales%20orders.html">انواع محصولات در قیمت ها و سفارشات فروش</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/pDF%20quote%20builder.html">ساخت پیش فاکتور با PDF</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/invoicing%20Method.html">روش صورتحساب</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/invoice%20based%20on%20delivered%20or%20ordered%20quantities.html">فاکتور بر اساس مقادیر تحویل شده یا سفارش داده شده</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/down%20payments.html">پیش پرداخت ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/pro-forma%20invoices.html">پیش فاکتورها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/invoicing%20based%20on%20time%20and%20materials.html">صورتحساب بر اساس زمان و اقلام</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/invoice%20project%20milestones.html">نقاط عطف پروژه فاکتور</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/reinvoice%20expenses%20to%20customers.html">هزینه ها را برای مشتریان مجدداً فاکتور کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/products%20%26%20Prices.html">محصولات و قیمت ها</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/returns%20and%20refunds.html">بازده و بازپرداخت</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/use%20eWallets%20and%20gift%20cards.html">از کیف پول الکترونیکی و کارت هدیه استفاده کنید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/discount%20and%20loyalty%20programs.html">برنامه های تخفیف و وفاداری</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20pricing.html">قیمت گذاری خود را مدیریت کنید</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20pricing/pricelists%2C%20discounts%2C%20and%20formulas.html">لیست قیمت ها، تخفیف ها و فرمول ها</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20pricing/foreign%20currencies.html">ارزهای خارجی</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20products.html">محصولات خود را مدیریت کنید</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20products/product%20images%20with%20Google%20Images.html">تصاویر محصول با Google Images</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20products/import%20products.html">واردات محصولات</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20products/product%20variants.html">انوع محصول</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/amazon%20Connector.html">کانکتور آمازون</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/amazon%20Connector/amazon%20Connector%20configuration.html">پیکربندی کانکتور آمازون</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/amazon%20Connector/amazon%20order%20management.html">مدیریت سفارش آمازون</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/amazon%20Connector/amazon%20Connector%20features.html">ویزگی های کانکتور آمازون</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../productivity/discuss/discuss.html">بحث و گفتگو</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../productivity/discuss/channels_team_communication.html">استفاده از کانال ها برای ارتباط تیمی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../productivity/calendar/calendar.html">گاهشمار(تقویم)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../productivity/calendar/outlook-calendar-synchronization.html">همگام سازی گاهشمار اودوو با اوتلوک</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../productivity/calendar/synchronize-google-calendar-with-Odoo.html">همگام سازی گاهشمار با گوگل</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq/faq.html">سوالات متداول</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../faq/filter.html">جستجو و فیلتر رکوردها</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../faq/myTaskMainMenu/mytaskmenu.html">ورود دیتای کلی به یک کانال و پروژه</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../marketing/survey/survey.html">ماژول نظرسنجی</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../marketing/event/event.html">رویدادها</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../marketing/event/event-essentials.html">ملزومات رویداد</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../marketing/smsmarketing/smsmarketing.html">بازاریابی پیامکی</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../marketing/smsmarketing/sms-essentiol.html">ملزومات بازیابی پیامکی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../emailmarketing/emailmarketing.html">بازاریابی ایمیل</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../emailmarketing/emaillist/emaillist.html">ایمیل های پستی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../emailmarketing/config/config.html">پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../project.html">پروژه</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../project/project_task_add_very_high.html">اضاف کردن اولویت به ماژول پروژه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../project/project_type.html">نوع پروژه</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../managment%20system.html">مدیریت سیستم</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../point%20of%20Sale.html">پایانه فروش</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/multi-employee%20management.html">مدیریت چندین کارمند</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/receipts%20and%20invoices.html">رسید و فاکتور</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/product%20combos.html">ترکیبات محصول</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/reporting.html">گزارش نویسی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/configuration.html">پیکربندی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/configuration/ePOS%20printers.html">چاپگرهای ePOS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/configuration/secure%20connection%20%28HTTPS%29.html">اتصال ایمن (HTTPS)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/configuration/self-signed%20certificate%20for%20ePOS%20printers.html">گواهی خودامضاشده برای چاپگرهای پایانه های فروش الکترونیکی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features.html">ویژگی های فروشگاه</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/sales%20orders.html">سفارش فروش</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/barcodes.html">بارکدها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/serial%20numbers%20and%20lots.html">شماره سریال و شناسه/سری ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/ship%20later.html">ارسال در زمان بعد</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/customer%20display.html">نمایش مشتری</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features.html">ویژگی های رستوران</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features/floors%20and%20tables.html">طبقات و میز</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features/orders%20printing.html">سفارشات چاپ</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features/bills.html">صورتحساب</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features/tips.html">انعام ها</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features.html">ویژگی های قیمت گذاری</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/discounts.html">تخفیف</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/discount%20tags%20%28barcode%20scanner%29.html">برچسب های تخفیف (بارکد خوان)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/loyalty%20programs.html">برنامه های وفاداری</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/pricelists.html">لیست قیمت ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/flexible%20taxes%20%28fiscal%20positions%29.html">مالیات های انعطاف پذیر (موقعیت های مالی)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/cash%20rounding.html">گرد کردن پول نقد</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/electronic%20shelf%20labels.html">برچسب قفسه های الکترونیکی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/payment%20methods.html">روش های پرداخت</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/payment%20methods/adyen.html">adyen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/payment%20methods/stripe.html">stripe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/payment%20methods/sIX.html">sIX</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../invoicing.html">صدور فاکتور</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/get%20started.html">شروع کنید</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/get%20started/accounting%20cheat%20sheet.html">برگه تقلب حسابداری</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/get%20started/chart%20of%20accounts.html">نمودار حساب</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/get%20started/multi-currency%20system.html">سیستم چند ارزی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/get%20started/vAT%20units.html">واحدهای مالیات بر ارزش افزوده</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/taxes.html">مالیات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/taxes/cash%20basis%20taxes.html">مالیات بر مبنای نقدی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/taxes/withholding%20taxes.html">مالیات تکلیفی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/taxes/vAT%20numbers%20verification%20%28VIES%29.html">تأیید شماره VAT (VIES)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/taxes/fiscal%20positions%20%28tax%20and%20account%20mapping%29.html">موقعیت های مالی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/customer%20invoices.html">فاکتورهای مشتری</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/invoicing%20processes.html">فرآیندهای صورتحساب</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/delivery%20and%20invoice%20addresses.html">آدرس های تحویل و فاکتور</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/cash%20rounding.html">گرد کردن پول نقد</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/deferred%20revenues.html">درآمدهای معوق</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/snailmail.html">پست معمولی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/incoterms.html">incoterms</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/reporting.html">گزارش نویسی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/tax%20return%20%28VAT%20declaration%29.html">اظهارنامه مالیاتی (اظهارنامه مالیات بر ارزش افزوده)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/tax%20carryover.html">حمل مالیات</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/analytic%20accounting.html">حسابداری تحلیلی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/financial%20budget.html">بودجه مالی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/data%20inalterability%20check%20report.html">گزارش بررسی ثبات داده ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/custom%20reports.html">گزارش های سفارشی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/vendor%20bills.html">صورتحساب های فروشنده</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/vendor%20bills/aI-powered%20document%20digitization.html">دیجیتالی کردن اسناد مبتنی بر هوش مصنوعی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/vendor%20bills/non-current%20assets%20and%20fixed%20assets.html">دارایی های غیرجاری و دارایی های ثابت</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/vendor%20bills/deferred%20expenses.html">هزینه های معوق</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/payments.html">مبلغ پرداختی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/checks.html">چک کردن</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/follow-up%20on%20invoices.html">پیگیری فاکتورها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/internal%20transfers.html">نقل و انتقالات داخلی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/pay%20by%20checks.html">پرداخت با چک</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/forecast%20future%20bills%20to%20pay.html">پیش بینی صورتحساب های آینده برای پرداخت</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts.html">حساب های بانکی و نقدی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts/transactions.html">معاملات</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts/bank%20reconciliation.html">تسویه حساب بانکی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts/reconciliation%20models.html">مدل های تطبیق پذیر</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts/cash%20register.html">صندوق</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../production.html">تولید</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/basic%20setup.html">راه اندازی اولیه</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/basic%20setup/manufacturing%20product%20configuration.html">پیکربندی محصول تولیدی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/basic%20setup/one-step%20manufacturing.html">تولید یک مرحله ای</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/basic%20setup/two-step%20manufacturing.html">تولید دو مرحله ای</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/basic%20setup/three-step%20manufacturing.html">تولید سه مرحله ای</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/advanced%20configuration.html">پیکربندی پیشرفته</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/advanced%20configuration/managing%20BoMs%20for%20product%20variants.html">مدیریت BoMs برای انواع محصول</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/advanced%20configuration/manage%20semi-finished%20products.html">مدیریت محصولات نیمه آماده</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/advanced%20configuration/work%20order%20dependencies.html">وابستگی های سفارش کار</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/workflows.html">گردش کار</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/workflows/manufacturing%20backorders.html">سفارشات پشتیبان تولید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/workflows/split%20and%20merge%20manufacturing%20orders.html">تقسیم و ادغام سفارشات تولید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/workflows/unbuild%20orders.html">سفارشات ساخته نشده</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/shop%20Floor.html">بخش تولید</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/shop%20Floor/shop%20Floor%20overview.html">پیگیری زمان بخش تولید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/shop%20Floor/shop%20Floor%20time%20tracking.html">نمای کلی بخش تولید</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/subcontracting.html">قرارداد پیمانکاری</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/subcontracting/basic%20subcontracting.html">پیمانکاری فرعی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/subcontracting/basic%20subcontracting%20lead%20times.html">زمان سرنخ برای تحویل سفارش قراداد فرعی اصلی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/mrp.html">mrp and mop</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../administration.html">نصب و نگهداری</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../administration/deployment.html">نصب و راه اندازی</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/deployment/install.html">نصب و راه اندازی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../administration/maintain.html">نگهداری</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/maintain/update.html">به روز رسانی به</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/maintain/supported_versions.html">تاریخچه و نسخه‌های مورد حمایت</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../administration/maintain/16.html">اودوو ۱۶.۰</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../administration/upgrade.html">ارتقاع به نسخه ۱۶</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../administration/iot.html">اینترنت اشیا</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/iot/device.html">گروه دستگاه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/iot/gateway.html">گروه گیت وی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/iot/edge.html">گروه Edge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/iot/other.html">سایر گزینه ها</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </nav>
+    </noscript>
+    
+    <nav id="o_menu" class="o_side_nav">
+        <div class="o_mobile-overlay" data-bs-toggle="collapse" data-bs-target="#o_menu"></div>
+        <div class="o_side_nav-inner border-end">
+            <div id="o_main_toctree" class="o_main_toc mt-3" hidden>
+
+
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../../../applications.html">راهنمای کاربری</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../gym.html">مدیریت باشگاه</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/analysis_iot.html">اپ آنالیز بدن</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/gym_guide.html">باشگاه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/Membership.html">عضویت ها</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/exrcise.html">تمرینات</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/diet.html">برنامه غذایی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../gym/analysis.html">آنالیز بدن باشگاه</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../contacts/contacts.html">مخاطبین</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../contacts/config.html">پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../sales/crm.html">مدیریت ارتباط با مشتریان</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/leads.html">ایجاد سرنخ/فرصت</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/leads.html#id2">تولید سرنخ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html">فروش</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id2">تیم های فروش متعدد</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id3">سرنخ ها و فرصت های مشابه را ادغام کنید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id4">سرنخ ها را به فرصت تبدیل کنید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id5">توضیحات تکمیلی سرنخ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/teams.html#id6">سرنخ ها</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/crm/config.html">پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../lunch/lunch.html">ناهار</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../lunch/config.html">اخطارها</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/fleet.html">ناوگان</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/fleet/configuration.html">شروع کار با ناوگان</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/fleet/new_vehicle.html">وسایل نقلیه جدید</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/employees.html">کارمندان</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/employees/howtostart.html">تب های کارمندان</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/employees/config.html">گزارش/پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/recuirment.html">استخدام</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/addempl.html">مراحل روند یک استخدام</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/addempl.html#id2">حذف مرحله</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/addempl.html#id3">قالب های ایمیل</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/addempl.html#id4">چگونه یک فرد را به موقعیت های استخدام اضافه کنیم؟</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html">ارسال مصاحبه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html#id2">گزارش</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html#id3">ساخت نظر سنجی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html#id4">نمایش صفحه شغل</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/recuirment/interview.html#id6">تگ ها</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/timesoff.html">مدیریت مرخصی</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/timesoff/newtimesoff.html">ثبت مرخصی جدید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/timesoff/config.html">پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/expense/expense.html">مدیریت هزینه ها</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/expense/startexpense.html">ایجاد هزینه جدید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/expense/startexpense.html#id2">داشبورد اصلی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/expense/startexpense.html#id3">گزارش هزینه ها</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hr/expense/startexpense.html#id4">دسته بندی هزینه ها</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hr/skill/skill.html">مهارت کارمندان</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../purchase.html">خرید</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../purchase/advanced.html">پیشرفته</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/Advanced/Analyze%20the%20performance%20of%20your%20purchases.html">عملکرد خریدهای خود را تجزیه و تحلیل کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../purchase/manage%20deals.html">مدیریت معاملات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/manage%20deals/Blanket%20orders.html">سفارشات عمده</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/manage%20deals/Alternative%20RfQs.html">درخواست پیش فاکتورهای جایگزین(RFQ)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/manage%20deals/Bill%20control%20policies.html">سیاست های کنترل صورتحساب</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/manage%20deals/Manage%20vendor%20bills.html">صورتحساب های فروشنده را مدیریت کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../purchase/products.html">محصولات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/products/Configure%20reordering%20rules.html">قوانین مرتب سازی مجدد را پیکربندی کنید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/products/Temporary%20reordering%20rules.html">خرید در واحدهای اندازه گیری متفاوت از فروش</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../purchase/products/Purchase%20in%20different%20units%20of%20measure%20than%20sales.html">قوانین سفارش مجدد موقت</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../website/website.html">وبسایت</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/pages/pages.html">صفحات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/pages/menu.html">منو</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/pages/seo.html">بهینه سازی وبسایت</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/configuration/config.html">پیکربندی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/configuration/cookies-bar.html">نوار کوکی‌ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/configuration/manage-multiple-websites.html">مدیریت چند وب‌سایت</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/configuration/translations.html">ترجمه‌ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/configuration/domain-name.html">نام دامنه</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/web-design/web-design.html">طراحی وب سایت</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/web-design/website-themes/website-themes.html">تم های وب سایت</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../website/web-design/building-blocks/building-blocks.html">بلوک های ساختمان</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../website/web-design/building-blocks/dynamic-content.html">محتوای پویا</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../website/web-design/building-blocks/inner-content.html">محتوای درونی</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../website/web-design/building-blocks/structure.html">ساختار</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../website/e-learning/eLearning.html">آموزش الکترونیکی</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../website/eCommerce/eCommerce.html">تجارت الکترونیک</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/start.html">مدیریت محصول</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/start.html#id6">تجربه مشتری</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html">پرفروش</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id2">محصولات جایگزین</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id3">سفارشی سازی عمل “افزودن به سبد خرید”.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id4">سفارش مجدد از پورتال</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id5">پرداخت</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id6">روش های پرداخت حمل و نقل</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id7">روش حمل و نقل خود</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id10">روش های پرداخت</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id11">مدیریت فروش الکترونیکی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id12">سفارش های فروش</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id13">سبد خرید رها شده</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id15">حساب چند وب سایتی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id16">تعامل با مشتری</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id17">بررسی محصول</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id18">چت زنده</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id19">با ما تماس بگیرید</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../website/eCommerce/config.html#id20">خبرنامه</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../website/hr-onlinejob/hr-onlinejob.html">مشاغل آنلاین</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../dashbord.html">داشبورد</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../attendance.html">حضور وغیاب</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../attendance/Access_rights.html">حق دسترسی های کاربران دراین برنامه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../attendance/Configuration.html">پیکربندی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../attendance/checkin_out.html">ورود و خروج بصورت دستی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../attendance/reporting.html">گزارشات</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../../inventory.html">انبار</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../../product%20management.html">مدیریت محصول</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../productreplenishment.html">شارژکردن محصول</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../productreplenishment/selecting%20a%20replenishment%20strategy.html">انتخاب استراتژی شارژمجدد</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../productreplenishment/reordering%20rules.html">قوانین سفارش مجدد</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../productreplenishment/units%20of%20measure.html">واحدهای اندازه گیری</a></li>
+</ul>
+</li>
+<li class="toctree-l4 current"><a class="reference internal" href="../producttracking.html">پیگیری محصول</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="product%20type.html">نوع محصول</a></li>
+<li class="toctree-l5"><a class="reference internal" href="difference%20between%20lots%20and%20serial%20numbers.html">تفاوت بین شناسه محصول(سری) و شماره سریال</a></li>
+<li class="toctree-l5"><a class="reference internal" href="assign%20serial%20numbers.html">شماره سریال را تعیین کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="use%20serial%20numbers%20to%20track%20products.html">از شماره سریال برای پیگیری محصولات استفاده کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="use%20lots%20to%20manage%20groups%20of%20products.html">از شناسه محصول برای مدیریت گروه های محصولات استفاده کنید</a></li>
+<li class="toctree-l5 current"><a class="current reference internal" href="#">تاریخ انقضا</a></li>
+<li class="toctree-l5"><a class="reference internal" href="packages.html">بسته ها</a></li>
+<li class="toctree-l5"><a class="reference internal" href="packaging.html">بسته بندی</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../warehouses%20and%20storage.html">انبارها وذخیره سازی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement.html">مدیریت انبار</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/resupply%20from%20another%20warehouse.html">تامین مجدد از یک انبار دیگر</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/transfer%20products%20between%20warehouses%20using%20replenishment.html">انتقال محصولات بین انبارها با استفاده از شارژکردن</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/manage%20Warehouses%20and%20Locations.html">انبارها و مکان ها را مدیریت کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/locations.html">مکان ها</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/cycle%20counts.html">تعداد دوره ها</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventorymanagement/scrap%20inventory.html">اقلام اسقاطی انبار</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../warehouses%20and%20storage/inventoryvaluation.html">ارزیابی موجودی انبار</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventoryvaluation/inventory%20valuation%20configuration.html">پیکربندی ارزشیابی انبار</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/inventoryvaluation/using%20inventory%20valuation.html">استفاده از ارزش گذاری موجودی</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies.html">استراتژی های حذف</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies/fIFO%20removal.html">حذف FIFO</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies/lIFO%20removal.html">حذف LIFO</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies/closest%20location%20removal.html">حذف نزدیکترین مکان</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/removal%20strategies/least%20packages%20removal.html">حداقل حذف بسته ها</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations.html">عملیات پیشرفته</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations/consignment.html">فروش امانی: خرید و فروش سهام/ موجودی / کالای موجود/ بدون آنکه مالک آن باشید.</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations/process%20wave%20transfers.html">فرآیند انتقال امواج</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations/Sell%20stock%20from%20multiple%20warehouses%20using%20virtual%20locations.html">فروش سهام از چندین انبار با استفاده از مکان های مجازی</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../warehouses%20and%20storage/advanced%20operations/putaway%20rules.html">putaway قوانین</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../shipping%20and%20receiving.html">ارسال و دریافت</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration.html">راه اندازی و پیکربندی</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration/delivery%20methods.html">روش های تحویل</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration/set%20up%20Sendcloud%20shipping%20services%20in%20Odoo.html">راه اندازی در Sendcloud</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration/set%20up%20Sendcloud%20shipping%20services%20in%20Odoo.html#id1">پیکربندی انبار</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/setup%20and%20configuration/set%20up%20Sendcloud%20shipping%20services%20in%20Odoo.html#id2">اعتبارنامه Sendcloud را ایجاد کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../shipping%20and%20receiving/daily%20operations.html">عملیات روزانه</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/daily%20operations/incoming%20shipments%20and%20delivery%20orders.html">محموله های دریافتی و سفارشات تحویل</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/daily%20operations/process%20receipts%20and%20deliveries%20in%20one%20step.html">دریافت و تحویل را در یک مرحله پردازش کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/daily%20operations/process%20receipts%20and%20deliveries%20in%20two%20steps.html">دریافت و تحویل را در دو مرحله پردازش کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../shipping%20and%20receiving/reservation%20methods.html">روش های رزرو</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/reservation%20methods/at%20confirmation%20reservation.html">شیوه ی تایید اندوخته</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/reservation%20methods/manual%20reservation.html">رزرو دستی</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/reservation%20methods/before%20scheduled%20date%20reservation.html">قبل از رزرو تاریخ برنامه ریزی شده</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../shipping%20and%20receiving/advanced%20operations.html">عملیات پیشرفته</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/advanced%20operations/shipping%20cost%20invoicing.html">صورتحساب هزینه حمل و نقل</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/advanced%20operations/use%20dropshipping%20to%20ship%20directly%20from%20suppliers%20to%20customers.html">از dropshipping برای ارسال مستقیم از تامین کنندگان به مشتریان استفاده کنید</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../shipping%20and%20receiving/advanced%20operations/how%20to%20cancel%20a%20shipping%20request%20to%20a%20shipper.html">چگونه درخواست حمل و نقل به فرستنده را لغو کنیم؟</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../additional%20feature%20in%20product.html">ویژگی های اضافی محصولات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/product_dimension.html">ابعاد محصول</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/pruduct_state.html">حالتهای محصول</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/pruduct_set.html">مجموعه محصولات</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/Product%20Supplier%20Info%20Archive.html">آرشیو اطلاعات تامین کننده محصول</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../additional%20feature/pruduct_sequence.html">افزودن sequence code  به دسته بندی</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../repair/repair.html">تعمیرات</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../maintenance/maintenance.html">نگهداری</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../chat/online_chat.html">چت آنلاین</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../productivity/to-do/to-do.html">یادداشت(To-do)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../sales/sales.html">فروش</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/margin.html">حاشیه سود</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/active_margin.html">فعال کردن حاشیه سود</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/send%20Quotations.html">ارسال پیش فاکتور</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/quotation%20templates.html">قالب های پیش فاکتور</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/optional%20products.html">محصولات اختیاری</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/online%20signatures%20for%20order%20confirmations.html">امضای آنلاین برای تایید سفارش</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/online%20payment%20order%20confirmation.html">تایید سفارش پرداخت آنلاین</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/quotation%20deadlines.html">مهلت های پیش فاکتور</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/deliveries%20and%20invoices%20to%20different%20addresses.html">تحویل و فاکتور به آدرس های مختلف</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/product%20variants%20on%20quotations%20and%20sales%20orders.html">انواع محصولات در قیمت ها و سفارشات فروش</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/send%20Quotations/pDF%20quote%20builder.html">ساخت پیش فاکتور با PDF</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/invoicing%20Method.html">روش صورتحساب</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/invoice%20based%20on%20delivered%20or%20ordered%20quantities.html">فاکتور بر اساس مقادیر تحویل شده یا سفارش داده شده</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/down%20payments.html">پیش پرداخت ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/pro-forma%20invoices.html">پیش فاکتورها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/invoicing%20based%20on%20time%20and%20materials.html">صورتحساب بر اساس زمان و اقلام</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/invoice%20project%20milestones.html">نقاط عطف پروژه فاکتور</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/invoicing%20Method/reinvoice%20expenses%20to%20customers.html">هزینه ها را برای مشتریان مجدداً فاکتور کنید</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/products%20%26%20Prices.html">محصولات و قیمت ها</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/returns%20and%20refunds.html">بازده و بازپرداخت</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/use%20eWallets%20and%20gift%20cards.html">از کیف پول الکترونیکی و کارت هدیه استفاده کنید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/discount%20and%20loyalty%20programs.html">برنامه های تخفیف و وفاداری</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20pricing.html">قیمت گذاری خود را مدیریت کنید</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20pricing/pricelists%2C%20discounts%2C%20and%20formulas.html">لیست قیمت ها، تخفیف ها و فرمول ها</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20pricing/foreign%20currencies.html">ارزهای خارجی</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20products.html">محصولات خود را مدیریت کنید</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20products/product%20images%20with%20Google%20Images.html">تصاویر محصول با Google Images</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20products/import%20products.html">واردات محصولات</a></li>
+<li class="toctree-l5"><a class="reference internal" href="../../../sales/products%20%26%20Prices/manage%20your%20products/product%20variants.html">انوع محصول</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../sales/amazon%20Connector.html">کانکتور آمازون</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/amazon%20Connector/amazon%20Connector%20configuration.html">پیکربندی کانکتور آمازون</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/amazon%20Connector/amazon%20order%20management.html">مدیریت سفارش آمازون</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../sales/amazon%20Connector/amazon%20Connector%20features.html">ویزگی های کانکتور آمازون</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../productivity/discuss/discuss.html">بحث و گفتگو</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../productivity/discuss/channels_team_communication.html">استفاده از کانال ها برای ارتباط تیمی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../productivity/calendar/calendar.html">گاهشمار(تقویم)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../productivity/calendar/outlook-calendar-synchronization.html">همگام سازی گاهشمار اودوو با اوتلوک</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../productivity/calendar/synchronize-google-calendar-with-Odoo.html">همگام سازی گاهشمار با گوگل</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../faq/faq.html">سوالات متداول</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../faq/filter.html">جستجو و فیلتر رکوردها</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../faq/myTaskMainMenu/mytaskmenu.html">ورود دیتای کلی به یک کانال و پروژه</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../marketing/survey/survey.html">ماژول نظرسنجی</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../marketing/event/event.html">رویدادها</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../marketing/event/event-essentials.html">ملزومات رویداد</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../marketing/smsmarketing/smsmarketing.html">بازاریابی پیامکی</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../marketing/smsmarketing/sms-essentiol.html">ملزومات بازیابی پیامکی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../emailmarketing/emailmarketing.html">بازاریابی ایمیل</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../emailmarketing/emaillist/emaillist.html">ایمیل های پستی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../emailmarketing/config/config.html">پیکربندی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../project.html">پروژه</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../project/project_task_add_very_high.html">اضاف کردن اولویت به ماژول پروژه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../project/project_type.html">نوع پروژه</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../managment%20system.html">مدیریت سیستم</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../point%20of%20Sale.html">پایانه فروش</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/multi-employee%20management.html">مدیریت چندین کارمند</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/receipts%20and%20invoices.html">رسید و فاکتور</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/product%20combos.html">ترکیبات محصول</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/reporting.html">گزارش نویسی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/configuration.html">پیکربندی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/configuration/ePOS%20printers.html">چاپگرهای ePOS</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/configuration/secure%20connection%20%28HTTPS%29.html">اتصال ایمن (HTTPS)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/configuration/self-signed%20certificate%20for%20ePOS%20printers.html">گواهی خودامضاشده برای چاپگرهای پایانه های فروش الکترونیکی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features.html">ویژگی های فروشگاه</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/sales%20orders.html">سفارش فروش</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/barcodes.html">بارکدها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/serial%20numbers%20and%20lots.html">شماره سریال و شناسه/سری ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/ship%20later.html">ارسال در زمان بعد</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/shop%20features/customer%20display.html">نمایش مشتری</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features.html">ویژگی های رستوران</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features/floors%20and%20tables.html">طبقات و میز</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features/orders%20printing.html">سفارشات چاپ</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features/bills.html">صورتحساب</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/restaurant%20features/tips.html">انعام ها</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features.html">ویژگی های قیمت گذاری</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/discounts.html">تخفیف</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/discount%20tags%20%28barcode%20scanner%29.html">برچسب های تخفیف (بارکد خوان)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/loyalty%20programs.html">برنامه های وفاداری</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/pricelists.html">لیست قیمت ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/flexible%20taxes%20%28fiscal%20positions%29.html">مالیات های انعطاف پذیر (موقعیت های مالی)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/cash%20rounding.html">گرد کردن پول نقد</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/pricing%20features/electronic%20shelf%20labels.html">برچسب قفسه های الکترونیکی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../point%20of%20Sale/payment%20methods.html">روش های پرداخت</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/payment%20methods/adyen.html">adyen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/payment%20methods/stripe.html">stripe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../point%20of%20Sale/payment%20methods/sIX.html">sIX</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../invoicing.html">صدور فاکتور</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/get%20started.html">شروع کنید</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/get%20started/accounting%20cheat%20sheet.html">برگه تقلب حسابداری</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/get%20started/chart%20of%20accounts.html">نمودار حساب</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/get%20started/multi-currency%20system.html">سیستم چند ارزی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/get%20started/vAT%20units.html">واحدهای مالیات بر ارزش افزوده</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/taxes.html">مالیات</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/taxes/cash%20basis%20taxes.html">مالیات بر مبنای نقدی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/taxes/withholding%20taxes.html">مالیات تکلیفی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/taxes/vAT%20numbers%20verification%20%28VIES%29.html">تأیید شماره VAT (VIES)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/taxes/fiscal%20positions%20%28tax%20and%20account%20mapping%29.html">موقعیت های مالی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/customer%20invoices.html">فاکتورهای مشتری</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/invoicing%20processes.html">فرآیندهای صورتحساب</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/delivery%20and%20invoice%20addresses.html">آدرس های تحویل و فاکتور</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/cash%20rounding.html">گرد کردن پول نقد</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/deferred%20revenues.html">درآمدهای معوق</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/snailmail.html">پست معمولی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/customer%20invoices/incoterms.html">incoterms</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/reporting.html">گزارش نویسی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/tax%20return%20%28VAT%20declaration%29.html">اظهارنامه مالیاتی (اظهارنامه مالیات بر ارزش افزوده)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/tax%20carryover.html">حمل مالیات</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/analytic%20accounting.html">حسابداری تحلیلی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/financial%20budget.html">بودجه مالی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/data%20inalterability%20check%20report.html">گزارش بررسی ثبات داده ها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/reporting/custom%20reports.html">گزارش های سفارشی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/vendor%20bills.html">صورتحساب های فروشنده</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/vendor%20bills/aI-powered%20document%20digitization.html">دیجیتالی کردن اسناد مبتنی بر هوش مصنوعی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/vendor%20bills/non-current%20assets%20and%20fixed%20assets.html">دارایی های غیرجاری و دارایی های ثابت</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/vendor%20bills/deferred%20expenses.html">هزینه های معوق</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/payments.html">مبلغ پرداختی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/checks.html">چک کردن</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/follow-up%20on%20invoices.html">پیگیری فاکتورها</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/internal%20transfers.html">نقل و انتقالات داخلی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/pay%20by%20checks.html">پرداخت با چک</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/payments/forecast%20future%20bills%20to%20pay.html">پیش بینی صورتحساب های آینده برای پرداخت</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts.html">حساب های بانکی و نقدی</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts/transactions.html">معاملات</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts/bank%20reconciliation.html">تسویه حساب بانکی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts/reconciliation%20models.html">مدل های تطبیق پذیر</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../invoicing/bank%20and%20cash%20accounts/cash%20register.html">صندوق</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../production.html">تولید</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/basic%20setup.html">راه اندازی اولیه</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/basic%20setup/manufacturing%20product%20configuration.html">پیکربندی محصول تولیدی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/basic%20setup/one-step%20manufacturing.html">تولید یک مرحله ای</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/basic%20setup/two-step%20manufacturing.html">تولید دو مرحله ای</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/basic%20setup/three-step%20manufacturing.html">تولید سه مرحله ای</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/advanced%20configuration.html">پیکربندی پیشرفته</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/advanced%20configuration/managing%20BoMs%20for%20product%20variants.html">مدیریت BoMs برای انواع محصول</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/advanced%20configuration/manage%20semi-finished%20products.html">مدیریت محصولات نیمه آماده</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/advanced%20configuration/work%20order%20dependencies.html">وابستگی های سفارش کار</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/workflows.html">گردش کار</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/workflows/manufacturing%20backorders.html">سفارشات پشتیبان تولید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/workflows/split%20and%20merge%20manufacturing%20orders.html">تقسیم و ادغام سفارشات تولید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/workflows/unbuild%20orders.html">سفارشات ساخته نشده</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/shop%20Floor.html">بخش تولید</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/shop%20Floor/shop%20Floor%20overview.html">پیگیری زمان بخش تولید</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/shop%20Floor/shop%20Floor%20time%20tracking.html">نمای کلی بخش تولید</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/subcontracting.html">قرارداد پیمانکاری</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/subcontracting/basic%20subcontracting.html">پیمانکاری فرعی</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../../../production/subcontracting/basic%20subcontracting%20lead%20times.html">زمان سرنخ برای تحویل سفارش قراداد فرعی اصلی</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../../../production/mrp.html">mrp and mop</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../administration.html">نصب و نگهداری</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../../administration/deployment.html">نصب و راه اندازی</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/deployment/install.html">نصب و راه اندازی</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../administration/maintain.html">نگهداری</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/maintain/update.html">به روز رسانی به</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/maintain/supported_versions.html">تاریخچه و نسخه‌های مورد حمایت</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../../../../administration/maintain/16.html">اودوو ۱۶.۰</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../administration/upgrade.html">ارتقاع به نسخه ۱۶</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../../administration/iot.html">اینترنت اشیا</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/iot/device.html">گروه دستگاه</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/iot/gateway.html">گروه گیت وی</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/iot/edge.html">گروه Edge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../../administration/iot/other.html">سایر گزینه ها</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            </div>
+        </div>
+    </nav>
+    <header class="o_headers"><div class="o_main_header border-bottom d-flex align-items-center">
+    <div class="o_logo_wrapper">
+      <a href="../../../../index.html" class="o_logo">
+          <img src="../../../../_static/img/logos/vw-logo.svg" height="20" alt="Odoo"/>
+          <span>مستندات</span>
+      </a>
+    </div>
+    <div class="d-flex flex-grow-1">
+<div id="searchbox" class="o_search_wrapper d-flex flex-grow-1" role="search">
+    <form class="o_search" action="../../../../search.html" method="get">
+        <input type="text" name="q" id="q" class="form-control rounded-pill" placeholder="دنبال چی می‌گردید؟">
+        <input type="hidden" name="area" value="default">
+        <input type="hidden" name="check_keywords" value="yes">
+        <button type="submit" class="btn"><i class="i-search"></i></button>
+    </form>
+</div>
+<script type="text/javascript">$('.o_search_wrapper').show(0);</script>
+        <a class="btn btn-primary fw_bold ms-auto d-none d-lg-inline-block" 
+            href="https://virwweb123.ir/trial">همین حالا اودوو رو تست کن</a>
+    </div>
+</div>
+<div class="o_subheader border-bottom d-flex">
+    <div class="o_side_nav_toggler_wrapper border-end d-flex d-lg-none">
+        <button class="h-100 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#o_menu" aria-label="Toggle navigation">
+            <i class="i-sidepanel"></i>
+        </button>
+    </div>
+    <div class="d-flex justify-content-end ms-auto"><div class="o_languages">
+	<div class="dropdown">
+            <button class="btn btn-sm dropdown-toggle"
+                    id="languages"
+                    disabled="">
+                انگلیسی 
+            </button>
+        <ul class="dropdown-menu" aria-labelledby="languages">
+        </ul>
+	</div>
+</div><div class="o_versions row">
+    <div class="dropdown">
+            <button class="btn btn-sm dropdown-toggle"
+                    id="versions"
+                    disabled="">
+                اودوو ۱۶ 
+            </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="versions">
+        </ul>
+    </div>
+</div>
+    </div>
+</div>
+    </header>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="packages.html" title="بسته ها"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="use%20lots%20to%20manage%20groups%20of%20products.html" title="از شناسه محصول برای مدیریت گروه های محصولات استفاده کنید"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">odoonix 16.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../../../applications.html" >راهنمای کاربری</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../../inventory.html" >انبار</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="../../product%20management.html" >مدیریت محصول</a> &#187;</li>
+          <li class="nav-item nav-item-4"><a href="../producttracking.html" accesskey="U">پیگیری محصول</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">تاریخ انقضا</a></li> 
+      </ul>
+    </div>
+    <div id="wrap">
+
+        <main class="container-fluid o_fullwidth_page">
+                <article id="o_content" class="doc-body">
+                    <div role="main"> 
+  <section id="id1">
+<h1>تاریخ انقضا<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h1>
+<p>در Odoo می توان از تاریخ انقضا برای مدیریت و پیگیری چرخه عمر محصولات فاسد شدنی از خرید تا فروش استفاده کرد. استفاده از تاریخ انقضا باعث کاهش از بین رفتن محصول به دلیل انقضای غیرمنتظره می شود و به جلوگیری از ارسال محصولات منقضی شده به مشتریان کمک می کند.</p>
+<p>در Odoo، فقط محصولاتی که با استفاده از شناسه و شماره سریال پیگیری می شوند، می توانند اطلاعات انقضا را به آنها اختصاص دهند. هنگامی که یک شناسه یا شماره سریال اختصاص داده شد، می توان تاریخ انقضا را تعیین کرد. این امر به ویژه برای شرکت هایی (مانند تولیدکنندگان مواد غذایی) که به طور مداوم یا منحصراً محصولات فاسد شدنی را خریداری و می فروشند مفید است</p>
+<div class="alert alert-secondary">
+<p class="alert-title">
+See also</p><ul class="simple">
+<li><p><a class="reference internal" href="use%20lots%20to%20manage%20groups%20of%20products.html"><span class="doc">از شناسه محصول برای مدیریت گروه های محصولات استفاده کنید</span></a></p></li>
+<li><p><a class="reference internal" href="use%20serial%20numbers%20to%20track%20products.html"><span class="doc">از شماره سریال برای پیگیری محصولات استفاده کنید</span></a></p></li>
+</ul>
+</div>
+</section><section id="id2">
+<h2>فعال کردن تاریخ انقضا<a class="headerlink" href="#id2" title="Link to this heading">¶</a></h2>
+<p>برای فعال کردن استفاده از تاریخ انقضا، به برنامه  <span class="menuselection">انبار ‣ پیکربندی ‣ تنظیمات</span> بروید و به قسمت قابیلت رهگیری بروید. سپس، روی کادر انتخاب کلیک کنید تاویژگی Lots &amp; Serial Numbers فعال شود.
+پس از فعال شدن این ویژگی، گزینه جدیدی برای فعال کردن تاریخ انقضا ظاهر می شود. برای فعال کردن این ویژگی، روی آن چک باکس کلیک کنید و مطمئن شوید که تغییرات را ذخیره کنید..</p>
+<img alt="انبار" class="align-center" src="../../../../_images/t66.jpg" />
+<div class="alert alert-tip">
+<p class="alert-title">
+Tip</p><p>هنگامی که ویژگی سری و سریال ساخت فعال شد، ویژگی‌های اضافی برای نمایش تعداد و شماره سریال در برگه‌های تحویل ظاهر می‌شود. برای نمایش سری و شماره سریال در فاکتورها. و برای نمایش تاریخ انقضا در برگه های تحویل. فعال کردن این ویژگی‌ها به قابلیت پیگری سرتاسر کمک می‌کند، مدیریت فراخوان‌های محصول، شناسایی دسته‌های «بد» محصولات و موارد دیگر را آسان‌تر می‌کند.</p>
+</div>
+</section><section id="id3">
+<h2>تاریخ انقضا را روی محصولات پیکربندی کنید<a class="headerlink" href="#id3" title="Link to this heading">¶</a></h2>
+<p>هنگامی که ویژگی‌های Lots &amp; Serial Numbers و تاریخ انقضا در تنظیمات برنامه انبارفعال شدند، اطلاعات انقضا را می‌توان روی محصولات جداگانه پیکربندی کرد.</p>
+<p>برای انجام این کار، به برنامه  <span class="menuselection">انبار ‣ محصولات ‣ محصولات</span> بروید و محصولی را برای ویرایش انتخاب کنید. انتخاب یک محصول، فرم محصول را برای آن کالای خاص نشان می دهد. پس از وارد شدن به فرم محصول، روی ویرایش در گوشه سمت چپ بالا کلیک کنید تا تغییرات ایجاد شود.</p>
+<div class="alert alert-warning">
+<p class="alert-title">
+Important</p><p>برای پیگیری با استفاده از شناسه یا شماره سریال، یا پیکربندی اطلاعات انقضا، محصولات باید نوع محصول خود را به عنوان محصول ذخیره‌سازی در برگه اطلاعات عمومی تنظیم کنند.</p>
+</div>
+<p>سپس، روی تب انبار کلیک کنید و به قسمت قابلیت رهگیری بروید. از اینجا مطمئن شوید که یا By Unique Serial Number یا By Lots تیک خورده باشد.</p>
+<p>پس از آن، یک چک باکس جدید تاریخ انقضا ظاهر می شود که باید روی آن نیز کلیک کنید. هنگامی که هر دو فعال هستند، یک فیلد تاریخ جدید در سمت راست ظاهر می شود.</p>
+<div class="alert alert-primary">
+<p class="alert-title">
+Note</p><p>اگر یک محصول قبل از فعال کردن پیگیری توسط شناسه یا شماره سریال موجودی داشته باشد، ممکن است نیاز به تعدیل موجودی برای تخصیص شماره شناسه(سری) به موجودی موجود باشد.</p>
+</div>
+<div class="alert alert-tip">
+<p class="alert-title">
+Tip</p><p>برای پردازش شناسه محصول از محصولات در رسید یا تحویل، توصیه می شود با استفاده از شناسه پیگیری شود، بنابراین در صورت بروز هر گونه مشکلی، می توان چندین محصول را به همان شماره شناسه پیگیری کرد.</p>
+</div>
+<img alt="انبار" class="align-center" src="../../../../_images/t67.jpg" />
+<p>در قسمتDates(داده ها)، چهار دسته از اطلاعات انقضا برای پیکربندی برای محصول وجود دارد:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>زمان انقضا: تعداد روزهای پس از دریافت محصولات (چه از فروشنده یا در انبار پس از تولید) که در آن کالا ممکن است خطرناک شود و نباید استفاده یا مصرف شود.</p></li>
+<li><p>بهترین قبل از زمان: تعداد روزهای قبل از تاریخ انقضا که در آن کالا شروع به خراب شدن می کند، بدون اینکه لزوماً هنوز خطرناک باشد.</p></li>
+<li><p>زمان حذف: تعداد روزهای قبل از تاریخ انقضا که در آن کالا باید از انبار خارج شود.</p></li>
+<li><p>زمان هشدار: تعداد روزهای قبل از تاریخ انقضا که در آن باید هشداری برای کالاهایی در یک لات خاص یا حاوی یک شماره سریال خاص اعلام شود</p></li>
+</ul>
+</div></blockquote>
+<div class="alert alert-primary">
+<p class="alert-title">
+Note</p><p>مقادیر وارد شده در این فیلدها به طور خودکار تاریخ انقضای کالاهای وارد شده در انبار را محاسبه می کند، چه از یک فروشنده خریداری شده باشد و چه در داخل تولید شده باشد..</p>
+</div>
+<p>هنگامی که تمام اطلاعات انقضا پیکربندی شد، روی <strong>ذخیره</strong> کلیک کنید تا همه تغییرات ذخیره شوند.</p>
+<div class="alert alert-tip">
+<p class="alert-title">
+Tip</p><p>اگر فیلد Dates با هیچ مقداری برای اطلاعات انقضا پر نشده باشد، تاریخ ها (و شناسه ها) را می توان به صورت دستی پس از دریافت و تحویل در داخل و خارج از انبار اختصاص داد. حتی در صورت تخصیص، باز هم می توان آنها را بازنویسی کرد و در صورت نیاز به صورت دستی تغییر داد.</p>
+</div>
+</section><section id="id4">
+<h2>تاریخ انقضا را روی رسیدها با شماره سریال و شناسه تنظیم کنید<a class="headerlink" href="#id4" title="Link to this heading">¶</a></h2>
+<p>ایجاد تاریخ انقضا برای کالاهای ورودی مستقیماً از طریق سفارش خرید انجام می شود. برای ایجاد یک سفارش خرید، به برنامه خرید بروید و روی ایجاد کلیک کنید تا یک درخواست جدید برای پیش فاکتور  <abbr title="Requstion for Quotation">RFQ</abbr> ایجاد کنید.
+سپس با افزودن فروشنده، اطلاعات را پر کنید و با کلیک روی افزودن محصول، محصولات را به خطوط تولید اضافه کنید.
+با تغییر شماره در ستون تعداد ، مقدار مورد نظر را برای سفارش انتخاب کنید و روی سفارش را تایید کنید کلیک کنید. این RFQ را به سفارش خرید تبدیل می کند.
+روی دکمه هوشمند رسید در بالای سفارش خرید کلیک کنید تا به فرم رسید انبار منتقل شوید.</p>
+<div class="alert alert-primary">
+<p class="alert-title">
+Note</p><p>با کلیک بر روی تاییداعتبار قبل از تخصیص شماره سریال به مقادیر محصول سفارش داده شده، یک پنجره Error کاربر ظاهر می شود. پنجره بازشو نیاز به وارد کردن شماره شناسه یا شماره سریال برای محصولات سفارش داده شده دارد. RFQ را نمی توان بدون شناسه یا شماره سریال اختصاص داده شده تأیید کرد.</p>
+<img alt="انبار" class="align-center" src="../../../../_images/t68.jpg" />
+</div>
+<p>از اینجا، روی نماد منوی گزینه های اضافی که در سمت چپ خط محصول قرار دارد، کلیک کنید. پس از کلیک کردن، یک پاپ آپ Detailed Operations ظاهر می شود.</p>
+<p>در این پاپ آپ، روی افزودن یک سطر کلیک کنید و در قسمت Lot/Serial Number Name شماره شناسه یا شماره سریال اختصاص دهید.</p>
+<p>تاریخ انقضا بر اساس پیکربندی در فرم محصول (اگر قبلاً پیکربندی شده باشد) به طور خودکار پر می شود.</p>
+<div class="alert alert-tip">
+<p class="alert-title">
+Tip</p><p>اگر قسمت Dates در فرم محصول پیکربندی نشده باشد، این تاریخ را می توان به صورت دستی وارد کرد.</p>
+</div>
+<p>پس از مشخص شدن تاریخ انقضا، مقادیر انجام شده را علامت بزنید و روی تایید کلیک کنید تا پاپ آپ بسته شود. در نهایت بر روی تاییداعتبار کلیک کنید.</p>
+<img alt="انبار" class="align-center" src="../../../../_images/t69.jpg" />
+<p>پس از تأیید رسید، یک دکمه هوشمند پیگیری ظاهر می شود. روی دکمه هوشمند پیگیری کلیک کنید تا گزارش پیگیری به روز شده را ببینید که شامل: یک سند مرجع. محصول در حال پیگیری؛ شناسه/سریال .</p>
+</section><section id="id5">
+<h2>تاریخ انقضای محصولات تولیدی را تعیین کنید<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h2>
+<p>تاریخ انقضا نیز می تواند برای محصولات تولید شده در داخل تولید شود. برای تعیین تاریخ انقضا به محصولات تولیدی، یک سفارش تولید <abbr title="Manufacturing Order">MO</abbr> باید تکمیل شود.</p>
+<p>برای ایجاد یک MO، به برنامه تولید ‣ عملیات ‣ سفارشات تولیدی بروید و روی ایجاد کلیک کنید. از منوی کشویی فیلد محصول، محصولی را برای ساخت انتخاب کنید، سپس مقدار تولید را انتخاب کنید.</p>
+<img alt="انبار" class="align-center" src="../../../../_images/t70.jpg" />
+<div class="alert alert-primary">
+<p class="alert-title">
+Note</p><p>برای تولید یک محصول، باید موادی برای مصرف در خطوط در ستون محصول وجود داشته باشد. این را می توان با ایجاد یک صورتحساب اقلام برای محصول یا افزودن دستی مواد برای مصرف با کلیک روی افزودن یک خط به دست آورد.</p>
+</div>
+<p>پس از آماده شدن، روی تأیید کلیک کنید.</p>
+<p>در کنار Lot/Serial Number، یا یک شماره شناسه موجود را از منوی کشویی انتخاب کنید، یا روی علامت سبز + کلیک کنید تا به طور خودکار یک شماره شناسه جدید اختصاص دهید.</p>
+<p>سپس تعدادی واحد را برای قسمت کمیت انتخاب کنید و روی علامت گذاری به عنوان انجام شده کلیک کنید.</p>
+<p>روی نماد پیوند خارجی در قسمت Lot/Serial Number اختصاص داده شده کلیک کنید. یک پاپ آپ ظاهر می شود که یک فرم جزئیات را برای آن شماره خاص نشان می دهد.</p>
+<p>در آن پاپ آپ، در زیر تب Dates، تمام اطلاعات انقضا که قبلاً برای محصول پیکربندی شده بود، نمایش داده می شود. همین اطلاعات در فرم جزئیات مربوط به آن محصول خاص یا با رفتن به برنامه انبار‣ محصولات ‣ سری/شماره سریال نیز موجود است.</p>
+<img alt="انبار" class="align-center" src="../../../../_images/t71.jpg" />
+</section><section id="id6">
+<h2>فروش محصولات با تاریخ انقضا<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
+<p>فروش محصولات فاسد شدنی با تاریخ انقضا مانند هر نوع محصول دیگری انجام می شود. اولین قدم در فروش محصولات فاسد شدنی، ایجاد سفارش فروش است.</p>
+<p>برای انجام این کار، به برنامه فروش بروید ‣ ایجاد کنید تا یک پیشنهاد جدید ایجاد کنید و اطلاعات فرم سفارش فروش را پر کنید.</p>
+<p>یک مشتری اضافه کنید، روی افزودن یک محصول کلیک کنید تا محصولات مورد نظر را به خطوط محصول اضافه کنید و یک مقدار برای محصولات تعیین کنید.</p>
+<p>سپس، روی برگه اطلاعات دیگر کلیک کنید. در بخش تحویل، تاریخ تحویل را به تاریخی بعد از تاریخ مورد انتظار تغییر دهید و برای تأیید تاریخ، روی نماد تیک سبز رنگ کلیک کنید. در نهایت برای تایید سفارش فروش روی تایید کلیک کنید.</p>
+<p>در مرحله بعد روی دکمه هوشمند تحویل در بالای سفارش فروش کلیک کنید تا فرم رسید انبار را مشاهده کنید.</p>
+<p>در فرم رسید انبار، روی تاییداعتبار کلیک کنید، و سپس در پنجره بازشوی همراه، اعمال کردن را کلیک کنید تا به طور خودکار تمام مقادیر انجام شده پردازش شود و محصولات به مشتری تحویل داده شود.</p>
+<p>اگر محصولات قبل از تاریخ هشدار تنظیم شده در فرم محصول تحویل داده شوند، هیچ هشداری ایجاد نخواهد شد.</p>
+<div class="alert alert-warning">
+<p class="alert-title">
+Important</p><p>برای فروش محصولات فاسد شدنی با تاریخ انقضا، استراتژی حذف برای مکانی که محصولات در آن ذخیره می شوند باید روی FEFO تنظیم شود. اگر در یک شناسه موجودی کافی از محصولات فاسد شدنی وجود نداشته باشد، Odoo به طور خودکار مقدار باقیمانده مورد نیاز را از شناسه دوم با اولین تاریخ انقضای بعدی می گیرد. استراتژی‌های حذف را می‌توان روی دسته‌های محصول نیز تنظیم کرد.</p>
+</div>
+</section><section id="id7">
+<h2>مشاهده تاریخ انقضا برای شناسه و شماره سریال<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h2>
+<p>برای مشاهده (و/یا گروه بندی) همه محصولات با تاریخ انقضا بر اساس شماره شناسه، به برنامه انبار ‣ محصولات ‣ سری/ شماره سریال بروید.</p>
+<p>پس از آن، فیلترهای جستجوی پیش‌فرض را از نوار جستجو… حذف کنید. سپس روی گروه بندی کلیک کنید، افزودن گروه سفارشی را انتخاب کنید و پارامتر تاریخ انقضا را از منوی کشویی انتخاب کنید. در نهایت روی اعمال کردن کلیک کنید تا فیلتر اعمال شود.</p>
+<p>با انجام این کار، تمام محصولات فاسد شدنی، تاریخ انقضا و شماره شناسه اختصاص داده شده تجزیه می شود.</p>
+<img alt="انبار" class="align-center" src="../../../../_images/t72.jpg" />
+</section><section id="id8">
+<h2>هشدارهای انقضا<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h2>
+<p>برای مشاهده هشدارهای انقضا، به برنامه  <span class="menuselection">انبار ‣ محصولات ‣ سری/سریال ساخت</span> بروید.</p>
+<p>سپس، روی یک Lot/Serial Number با محصولات فاسد شدنی کلیک کنید. انجام این کار فرم جزئیات شماره سریال را نشان می دهد. در فرم جزئیات شماره سریال، روی تب تاریخ ها کلیک کنید تا تمام اطلاعات انقضا مربوط به محصولات را مشاهده کنید.</p>
+<p>برای ویرایش فرم، روی ,ویرایش در گوشه سمت راست بالای فرم کلیک کنید، سپس تاریخ انقضا را به تاریخ امروز (یا قبل از آن) تغییر دهید و برای ذخیره تغییرات روی ذخیره کلیک کنید.</p>
+<p>پس از ذخیره، فرم شماره شناسه یک هشدار انقضا قرمز رنگ در بالای فرم نشان می دهد که نشان می دهد محصولات این شناسه یا منقضی شده اند یا به زودی منقضی می شوند. از اینجا، به صفحه Lots/Serial Numbers برگردید.</p>
+<p>برای مشاهده هشدار انقضا جدید، یا هر هشدار انقضا برای محصولاتی که منقضی شده‌اند (یا به زودی منقضی می‌شوند)، تمام فیلترهای جستجو را از نوار جستجو… در داشبورد Lots/Serial Numbers حذف کنید.</p>
+<p>سپس روی فیلترها کلیک کنید و هشدارهای انقضا را انتخاب کنید.</p>
+</section>
+
+                    </div>
+                </article>
+        </main>
+    </div>
+    <footer><div class="o_get_help container-fluid d-lg-flex">
+    <div class="col-12 col-lg-10">
+        <h4><i class="i-o-help me-2"></i>راهنما و منابع</h4>
+        <div>
+            <a 
+                href="https://odoonix.ir/contactus" 
+                target="_blank" 
+                class="btn btn-outline-secondary mb-2">تماس با پشتیبانی</a>
+            <a 
+                href="https://odoonix.ir/forum/odoo-help-5" 
+                target="_blank" 
+                class="btn btn-outline-secondary mb-2">از جامعه اودوکار ویراوب۱۲۳ بپرس</a>
+        </div>
+    </div>
+    <div class="col-12 col-lg-2 mt-5 mt-lg-0 text-center">
+        <a class="o_logo" href="https://odoonix.ir">
+            <img src="../../../../_static/img/logos/vw-logo.svg" 
+            height="32" 
+            alt="Odoonix"/>
+        </a>
+    </div>
+</div>
+    </footer>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="packages.html" title="بسته ها"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="use%20lots%20to%20manage%20groups%20of%20products.html" title="از شناسه محصول برای مدیریت گروه های محصولات استفاده کنید"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../../../index.html">odoonix 16.0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../../../../applications.html" >راهنمای کاربری</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../../../inventory.html" >انبار</a> &#187;</li>
+          <li class="nav-item nav-item-3"><a href="../../product%20management.html" >مدیریت محصول</a> &#187;</li>
+          <li class="nav-item nav-item-4"><a href="../producttracking.html" >پیگیری محصول</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">تاریخ انقضا</a></li> 
+      </ul>
+    </div>
+  </body>
+</html>
