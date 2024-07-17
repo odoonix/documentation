@@ -125,7 +125,7 @@
     :alt: بازاریابی پیامکی
     :align: center
 
-برای اطلاعات بیشتر ماژول بازایابی ایمیلی را بخوانید `<https://viraweb123.github.io/documentation/applications/emailmarketing/emailmarketing.html>`_.
+برای اطلاعات بیشتر ماژول بازایابی ایمیلی را بخوانید `<https://odoonix.ir/documentation/applications/emailmarketing/emailmarketing.html>`_.
 
 گزارش ها
 ----------------------

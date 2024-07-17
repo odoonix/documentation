@@ -16,8 +16,8 @@ _logger = logging.getLogger(__name__)
 # === General configuration ===#
 
 # General information about the project.
-project = 'ViraWeb123'
-copyright = 'DPQ co.'
+project = 'odoonix'
+copyright = 'Odoonix co.'
 
 # `version` is the version info for the project being documented, acts as replacement for |version|,
 # also used in various other places throughout the built documents.
