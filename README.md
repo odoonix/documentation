@@ -1,11 +1,6 @@
-# Odoo documentation
-this is test
-This is a repository of Odoo Documentation. We try to support our native modules.
+# MoonSUN Odoo documentation
 
-We will update more.on this doc by our team Zavvar
-This is my second attempt to push codes
-
-## Build the documentation locally 
+## Build the documentation locally
 
 ### Requirements
 

@@ -1,44 +1,29 @@
 <div id="o_content">
     <section class="o_content_fw_banner">
-        <h1 class="text-white">{{ _("راهنمای ویراوب۱۲۳") }}</h1>
+        <h1 class="text-white">{{ _("MoonSun Documentation") }}</h1>
     </section>
     <section>
         <div class="row gx-lg-5">
             <div class="col-lg-6">
-                <h2><a href="{{ pathto('applications') }}">{{ _("راهنمای کاربری") }}</a></h2>
-                <p class="text-dark">{{ _("راهنمای مناسب را برای استفاده و پیکربندی پلتفرم بر اساس برنامه‌ها در این قسمت پیدا کنید.") }}</p>
-                <h5 class="text-dark pt-3 text-uppercase fw_bold">{{ _("نرم افزارهای پر کاربرد") }}</h5>
+                <h2><a href="{{ pathto('applications') }}">{{ _("User Manual") }}</a></h2>
+                <p class="text-dark">{{ _("Discover our guide to help you use and configure the platform, by applications.") }}</p>
+                <h5 class="text-dark pt-3 text-uppercase fw_bold">{{ _("Top Apps") }}</h5>
                 <ul class="list-unstyled">
                     <li>
-                        <a href="{{ pathto('applications/iot') }}" class="stretched-link">
-                            {{ _("اینترنت اشیا") }}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ pathto('applications/gym') }}" class="stretched-link">
-                            {{ _("مدیریت باشگاه") }}
+                        <a href="{{ pathto('applications/exchange') }}" class="stretched-link">
+                            {{ _("Exchange") }}
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="col-lg-6">
-                <h2 class="border-top pt-4 pt-lg-0"><a href="{{ pathto('administration') }}">{{ _("نصب و نگهداری") }}</a></h2>
-                <p class="text-dark">{{ _("نحوه نصب و نگهداری از سیستم را در این قسمت یاد بگیرید.") }}</p>
-                <h5 class="text-dark pt-3 text-uppercase fw_bold">{{ _("لینک‌های برتر") }}</h5>
+                <h2 class="border-top pt-4 pt-lg-0"><a href="{{ pathto('administration') }}">{{ _("Install and Maintain") }}</a></h2>
+                <p class="text-dark">{{ _("Learn how to install and configure the Exchange module.") }}</p>
+                <h5 class="text-dark pt-3 text-uppercase fw_bold">{{ _("Top Links") }}</h5>
                 <ul class="list-unstyled">
                     <li>
-                        <a href=" {{ pathto('administration/deployment/install') }} " class="stretched-link">
-                            {{ _("تصب اودوو") }}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ pathto('administration/maintain/update') }}" class="stretched-link">
-                            {{ _("رفع خطا‌ها") }}
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ pathto('administration/upgrade') }}" class="stretched-link">
-                            {{ _("به روز رسانی اودوو") }}
+                        <a href=" {{ pathto('administration/install') }} " class="stretched-link">
+                            {{ _("Installing Exchange") }}
                         </a>
                     </li>
                 </ul>

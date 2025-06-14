@@ -1,9 +1,3 @@
-*.pyc
-*.mo
-!.gitattributes
-
-# Sphinx build files
 _build/
-
-# Dependencies
-odoo
+.venv/
+__pycache__

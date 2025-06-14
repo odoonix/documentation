@@ -4,61 +4,13 @@
 :show-toc:
 
 
-==============
-راهنمای کاربری
-==============
+User Manual
+===========
 
-در این بخش مستندهای مورد نیاز برای کاربران امده است.
+In this part, you will learn how to use MoonSun TL. modules as a user.
 
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
-    applications/iot
-    applications/gym
-    applications/contacts/contacts
-    applications/sales/crm
-    applications/lunch/lunch
-    applications/hr/fleet
-    applications/hr/employees
-    applications/hr/recuirment
-    applications/hr/timesoff
-    applications/hr/timesoff/timesoff
-    applications/hr/skill/skill
-    applications/purchase
-    applications/website
-    applications/website/website
-    applications/website/e-learning//eLearning
-    applications/dashbord
-    applications/attendance
-    applications/inventory
-    applications/inventory/repair/repair
-    applications/inventory/maintenance/maintenance
-    applications/chat/online_chat
-    applications/reporting
-    applications/productivity
-    applications/productivity/to-do/to-do
-    applications/sales/sales
-    applications/productivity/discuss/discuss
-    applications/productivity/calendar/calendar
-    applications/faq
-    applications/faq/faq
-    applications/marketing
-    applications/marketing/survey/survey
-    applications/marketing/survey
-    applications/marketing/event
-    applications/marketing/event/event
-    applications/marketing/smsmarketing
-    applications/marketing/smsmarketing/smsmarketing
-     applications/emailmarketing
-    applications/emailmarketing/emailmarketing
-    applications/project
-    applications/managment system
-
-
-
-
-
-
-
-
+    applications/exchange

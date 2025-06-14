@@ -1,12 +1,10 @@
 :nosearch:
 
-====================
-راهنمای آنلاین اودوو
-====================
+Online MoonSun Document
+=======================
 
 
 .. toctree::
 
     applications
     administration
-    

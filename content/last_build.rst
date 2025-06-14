@@ -1,8 +1,7 @@
 :orphan:
 :nosearch:
 
-===============
-نگارش مستند
-===============
+Build and Versions
+==================
 
-این مستند در آخرین نسخه |version| در تاریخ |today| ایجاد  شده است.
+This document is build for |version| on |today|.
